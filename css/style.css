@@ -1,0 +1,134 @@
+body {
+		font-family: Lato;
+}
+.header
+{
+	background-color: #1A237E;
+	padding-top: 20px; 
+	text-align: center;
+
+}
+
+.header-bottom {
+	background-color: #283593;
+	padding: 20px 0 20px 0;
+}
+
+.header-title {
+
+    font-family: Lato;
+    font-size: 1em!important;
+    font-weight: bolder;
+    letter-spacing: .5em;
+    color: white;
+    text-align: center;
+}
+
+.header-bottom-title
+{
+    color: #fff;
+    font-size: 2.1rem;
+    white-space: nowrap;
+    font-family: Lato; 
+    font-weight: 500;
+    font-size: 1.5em!important;
+    letter-spacing: .3em;
+}
+
+.logo 
+{
+	height: 100px;
+	margin-bottom: -60px;
+	margin-right: 10%;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.carousel-inner > .item > img {
+  height:100%;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+.title-card {
+    font-size: 2.1rem;
+    white-space: nowrap;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: .3em;
+}
+
+.logo-circle {
+	border-radius: 100%;
+	border: 2px solid grey;
+	margin-top: 20px;
+}
+
+.section {
+	margin-top: 50px;
+}
+
+
+#card1 {
+	/*background-color: rgba(200,0,200,0.3);	*/
+}
+
+#card2 {
+
+}
+
+hr {
+	border-color: inherit
+}
+
+.footer 
+{
+	background-color: #1A237E;
+	padding: 20px;
+}
+
+.image-circle {
+	border-radius: 100%;
+	border: 2px solid grey;
+	margin-top: 20px;
+}
