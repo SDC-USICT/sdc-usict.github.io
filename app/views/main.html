@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="col m6 offset-m3">
+        <br>
+        <div class="card">
+            <div class="card-content">
+                <h5 class="light center">The Software Development Cell is the official concourse where computer scientists and programming enthusiasts and designers collaborate to design systems, bring ideas to life with softwares and manage real time situations and concerns.<br> Sounds thrilling? <em>Yes it is.</em></h5>
+                <br>
+                <div class="row center">
+                    <div class="col m6">
+                        <a class="waves-effect waves-light btn-large blue darken-4">Join the Team!</a>
+                    </div>
+                    <div class="col m6">
+                        <a class="waves-effect waves-light btn-large indigo darken-4">Post an update!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row no-margin">
+        <div class="col m6 offset-m3">
+            <h5 class="center light blue-grey-text text-lighten-2">Next Meeting is on <span class="black-text">{{meetup.date}}</span></h5>
+<br>
+            <div class="row">
+            <div class="col m6">
+                <div class="black-text">
+                <p class="strong"><strong>Venue</strong></p>
+                {{meetup.venue}}
+                </div>
+
+                <div class="black-text">
+                <p class="strong"><strong>Time</strong></p>
+
+                {{meetup.time}}
+                </div>
+            </div>
+            <div class="col m6">
+                <p class="strong"><strong>Topic of Discussion</strong></p>
+
+                <h5 class="blue-grey-text light text-lighten-1">{{meetup.topic}}</h5>
+            </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br><br>
+    <div class="row no-margin">
+        <div class="col m12">
+            <h5 class="center light blue-grey-text text-lighten-2">Projects Developed &amp; Mantained by Software Development Cell</h5>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="row parent">
+        <div class="card child" ng-repeat="(name, project) in projects">
+            <div class="card-image">
+                <img src="https://placehold.it/200x120">
+                <span class="card-title">{{name}}</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light indigo darken-4"><i class="fa fa-rocket indigo darken-4 white-text"></i></a>
+            </div>
+            <div class="card-content">
+                <p>{{project.description}}</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="col m6 offset-m3">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="col m4">
+
+                    </div>
+                    <div class="col m8">
+                        <h5 class="light">Dr Rahul Johari</h5>
+                        <h6>Assistant Professor </h6>
+                        <h6>Head, SDC USICT</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+<link rel="stylesheet" type="text/css" href="/app/styles/main.css">
