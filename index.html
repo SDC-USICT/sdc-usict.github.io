@@ -1,257 +1,51 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>SDC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
 
-<body>
-    <div class="container-fluid">
-        <div class="row header">
-            <div class="col-md-1"></div>
-            <div class="col-xs-3 col-md-1">
-                <img src="images/logomain.png" class="logo">
-            </div>
-            <div class="col-xs-8 header-title">
-                GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY
-            </div>
+	<title>SDC, USICT | GGSIPU</title>
+    <base href="/">  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdn.rawgit.com/nodeca/js-yaml/master/dist/js-yaml.min.js"></script>
+
+</head>
+<body ng-app="sdc">
+ <main>
+ <header>
+    <nav>
+        <div class="nav-wrapper">
+            <img class="left logo-img" height="100" style="position: relative !important;z-index: 10;" src="app/resources/images/logomain.png" >
+
+            <span href="/" class="brand-logo center main-title">GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY</span>
         </div>
-        <div class="row header-bottom center">
-            <div class="col-xs-12 header-bottom-title">
-                SOFTWARE DEVELOPMENT CELL
-            </div>
+    </nav>
+
+    <nav>
+        <div class="nav-wrapper sub-nav">
+            <span href="#" class="brand-logo center sub-title">SOFTWARE DEVELOPMENT CELL</span>
         </div>
-        <br>
-        <div class="row">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <!-- Menu -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-                <!-- Items -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="http://lorempixel.com/1500/600/abstract/1" alt="Slide 1" />
-                    </div>
-                    <div class="item">
-                        <img src="http://lorempixel.com/1500/600/abstract/2" alt="Slide 2" />
-                    </div>
-                    <div class="item">
-                        <img src="http://lorempixel.com/1500/600/abstract/3" alt="Slide 3" />
-                    </div>
-                </div>
-                <a href="#carousel" class="left carousel-control" data-slide="prev">
-		        <span class="glyphicon glyphicon-chevron-left"></span>
-		    </a>
-                <a href="#carousel" class="right carousel-control" data-slide="next">
-		        <span class="glyphicon glyphicon-chevron-right"></span>
-		    </a>
-            </div>
-        </div>
-         <div class="container section">
-            <h1 id="projectsheading">About Us</h1>
-            
-            <hr>
-         </div>   
-        <div class="container section">
-            <h1 id="projectsheading">Our Projects</h1>
-            <hr>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 card card-1" id="card1" data-toggle="modal" href="#m1" >
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h1 class="title-card">IPU.AC.IN</h1></div>
-                        <div class="col-xs-6 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>Some information about the project to be added.<br>
-                            Some information about the project to be added here.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 card card-1" id="card2" data-toggle="modal" href="#m2 ">
-                    <div class="row">
-                        <div class="col-xs-8">
-                            <h1 class="title-card">FFS</h1>
-                         </div>
-                        <div class="col-xs-4 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>Attendance management system</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 container card card-1" id="card3" data-toggle="modal" href="#m3">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h1 class="title-card">Recruitement <br>Portal</h1>
-                        </div>
-                        <div class="col-xs-6 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="col-xs-12 col-sm-6 col-md-4 card card-1" id="card3" data-toggle="modal" href="#m4">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h1 class="title-card">AMS</h1>
-                        </div>
-                        <div class="col-xs-6 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>Attendance management system</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 card card-1" id="card3" data-toggle="modal" href="#m5">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h1 class="title-card">NAAC</h1></div>
-                        <div class="col-xs-6 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>Attendance management system</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 card card-1" id="card3" data-toggle="modal" href="#m6">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h1 class="title-card">Alumni Portal</h1></div>
-                        <div class="col-xs-6 right"><img src="http://placehold.it/50x50?text=Logo" class="logo-circle"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p>Attendance management system</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </nav>
+</header>
+    <div ng-view=""></div>
+ </main>
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container center">
+
+            <p class="footer-disclaimer center">
+                Software Development Cell, University School of Information, Communication &amp; Technology (USICT).</p>
         </div>
     </div>
-    </div>
-	<div class="container-fluid">
-	    <div class="row">
-	        <div class=" col-xs-12 footer section">
-	        </div>
-	    </div>
-	</div>
-	
-	<!-- Modals -->
-    <div class="modal fade" id="m1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                </div>
-                <div class="modal-body">
-                	About the project...
-                	<br>
-                     <img src="http://placehold.it/100x100?text=Student" class="logo-circle">
-                </div>
-            </div>
-        </div>
-    </div> 
-     <div class="modal fade" id="m2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                    
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                
-            </div>
-        </div>
-    </div> 
-     <div class="modal fade" id="m3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                </div>
-                <div class="modal-body">
-                 ...
-                </div>
-                
-            </div>
-        </div>
-    </div> 
-     <div class="modal fade" id="m4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                
-            </div>
-        </div>
-    </div> 
-     <div class="modal fade" id="m5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                
-            </div>
-        </div>
-    </div> 
-     <div class="modal fade" id="m6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h2 class="modal-title" id="exampleModalLabel">Attendance Management System</h2>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                
-            </div>
-        </div>
-    </div> 
+</footer>
 </body>
-<script src="js/jquery.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
 </html>
