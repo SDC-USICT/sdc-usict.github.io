@@ -195,23 +195,23 @@ body {
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background: #444343;
-  background-image: -webkit-linear-gradient(top, #444343, #a4a7a7);
+  background: black;
+  /* background-image: -webkit-linear-gradient(top, #444343, #a4a7a7);
   background-image: -moz-linear-gradient(top, #444343, #7e7e7e);
   background-image: -ms-linear-gradient(top, #444343, #646464);
   background-image: -o-linear-gradient(top, #444343, #3a3a3a);
-  background-image: -webkit-gradient(to bottom, #444343, #3a3a3a);
+  background-image: -webkit-gradient(to bottom, #444343, #3a3a3a); */
   color: #ffffff;
-  -webkit-box-shadow: 1px 1px 10px 0 #000000;
-  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  /* -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000; */
   box-shadow: 1px 1px 10px 0 #000000;
-  border: solid #444343 1px;
+  /* border: solid #444343 1px; */
 }
 
 .flip-card-back li {
   line-height: 2rem;
   padding: 2% 3%;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: left;
 }
 
@@ -220,6 +220,7 @@ body {
   text-decoration: none;
   display: block;
   font-weight: bold;
+  color: rgb(247, 247, 122);
 }
 
 .flip-card h3 {
@@ -249,13 +250,13 @@ body {
   padding-top: 20px;
 }
 
-/* form */
+/* form for Contact-US*/
 
 .footer{
-  display: inline-flex;
+  display: flex;
   width: 100%;
   margin-top: 2%;
-  padding: 2% 10%;
+  padding: 0 10%;
 }
 
 #contactUs {
@@ -266,9 +267,9 @@ body {
 .message-form {
   /* margin: 4% 30% 4% 0; */
   padding: 2%;
-  border-radius: 10px;
-  background-color: rgb(78, 78, 78);
-  box-shadow: 0px 0px 3px 3px rgb(204, 201, 201);
+  /* border-radius: 10px; */
+  /* background-color: rgb(78, 78, 78); */
+  /* box-shadow: 0px 0px 3px 3px rgb(204, 201, 201); */
 }
 
 .message-input {
@@ -291,7 +292,7 @@ body {
 
 #footer1 {
   /* display: inline-flex; */
-  padding: 18% 0 10% 10%;
+  padding: 10% 0 5% 10%;
   /* width: 100%; */
   /* width: 100px; */
   background-color: black;
@@ -313,6 +314,7 @@ body {
 
 .footer-links-heading{
   margin: 0;
+  font-weight: 400;
 }
 
 .copywright {
