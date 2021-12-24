@@ -1,8 +1,5 @@
-# NAAC_Portal_Frontend
-Frontend for the GGSIPU NAAC Portal
+# [SDC-USICT Website](https://sdc-usict.github.io)
 
-```
-git clone <clone-link>
-cd NAAC_Portal_Frontend
-python -m SimpleHTTPServer 8080
-```
+## About Us
+Department responsible for the Guru Gobind Singh Indraprastha University's constant growth towards the aim of becoming a digitally dependent organisation. Students of the university have been selected to develop different software for helping out the faculty as well as students in day to day college activities.
+
