@@ -250,7 +250,7 @@ body {
   
   .main-timeline .timeline:nth-child(2n) .timeline-content {
     padding: 20px 50px 20px 0;
-    text-align: right
+    /* text-align: right; */
   }
   
   @media only screen and (max-width: 991px) {
@@ -292,7 +292,10 @@ body {
     .main-timeline .date-content {
         width: 95%;
         float: right;
-        margin-top: 0
+        margin-top: 10%
+    }
+    .main-timeline .timeline:nth-child(1n) .date-content {
+        margin-top: 15%
     }
     .main-timeline .date-content:before {
         display: none
