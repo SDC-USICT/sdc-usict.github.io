@@ -1,0 +1,108 @@
+html{
+    background: white !important;
+}
+body {
+    background:white !important;
+}
+.container{
+    /* background: #000000; */
+}
+
+.teamheading{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align:center;
+    margin-top: 28px;
+    font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 375px) {
+    .teamheading{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .teamheading{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .teamheading{
+        font-size: 42px;
+    }
+}
+ 
+.our-team{
+    padding: 20px 15px 30px;
+    background: #B9EAFC69;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 100%;
+    /* height: 100%; */
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: rgb(4, 29, 84);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: rgb(4, 29, 84);
+    border: 1px solid rgb(4, 29, 84);
+    text-decoration: none;
+}
+/* .our-team:hover .social li a{
+    color: #fff;
+} */
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+@media only screen and (max-width: 500px){
+    .our-team .social{
+        display: contents;
+    }
+    .fa-github:before,
+    .fa-linkedin:before,
+    .fa-twitter:before,
+    .fa-google-plus:before{
+        padding: 6px;
+    }
+}
