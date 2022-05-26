@@ -55,3 +55,39 @@ html {
   transform: scale(1.2);
 }
 /* carousel -- 2 ending */
+ /* responsive of carousel */
+@media (max-width : 1000px) {
+  .my-crousel--content {
+    font-size: 1.5rem;
+  }
+  .my-crousel--heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .container {
+    max-width: 70vw;
+    text-align: center;
+  }
+  .circle {
+    width: 40rem;
+    margin: 0px;
+    height: 40rem;
+  }
+}
+@media (max-width : 740px) {
+  .container {
+    padding: 3rem 4rem;
+  }
+}
+@media (max-width : 470px) {
+  .container {
+    padding: 1.5rem 2rem;
+  }
+  .circle {
+    width: 35rem;
+    margin: 0px;
+    height: 35rem;
+  }
+}
+/* responsive of carousel */
