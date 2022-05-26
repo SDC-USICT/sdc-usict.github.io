@@ -494,6 +494,11 @@ color: #000000;
   margin-bottom: 0.5rem;
 }
 
+.lg-dropdown-item:hover{
+  border-radius: 10%;
+  background-color:rgb(40, 52, 154) ;
+}
+
 .hover-text {
   margin-left: -0.5rem;
   /* display: none; */
