@@ -126,3 +126,171 @@ html {
   }
 }
 /* responsive of carousel */
+
+.carousel {
+    margin-top: 70px;
+    /* width:100vw ; */
+  }
+  
+  .carousal-inner {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+  }
+  
+  .carousel-item {
+    padding: 1%;
+    width: 100vw;
+    margin-right: 1vw;
+  }
+  
+  .d-block {
+    height: 610px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    /* width: 100vw; */
+
+
+    
+  }
+  
+  @media  screen and (max-width: 600px) {
+    .d-block{
+      height: 500px;
+     
+    }
+  }
+  
+  .carousel-control-prev span {
+    border-radius: 100%;
+    background-color: rgb(48, 45, 45);
+    
+  }
+  
+  .carousel-control-next span {
+    border-radius: 100%;
+    background-color: rgb(48, 45, 45);
+    
+  }
+ .carouselExampleDark .carousal-inner .carousel-item .d-block{
+      width: 100vw;
+  }
+  body{
+      margin: -16px;
+  }
+  .w-100 {
+    width: 102%!important;
+}
+#a{
+    position: absolute;
+width: 1534px;
+height: 141px;
+left: 0px;
+top: 539px;
+border-top-left-radius: 1px;
+background: #041D53;
+box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+transform: matrix(1, 0, 0, -1, 0, 0);
+clip-path: polygon(53% 0%, 247% 139%, 9% 213%, -55% 110%, 0% 179%, -2% 38%);
+display: block;
+transform: rotateX(0deg);
+}
+.a{
+    position: absolute;
+width: 480px;
+height: 58px;
+left: 471px;
+top: 631px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 149px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+transform: rotateX(50deg);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem auto;
+    padding: 100px 0px;
+  }
+  
+  .carousel-caption h5 {
+    font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 45px;
+
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carousel-caption h5{
+      font-size: 2rem;
+    }
+  
+    .carousel-caption{
+      left: 0;
+    right: 0;
+    }
+  }
+  .line {
+    position: relative;
+    top: 1%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) 1 normal;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 17em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+pre{
+    font-size: small;
+}
+
