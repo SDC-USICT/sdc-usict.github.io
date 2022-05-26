@@ -42,27 +42,39 @@ html {
 .circle {
   width: 50rem;
   height: 50rem;
-  background-color: #041d53;
+  background-color: #304875;
   margin: 10px;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: -250px 0px 0px -100px #041d53 inset;
 }
 
-#carousel--2 > .carousel-inner > .active {
-  transform: scale(1.2);
+.active {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in 0.2s;
+}
+.img{
+  border: 1px solid #041d53;
+  height: 60px;
+  width: 60px;
+  margin: -20px 0px 10px 0px;
 }
 /* carousel -- 2 ending */
  /* responsive of carousel */
 @media (max-width : 1000px) {
   .my-crousel--content {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+  }
+  .img{
+    height: 50px;
+    width: 50px;
   }
   .my-crousel--heading {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 2.8rem;
+    font-weight: 500;
     text-align: center;
   }
   .container {
@@ -75,12 +87,36 @@ html {
     height: 40rem;
   }
 }
-@media (max-width : 740px) {
+@media (max-width : 850px) {
   .container {
-    padding: 3rem 4rem;
+    padding: 4vw 5vw;
+  }
+  .img{
+    height: 50px;
+    width: 50px;
+  }
+  .my-crousel--content {
+    font-size: 1.65rem;
+  }
+  .my-crousel--heading {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
   }
 }
-@media (max-width : 470px) {
+@media (max-width : 600px){
+  .img{
+    height: 50px;
+    width: 50px;
+    margin: -10px 0px 10px 0px;
+  }
+}
+@media (max-width : 450px) {
+  .img{
+    height: 50px;
+    width: 50px;
+    margin: 0px 0px 6px 0px;
+  }
   .container {
     padding: 1.5rem 2rem;
   }
