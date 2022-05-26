@@ -1,5 +1,5 @@
 /* carousel -- 2 starting */
-html {
+/* html {
   font-size: 10px;
 }
 
@@ -7,7 +7,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .carousel-inner {
   position: relative;
@@ -55,6 +55,7 @@ html {
 .active {
   transform: scale(1.1);
   transition: all 0.4s ease-in 0.2s;
+  transition: z-index 0.4s ease-in-out;
 }
 .img{
   height: 60px;
@@ -290,9 +291,11 @@ color: #000000;
           border-right-color: transparent;
     }
 }
-pre{
+
+
+/* pre{
     font-size: small;
-}
+} */
 /*card section*/
 
 .container-card{
@@ -448,3 +451,61 @@ pre{
 }
 
 
+/* Navbar css */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+      position: absolute;
+      background-color: rgb(4, 29, 83);
+      margin-top: -1%;
+      z-index: -1;
+      top: 50px;
+      width: 50%;
+  }
+
+  .lg-navbar {
+      display: none;
+  }
+}
+
+@keyframes fadeIn {
+0% {
+  display: none;
+  top: 80%;
+  opacity: 0;
+}
+100% {
+  display: block;
+  top: 100%;
+  opacity: 1;
+}
+}
+
+#lg-dropdown:hover #lg-dropdown-menu {
+  display: block;
+  margin-top: 0;
+  animation: fadeIn 0.5s ease-in-out;
+  border-radius: 15%;
+  background-color: rgb(4, 29, 83);
+  
+}
+
+.hover {
+  margin-bottom: 0.5rem;
+}
+
+.hover-text {
+  margin-left: -0.5rem;
+  /* display: none; */
+  position:absolute;
+  display: inline;
+  z-index: -1;
+  opacity: 0;
+}
+
+.hover:hover .hover-text {
+  position: relative;
+  z-index: 0;
+  font-size: large;
+  opacity: 1;
+}
