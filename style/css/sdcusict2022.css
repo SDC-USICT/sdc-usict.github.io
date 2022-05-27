@@ -441,13 +441,9 @@ color: #000000;
   line-height: 30px;
   border-radius: 50%;
   font-size: 15px;
-  color: rgb(4, 29, 84);
-  border: 1px solid rgb(4, 29, 84);
   text-decoration: none;
 }
 .social li a:hover {
-  transition: all 0.5s linear;
-  background-color: #041d54;
   color: #fff;
 }
 @media only screen and (max-width: 990px) {
