@@ -6,10 +6,10 @@ const mains = document.querySelector(".mains");
 const close = document.querySelector(".end");
 
 form.addEventListener("click", function () {
-  mains.classList.add("active");
+  mains.classList.add("actives");
 });
 close.addEventListener("click", function () {
-  mains.classList.remove("active");
+  mains.classList.remove("actives");
 });
 
 
