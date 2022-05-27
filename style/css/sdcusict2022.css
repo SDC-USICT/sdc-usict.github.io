@@ -648,15 +648,15 @@ p {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
-/* .active {
+ .actives {
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
-} */
-.mains.active .contact {
+} 
+.mains.actives .contact {
   transform: translateY(0px);
 }
-h1 {
+heading {
   padding: 40px 0px;
   font-size: 2rem;
 }
