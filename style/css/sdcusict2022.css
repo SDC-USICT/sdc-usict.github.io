@@ -365,6 +365,9 @@ color: #000000;
   .ellipse {
     margin-top: 90px;
   }
+  .our-team{
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -375,11 +378,17 @@ color: #000000;
   .trapezium {
     width: 160px;
   }
+  .our-team{
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 425px) {
   .teamheading {
     font-size: 35px;
     padding-top: 30px;
+  }
+  .our-team{
+    justify-content: center;
   }
 }
 @media screen and (max-width: 768px) {
