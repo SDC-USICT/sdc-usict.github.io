@@ -9,16 +9,23 @@
   box-sizing: border-box;
 } */
 
-.carousel-inner {
+#carousel--2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.--carousel-inner---mid-carousel {
   position: relative;
-  padding: 15rem 0;
+  padding: 15em 0;
 }
 
 .container--for-mid-carousel {
   background-color: #e2f6fe;
-  max-width: 80rem;
-  padding: 4rem 5rem;
-  border-radius: 6rem;
+  max-width: 80em;
+  padding: 4em 5em;
+  border-radius: 6em;
   box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,22 +35,21 @@
 
 .my-crousel--heading {
   /* font-size: 2.4rem; */
-  font-size: 4rem;
+  font-size: 3.4em;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  color: #212529;
 }
 
-
-
 .my-crousel--content {
-  font-size: 2.4rem;
+  font-size: 2.4em;
   font-weight: 500;
+  color: #343a40;
 }
 
 .circle {
-  width: 50rem;
-  height: 50rem;
+  width: 50em;
+  height: 50em;
   background-color: #304875;
   margin: 10px;
   border-radius: 50%;
@@ -62,20 +68,20 @@
 .img {
   height: 60px;
   width: 60px;
-  margin: -20px 0px 10px 0px;
+  /* margin: -20px 0px 10px 0px; */
 }
 /* carousel -- 2 ending */
 /* responsive of carousel */
 @media (max-width: 1000px) {
   .my-crousel--content {
-    font-size: 1.7rem;
+    font-size: 1.7em;
   }
   .img {
     height: 50px;
     width: 50px;
   }
   .my-crousel--heading {
-    font-size: 2.8rem;
+    font-size: 2.8em;
     font-weight: 500;
     text-align: center;
   }
@@ -84,9 +90,9 @@
     text-align: center;
   }
   .circle {
-    width: 40rem;
+    width: 40em;
     margin: 0px;
-    height: 40rem;
+    height: 40em;
   }
 }
 @media (max-width: 850px) {
@@ -98,10 +104,10 @@
     width: 50px;
   }
   .my-crousel--content {
-    font-size: 1.65rem;
+    font-size: 1.65em;
   }
   .my-crousel--heading {
-    font-size: 2.4rem;
+    font-size: 2.4em;
     font-weight: bold;
     text-align: center;
   }
@@ -120,17 +126,16 @@
     margin: 0px 0px 6px 0px;
   }
   .container--for-mid-carousel {
-    padding: 1.5rem 2rem;
+    padding: 1.5em 2em;
   }
   .circle {
-    width: 35rem;
+    width: 35em;
     margin: 0px;
-    height: 35rem;
+    height: 35em;
   }
 }
 
 /* responsive of carousel */
-
 
 /*card section*/
 
@@ -440,11 +445,11 @@ p {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
-.active {
+/* .active {
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
-}
+} */
 .mains.active .contact {
   transform: translateY(0px);
 }
