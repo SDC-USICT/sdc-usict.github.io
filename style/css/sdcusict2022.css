@@ -130,7 +130,6 @@
 }
 
 /* responsive of carousel */
-
 .carousel {
   margin-top: 70px;
   /* width:100vw ; */
@@ -154,100 +153,101 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 5px 5px 10px grey;
+  /* width: 100vw; */
+
+
+  
 }
 
-@media screen and (max-width: 600px) {
-  .d-block {
+@media  screen and (max-width: 600px) {
+  .d-block{
     height: 500px;
+   
   }
+  .w-100 {
+    width: 107%!important;
+}
 }
 
 .carousel-control-prev span {
   border-radius: 100%;
   background-color: rgb(48, 45, 45);
+  
 }
 
 .carousel-control-next span {
   border-radius: 100%;
   background-color: rgb(48, 45, 45);
+  
 }
-.carouselExampleDark .carousal-inner .carousel-item .d-block {
-  width: 100vw;
+.carouselExampleDark .carousal-inner .carousel-item .d-block{
+    width: 100vw;
 }
-body {
-  margin: -16px;
+body{
+    margin: -16px;
 }
 .w-100 {
-  width: 102% !important;
+  width: 104%!important
 }
-#a {
+
+@media  screen and (max-width: 600px) {
+  
+  .w-100 {
+    width: 107%!important;
+}
+}
+
+#a{
   position: absolute;
-  width: 1534px;
+  width: 101%;
   height: 141px;
   left: 0px;
-  top: 539px;
-  border-top-left-radius: 1px;
-  background: #041d53;
-  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
-  transform: matrix(1, 0, 0, -1, 0, 0);
-  clip-path: polygon(53% 0%, 247% 139%, 9% 213%, -55% 110%, 0% 179%, -2% 38%);
-  display: block;
-  transform: rotateX(0deg);
+top: 539px;
+border-top-left-radius: 1px;
+background: #041D53;
+box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+transform: matrix(1, 0, 0, -1, 0, 0);
+/* clip-path: polygon(53% 0%, 247% 139%, 9% 213%, -55% 110%, 0% 179%, -2% 38%); */
+/* clip-path: polygon(49% -8%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 31%); */
+clip-path: polygon(49% -16%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 22%);
+display: block;
+transform: rotateX(0deg);
 }
-.a {
+
+.a{
   position: absolute;
-  width: 480px;
-  height: 58px;
-  left: 471px;
-  top: 631px;
+width: 480px;
+height: 58px;
+left: 471px;
+top: 631px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 149px;
-  /* identical to box height */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 149px;
+/* identical to box height */
 
-  text-align: center;
-  text-transform: uppercase;
+text-align: center;
+text-transform: uppercase;
 
-  color: #ffffff;
-  transform: rotateX(50deg);
+color: #FFFFFF;
+transform: rotateX(50deg);
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 5%;
-  left: 0;
-  right: 0;
-  font-weight: bolder;
-  justify-content: center;
-  text-align: center;
-  margin: 0.5rem auto;
-  padding: 100px 0px;
-}
-
-.carousel-caption h5 {
-  font-family: "Inconsolata";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 45px;
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #000000;
-}
 
 @media screen and (max-width: 600px) {
-  .carousel-caption h5 {
-    font-size: 2rem;
+  .a{
+    height: 500px;
+    width: fit-content;
+    font-size: 1.9em;
+    
   }
-
-  .carousel-caption {
-    left: 0;
-    right: 0;
+}
+@media screen and (max-width: 600px) {
+  #a{
+    top: 443px;
+    left: 0px;
   }
 }
 .line {
@@ -255,42 +255,73 @@ body {
   top: 1%;
   width: 16em;
   margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 100%;
+  /* border-right: 1px solid rgba(255, 255, 255, 0.75); */
+  font-size: 50%;
   text-align: center;
   white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
+  overflow: hidden;transform: translateY(-125%);
 }
 
 /*Animation*/
 
 .anim-typewriter {
   animation: typewriter 4s steps(40) 1s 1 normal both,
-    blinkTextCursor 500ms steps(40) 1 normal;
+  blinkTextCursor 500ms steps(40) 1 normal;
 }
 
 @keyframes typewriter {
   from {
-    width: 0;
+        width: 0;
   }
   to {
-    width: 17em;
+        width: 55em;
   }
 }
 
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+        border-right-color: rgba(255, 255, 255, 0.75);
   }
   to {
-    border-right-color: transparent;
+        border-right-color: transparent;
   }
 }
 
-/* pre{
-    font-size: small;
-} */
+
+
+.top {
+  position: absolute;
+  top: 62%;
+  left: 0;
+  right: 0;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem auto;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.top h2 {
+  font-size: 2.6rem;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .top h2{
+    font-size: 2rem;
+  }
+
+  .top{
+  top: 55%;
+  left: 0;
+  right: 0;
+  margin: 1.5rem 9%;
+  width: 100%;
+  }
+}
+
+
 /*card section*/
 
 .container-card {
