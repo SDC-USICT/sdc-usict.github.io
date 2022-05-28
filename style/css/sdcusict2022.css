@@ -9,7 +9,7 @@
   box-sizing: border-box;
 } */
 
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -141,91 +141,87 @@
 
 /* responsive of carousel */
 
-.pic{
+.pic {
   height: 90vh;
   width: 100%;
-  
+
   /* top: 12px; */
 }
-.slid{
+.slid {
   top: -30px;
   width: 100%;
 }
 @media screen and (max-width: 600px) {
-  .slid{
+  .slid {
     width: 100%;
   }
-  .pic{
-    
+  .pic {
     width: 100%;
-    
+
     /* top: 12px; */
   }
-  .imggge{
+  .imggge {
     width: 100%;
   }
 }
-.imggge{
+.imggge {
   width: 100%;
 }
-#a{
+#a {
   position: absolute;
   width: 101%;
   height: 141px;
   left: 0px;
   top: 625px;
-border-top-left-radius: 1px;
-background: #041D53;
-box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
-transform: matrix(1, 0, 0, -1, 0, 0);
-/* clip-path: polygon(53% 0%, 247% 139%, 9% 213%, -55% 110%, 0% 179%, -2% 38%); */
-/* clip-path: polygon(49% -8%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 31%); */
-/* clip-path: polygon(49% -16%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 22%); */
-border-radius: 0 0 60% 60%/0 0 50% 50%;
-display: block;
-transform: rotateX(180deg);
+  border-top-left-radius: 1px;
+  background: #041d53;
+  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  /* clip-path: polygon(53% 0%, 247% 139%, 9% 213%, -55% 110%, 0% 179%, -2% 38%); */
+  /* clip-path: polygon(49% -8%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 31%); */
+  /* clip-path: polygon(49% -16%, 353% 164%, 10% 257%, -25% 191%, 0% 243%, -2% 22%); */
+  border-radius: 0 0 60% 60%/0 0 50% 50%;
+  display: block;
+  transform: rotateX(180deg);
 }
 
-.a{
+.a {
   position: absolute;
-width: 480px;
-height: 58px;
-left: 471px;
-top: 700px;
+  width: 480px;
+  height: 58px;
+  left: 471px;
+  top: 700px;
 
-/* font-family: 'Inter'; */
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 149px;
-/* identical to box height */
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 149px;
+  /* identical to box height */
 
-text-align: center;
-text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-transform: rotateX(180deg);
+  color: #ffffff;
+  transform: rotateX(180deg);
 }
-.caption101{
+.caption101 {
   transform: rotateX(180deg);
 }
 
 @media screen and (max-width: 600px) {
-  .a{
+  .a {
     /* height: 500px; */
     /* width: fit-content; */
     font-size: 1.9em;
-    
   }
 }
 @media screen and (max-width: 600px) {
-  #a{
+  #a {
     top: 570px;
     left: 0px;
   }
 }
-
-
 
 /* .caption {
   position: absolute;
@@ -266,8 +262,6 @@ color: #000000;
   }
 } */
 
-
-
 .line {
   position: relative;
   top: 1%;
@@ -277,35 +271,34 @@ color: #000000;
   font-size: 50%;
   text-align: center;
   white-space: nowrap;
-  overflow: hidden;transform: translateY(-125%);
+  overflow: hidden;
+  transform: translateY(-125%);
 }
 
 /*Animation*/
 
 .anim-typewriter {
   animation: typewriter 4s steps(40) 1s 1 normal both,
-  blinkTextCursor 500ms steps(40) 1 normal;
+    blinkTextCursor 500ms steps(40) 1 normal;
 }
 
 @keyframes typewriter {
   from {
-        width: 0;
+    width: 0;
   }
   to {
-        width: 55em;
+    width: 55em;
   }
 }
 
 @keyframes blinkTextCursor {
   from {
-        border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: rgba(255, 255, 255, 0.75);
   }
   to {
-        border-right-color: transparent;
+    border-right-color: transparent;
   }
 }
-
-
 
 .top {
   position: absolute;
@@ -326,21 +319,19 @@ color: #000000;
 }
 
 @media screen and (max-width: 600px) {
-  .top .typ{
+  .top .typ {
     font-size: 2rem;
-    width: 50%
+    width: 50%;
   }
 
-  .top{
+  .top {
     top: 72%;
     left: 89px;
-  right: 0;
-  margin: 1.5rem 9%;
-  width: 50%;
+    right: 0;
+    margin: 1.5rem 9%;
+    width: 50%;
   }
 }
-
-  
 
 /* Ending responsive of carousel */
 
@@ -394,28 +385,28 @@ color: #000000;
   .ellipse {
     margin-top: 90px;
   }
-  .our-team{
+  .our-team {
     justify-content: center;
   }
 }
 
-@media screen and (max-width: 375px){
-  .teamheading{
-      font-size: 19px;
+@media screen and (max-width: 375px) {
+  .teamheading {
+    font-size: 19px;
   }
   .trapezium {
     width: 160px;
   }
-  .cards .trapezium p{
+  .cards .trapezium p {
     font-size: 16px;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 425px){
+@media screen and (min-width: 375px) and (max-width: 425px) {
   .teamheading {
     font-size: 25px;
     padding-top: 30px;
   }
-  .our-team{
+  .our-team {
     justify-content: center;
   }
 }
@@ -569,20 +560,23 @@ color: #000000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Comfortaa", cursive; */
+  font-family: "Comfortaa", cursive;
 }
 .parent {
   position: relative;
   bottom: 0px;
   right: 0px;
   left: 0px;
-  z-index: -1;
+  
+
 }
 .sub {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 30vw;
+  transition: all 0.3s;
+
 }
 .sub-heading {
   font-size: 0.8rem;
@@ -597,12 +591,13 @@ color: #000000;
   padding-top: 30px;
   border-radius: 10% 10% 0px 0px;
   background: rgb(4, 29, 83);
+  border-bottom: 1px solid white;
 }
 p {
   text-align: center;
   font-size: 15px;
 }
-.image {
+.img {
   width: 40px;
   height: 40px;
   object-fit: contain;
@@ -611,30 +606,36 @@ p {
   padding: 5px;
   margin: 5px;
 }
+.sub .img:hover {
+  transform: scale(1.2);
+}
 .foot {
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
   background: rgb(4, 29, 83);
 }
-
+.left {
+  width: 80px;
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.3s;
+}
 .icon {
   width: 35px;
   height: 40px;
   object-fit: contain;
   filter: invert(1);
   background: transparent;
-  opacity: 1;
   padding: 5px;
+}
+.left .icon:hover {
+  transform: scale(1.2);
 }
 #inst {
   padding: 6px;
 }
-.left {
-  width: 80px;
-  display: flex;
-  align-items: flex-start;
-}
+
 #statement {
   font-size: 16px;
   display: flex;
@@ -647,6 +648,7 @@ p {
   align-items: flex-end;
   justify-content: flex-end;
 }
+
 /*contact form */
 
 .mains {
@@ -654,17 +656,21 @@ p {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: all 0.3s ease-out;
+  
+  transition: all 0.3s;
 }
- .actives {
+.show {
   opacity: 1;
-  background: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-} 
-.mains.actives .contact {
-  transform: translateY(0px);
 }
-heading {
+.mains.show .contact {
+  transform: translateY(-1px);
+}
+
+#call {
+  width: 35px;
+}
+
+h1 {
   padding: 40px 0px;
   font-size: 2rem;
 }
@@ -690,7 +696,7 @@ heading {
   padding: 10px 10px;
   position: relative;
   transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 .field {
   margin: 5px;
