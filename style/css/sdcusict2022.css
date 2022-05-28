@@ -569,20 +569,20 @@ color: #000000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Comfortaa", cursive; */
+  font-family: "Comfortaa", cursive;
 }
 .parent {
   position: relative;
   bottom: 0px;
   right: 0px;
   left: 0px;
-  z-index: -1;
 }
 .sub {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 30vw;
+  transition: all 0.3s;
 }
 .sub-heading {
   font-size: 0.8rem;
@@ -597,12 +597,13 @@ color: #000000;
   padding-top: 30px;
   border-radius: 10% 10% 0px 0px;
   background: rgb(4, 29, 83);
+  border-bottom: 1px solid white;
 }
 p {
   text-align: center;
   font-size: 15px;
 }
-.image {
+.img {
   width: 40px;
   height: 40px;
   object-fit: contain;
@@ -611,30 +612,36 @@ p {
   padding: 5px;
   margin: 5px;
 }
+.sub .img:hover {
+  transform: scale(1.2);
+}
 .foot {
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
   background: rgb(4, 29, 83);
 }
-
+.left {
+  width: 80px;
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.3s;
+}
 .icon {
   width: 35px;
   height: 40px;
   object-fit: contain;
   filter: invert(1);
   background: transparent;
-  opacity: 1;
   padding: 5px;
+}
+.left .icon:hover {
+  transform: scale(1.2);
 }
 #inst {
   padding: 6px;
 }
-.left {
-  width: 80px;
-  display: flex;
-  align-items: flex-start;
-}
+
 #statement {
   font-size: 16px;
   display: flex;
@@ -647,6 +654,7 @@ p {
   align-items: flex-end;
   justify-content: flex-end;
 }
+
 /*contact form */
 
 .mains {
@@ -654,17 +662,21 @@ p {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: all 0.3s ease-out;
+
+  transition: all 0.3s;
 }
- .actives {
+.show {
   opacity: 1;
-  background: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-} 
-.mains.actives .contact {
+}
+.mains.show .contact {
   transform: translateY(0px);
 }
-heading {
+
+#call {
+  width: 35px;
+}
+
+h1 {
   padding: 40px 0px;
   font-size: 2rem;
 }
@@ -690,7 +702,7 @@ heading {
   padding: 10px 10px;
   position: relative;
   transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 .field {
   margin: 5px;
