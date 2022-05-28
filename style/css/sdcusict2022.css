@@ -372,26 +372,17 @@ color: #000000;
 /* Ending responsive of carousel */
 
 /*card section*/
-
-.container-card {
-  margin-top: 20px;
+.cards{
+  margin-bottom: -400px;
 }
-
+.container-card {
+  margin-bottom: -100px;
+}
 .faculty {
   border-bottom: 3px solid grey;
 }
-
-.teamheading {
-  font-size: 48px;
-  font-weight: bold;
-  padding-top: 20px;
-  text-align: center;
-  margin-top: 28px;
-  /* font-family: Arial, Helvetica, sans-serif; */
-}
-
 .trapezium {
-  margin: 0px auto;
+  margin: 2px auto;
   border-top: 50px solid rgb(4, 29, 84);
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
@@ -399,28 +390,36 @@ color: #000000;
   width: 300px;
   margin-bottom: 36px;
   filter: drop-shadow(0 0 2px #222);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-
+.f{
+  margin: -10px auto;
+}
 .trapezium p {
   margin-top: -40px;
   text-align: center;
   color: white;
   font-size: 24px;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
-
+.teamheading {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 28px;
+  transform: scale(1,-1);
+}
 .ellipse {
   position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 150px 150px 0 0;
-  color: white;
-  background-color: rgb(4, 29, 84);
-  margin-top: 50px;
-  filter: drop-shadow(0 0 3px #222);
-}
-
+  border-top-left-radius: 1px;
+  background: #041D53;
+  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  border-radius: 0 0 60% 60%/0 0 50% 50%;
+  display: block;
+} 
 @media screen and (max-width: 245px) {
   .ellipse {
     margin-top: 90px;
@@ -511,21 +510,32 @@ color: #000000;
 
 .our-team .social li {
   display: inline-block;
-  margin-right: 5px;
 }
-
 .our-team .social li a {
   display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50%;
-  font-size: 15px;
+  width: 40px;
+  height: 40px;
   text-decoration: none;
 }
-
-.social li a:hover {
-  color: #fff;
+.our-team .social li img{
+  position: relative;
+}
+.img-o{
+  width: 40px;
+}
+.img-c{
+  position: relative;
+  display: none;
+  width: 40px;
+}
+.ml{
+  margin-left: 10px;
+}
+.our-team .social li a:hover .img-c{
+  display: inline;
+}
+.our-team .social li a:hover .img-o{
+  display: none;
 }
 
 @media only screen and (max-width: 990px) {
@@ -537,13 +547,6 @@ color: #000000;
 @media only screen and (max-width: 500px) {
   .our-team .social {
     display: contents;
-  }
-
-  .fa-github:before,
-  .fa-linkedin:before,
-  .fa-twitter:before,
-  .fa-google-plus:before {
-    padding: 6px;
   }
 }
 
