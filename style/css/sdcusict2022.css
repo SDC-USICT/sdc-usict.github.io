@@ -17,7 +17,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 10px;
+   font-size: 8px;
+  width: 100%;
 }
 
 .--carousel-inner---mid-carousel {
@@ -27,8 +28,8 @@
 
 .container--for-mid-carousel {
   background-color: #e2f6fe;
-  max-width: 80em;
-  padding: 4em 5em;
+  max-width: 70em;
+  padding: 3em 4em;
   border-radius: 6em;
   box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
 }
@@ -38,24 +39,23 @@
 }
 
 .my-crousel--heading {
-  /* font-size: 2.4rem; */
-  font-size: 3.4em;
+  font-size: 3em;
   font-weight: 500;
   text-transform: uppercase;
   color: #212529;
 }
 
 .my-crousel--content {
-  font-size: 2.4em;
+  font-size: 2em;
   font-weight: 500;
   color: #343a40;
 }
 
 .circle {
-  width: 50em;
-  height: 50em;
+ width: 31rem;
+  height: 31rem;
   background-color: #304875;
-  margin: 10px;
+  margin: auto;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -64,48 +64,42 @@
   box-shadow: -250px 0px 0px -100px #041d53 inset;
 }
 
-.active.my-crousel--slide {
-  transform: scale(1.1);
-  transition: all 0.4s ease-in 0.2s;
-  transition: z-index 0.4s ease-in-out;
+.my-crousel--slide {
+  transform: scale(1.5);
+  transition:0.7s ease-in 0.3s;
 }
 .img {
   height: 60px;
   width: 60px;
-  /* margin: -20px 0px 10px 0px; */
 }
 /* carousel -- 2 ending */
 /* responsive of carousel */
 @media (max-width: 1000px) {
   .my-crousel--content {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
   .img {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
   }
   .my-crousel--heading {
-    font-size: 2.8em;
+    font-size: 2.6em;
     font-weight: 500;
     text-align: center;
   }
   .container--for-mid-carousel {
-    max-width: 70vw;
+    max-width: 56vw;
     text-align: center;
   }
   .circle {
-    width: 40em;
+   width: 28.6rem;
     margin: 0px;
-    height: 40em;
+    height: 28.6rem;
   }
 }
 @media (max-width: 850px) {
   .container--for-mid-carousel {
-    padding: 4vw 5vw;
-  }
-  .img {
-    height: 50px;
-    width: 50px;
+    padding:1.7rem;
   }
   .my-crousel--content {
     font-size: 1.65em;
@@ -116,26 +110,40 @@
     text-align: center;
   }
 }
-@media (max-width: 600px) {
-  .img {
-    height: 50px;
-    width: 50px;
+@media (max-width: 650px) {
+ .img {
+    height: 9vw;
+    width: 9vw;
     margin: -10px 0px 10px 0px;
   }
+  .container--for-mid-carousel{
+    padding: 1rem;
+  }
+  .my-crousel--content {
+    font-size: 1.5em;
+  }
+  .my-crousel--heading {
+    font-size: 1.9em;
+  }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .img {
-    height: 50px;
-    width: 50px;
+    
     margin: 0px 0px 6px 0px;
+  }
+  .my-crousel--content {
+    font-size: 1.2em;
+  }
+  .my-crousel--heading {
+    font-size: 1.4em;
   }
   .container--for-mid-carousel {
     padding: 1.5em 2em;
   }
-  .circle {
-    width: 35em;
-    margin: 0px;
-    height: 35em;
+  .circle{
+      width: 95vw;
+      margin: 0px;
+      height: 95vw;
   }
 }
 
