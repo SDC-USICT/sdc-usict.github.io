@@ -457,7 +457,7 @@ color: #000000;
   }
 
   .cards .trapezium p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -540,17 +540,23 @@ color: #000000;
   position: relative;
 }
 
+<<<<<<< HEAD
 .img-o {
   width: 40px;
 }
 
 .img-c {
+=======
+.img-c{
+>>>>>>> f69b727d4f90972fdb50805a4a72fa8b74e23e20
   position: relative;
-  display: none;
   width: 40px;
+<<<<<<< HEAD
   filter: invert(1);
   background: rgb(234, 234, 234);
   border-radius: 100%;
+=======
+>>>>>>> f69b727d4f90972fdb50805a4a72fa8b74e23e20
 }
 
 .ml {
@@ -559,10 +565,16 @@ color: #000000;
 
 .our-team .social li a:hover .img-c {
   display: inline;
+<<<<<<< HEAD
 }
 
 .our-team .social li a:hover .img-o {
   display: none;
+=======
+  filter: invert(1); 
+  background:rgb(234, 234, 234); 
+  border-radius:100%;
+>>>>>>> f69b727d4f90972fdb50805a4a72fa8b74e23e20
 }
 
 @media only screen and (max-width: 990px) {
