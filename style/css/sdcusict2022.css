@@ -923,59 +923,55 @@ h1 {
 
 
 /********************************************************************************Faculty page*****************************************/
-
-#fac{position: relative;
-height: fit-content;
-width: 100%;
-height: 65vw;
-top: 0px;
-}
-
 .back1{
   position: absolute;
   top: 800px;
-  width: 90vw;
-  height: 330px;
-  left: 80px;
+  width: 1400px;
+  height: 320px;
+  left: 50px;
 
 }
+
 .back2{
   position: absolute;
-  top: 1060px;
-  width: 90vw;
-  height: 330px;
-  left: 80px;
+  top: 1040px;
+  width: 1400px;
+  height: 320px;
+  left: 50px;
 
 }
-
 .back3{
   position: absolute;
-  top: 1320px;
-  width: 90vw;
-  height: 330px;
-  left: 80px;
-
+  top: 1295px;
+  left: 50px;
+  width: 1400px;
+  height: 300px;
 }
 
 .pic1{
   position: absolute;
-  top: 850px;
-  left: 150px;
+  top: 845px;
+  left: 99px;
 
 }
-
 .pic2{
   position: absolute;
-  top: 1115px;
-  left: 1090px;
-
+  top: 1080px;
+  left: 1070px;
 }
-
 .pic3{
   position: absolute;
-  top: 1355px;
-  left: 150px;
+  top: 1300px;
+  left: 95px;
 }
+.font{
+  position: absolute;
+  top: 800px;
+  color: #1f1209;
+}
+
+
+
 
 /* SFST */
 .icn1 {
@@ -1008,3 +1004,5 @@ top: 0px;
   align-items: flex-end;
   height: 420px;
 }
+
+
