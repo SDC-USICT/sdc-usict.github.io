@@ -541,6 +541,9 @@ color: #000000;
   position: relative;
   display: none;
   width: 40px;
+  filter: invert(1); 
+  background:rgb(234, 234, 234); 
+  border-radius:100%;
 }
 .ml{
   margin-left: 10px;
