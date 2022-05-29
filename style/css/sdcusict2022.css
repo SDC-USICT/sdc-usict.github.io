@@ -381,12 +381,6 @@ color: #000000;
 /* Ending responsive of carousel */
 
 /*card section*/
-.cards{
-  margin-bottom: -400px;
-}
-.container-card {
-  margin-bottom: -100px;
-}
 .divider{
   border:none;
 	height: 40px;
@@ -408,7 +402,7 @@ color: #000000;
   border-top-right-radius: 10px;
 }
 .f{
-  margin: 40px auto;
+  margin: -10px auto;
 }
 .trapezium p {
   margin-top: -40px;
@@ -806,6 +800,7 @@ h1 {
   position: relative;
   transform: translateY(-100%);
   transition: all 0.3s;
+  pointer-events :none;
 }
 
 .field {
