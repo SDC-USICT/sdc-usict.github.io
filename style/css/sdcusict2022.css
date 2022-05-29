@@ -257,7 +257,8 @@
   font-weight: 500;
   font-size: 90px;
   line-height: 149px;
-  /*identicaltoboxheight*/text-align: center;
+  /*identicaltoboxheight*/
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   transform: rotateX(180deg);
