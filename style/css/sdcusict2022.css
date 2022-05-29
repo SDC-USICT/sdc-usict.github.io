@@ -528,25 +528,19 @@ color: #000000;
 .our-team .social li img{
   position: relative;
 }
-.img-o{
-  width: 40px;
-}
+
 .img-c{
   position: relative;
-  display: none;
   width: 40px;
-  filter: invert(1); 
-  background:rgb(234, 234, 234); 
-  border-radius:100%;
 }
 .ml{
   margin-left: 10px;
 }
 .our-team .social li a:hover .img-c{
   display: inline;
-}
-.our-team .social li a:hover .img-o{
-  display: none;
+  filter: invert(1); 
+  background:rgb(234, 234, 234); 
+  border-radius:100%;
 }
 
 @media only screen and (max-width: 990px) {
