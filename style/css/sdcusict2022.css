@@ -648,7 +648,7 @@ color: #000000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Comfortaa", cursive;
+  /* font-family: "Comfortaa", cursive; */
 }
 
 .parent {
@@ -846,7 +846,7 @@ justify-content: center;
 }
 .projectTxt{  
   color: rgb(51, 61, 201);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   font-size: 60px;
   position: relative;
   top: 150px;
@@ -854,5 +854,5 @@ justify-content: center;
 .projectTxt2{
   font-size: 40px;
   transform: rotateX(180deg);
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
