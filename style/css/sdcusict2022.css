@@ -387,8 +387,13 @@ color: #000000;
 .container-card {
   margin-bottom: -100px;
 }
-.faculty {
-  border-bottom: 3px solid grey;
+.divider{
+  border:none;
+	height: 40px;
+	border-bottom: 1px transparent #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  padding-top: 50px;
+  margin: 0;
 }
 .trapezium {
   margin: 2px auto;
@@ -403,7 +408,7 @@ color: #000000;
   border-top-right-radius: 10px;
 }
 .f{
-  margin: -10px auto;
+  margin: 40px auto;
 }
 .trapezium p {
   margin-top: -40px;
