@@ -14,7 +14,7 @@
 }
 
 #carousel--2 {
-  margin: 0;
+  margin-top: 10vh;
   padding: 0;
   box-sizing: border-box;
   font-size: 8px;
@@ -69,7 +69,7 @@
   transition: 0.7s ease-in 0.3s;
 }
 
-.img {
+.imgg {
   height: 60px;
   width: 60px;
 }
@@ -81,7 +81,7 @@
     font-size: 1.8em;
   }
 
-  .img {
+  .imgg {
     height: 45px;
     width: 45px;
   }
@@ -121,7 +121,7 @@
 }
 
 @media (max-width: 650px) {
-  .img {
+  .imgg {
     height: 9vw;
     width: 9vw;
     margin: -10px 0px 10px 0px;
@@ -141,7 +141,7 @@
 }
 
 @media (max-width: 470px) {
-  .img {
+  .imgg {
 
     margin: 0px 0px 6px 0px;
   }
