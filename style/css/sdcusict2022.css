@@ -923,46 +923,78 @@ h1 {
 
 
 /********************************************************************************Faculty page*****************************************/
-.back1{
-  position: absolute;
-  top: 800px;
-  width: 1400px;
-  height: 320px;
-  left: 50px;
-
+.container-faculty{
+  width: 90%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 75px;
 }
-
-.back2{
-  position: absolute;
-  top: 1040px;
-  width: 1400px;
-  height: 320px;
-  left: 50px;
-
+.con-fac-inner{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.back3{
-  position: absolute;
-  top: 1295px;
-  left: 50px;
-  width: 1400px;
-  height: 300px;
+.con-fac-inner img{
+  display: block;
+  width:auto;
+  max-width: 100%;
 }
-
-.pic1{
-  position: absolute;
-  top: 845px;
-  left: 99px;
-
+.text-fac{
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    color: #000000;
 }
-.pic2{
-  position: absolute;
-  top: 1080px;
-  left: 1070px;
+.con-fac1,
+.con-fac2,
+.con-fac3{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}.con-fac2{
+  align-items: flex-end;
 }
-.pic3{
-  position: absolute;
-  top: 1300px;
-  left: 95px;
+.con-fac1{
+  padding: 7% 0 5% 0;
+  position: relative;
+  width: 100%;
+  /* min-height: 400px; */
+  background-image: url("../../rec1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* min-height: 482px; */
+}
+.con-fac2 {
+  padding: 5% 0 6% 0;
+  position: relative;
+  background-image: url("../../rec2.png");
+    background-size: contain;
+  background-repeat: no-repeat;
+  /* min-height: 482px; */
+}
+.con-fac1 .con-fac-inner{
+  padding: 0 0 7% 3%;
+}
+.con-fac2 .con-fac-inner {
+  padding: 3% 5% 6% 0;
+}
+.con-fac3 .con-fac-inner {
+  padding: 3% 0 6% 4%;
+}
+.con-fac3 {
+  padding: 4% 0 5% 0;
+  position: relative;
+  background-image: url("../../rec3.png");
+    background-size: contain;
+  background-repeat: no-repeat;
+  /* min-height: 482px; */
 }
 .font{
   position: absolute;
