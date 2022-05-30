@@ -1040,5 +1040,15 @@ h1 {
   align-items: flex-end;
   height: 420px;
 }
+.sfstCss{
+  padding-top: 50px;
+  background-color: #e2f6fe;
+  border-radius: 30px 1200px 40px 2px;
+  -webkit-border-radius: 30px 1200px 40px 2px;
+  -moz-border-radius: 30px 1200px 40px 2px;
+  -ms-border-radius: 30px 1200px 40px 2px;
+  -o-border-radius: 30px 1200px 40px 2px;
+}
+
 
 
