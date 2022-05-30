@@ -604,8 +604,8 @@ color: #000000;
 
 .our-team .social li a:hover .img-c {
   display: inline;
-  filter: invert(1);
-  background: rgb(234, 234, 234);
+  background-color: #ffcb04;
+  top: -5px;
   border-radius: 100%;
 }
 
