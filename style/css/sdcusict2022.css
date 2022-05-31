@@ -772,6 +772,7 @@ p {
   background: transparent;
   padding: 5px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .sub .img:hover {
@@ -802,8 +803,14 @@ p {
 }
 
 .left .icon:hover {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+  
+  transform: translateY(-3px);
+  transition: 0.2s;
+ 
 }
+
+
 
 #inst {
   padding: 6px;
@@ -821,6 +828,10 @@ p {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  cursor: pointer;
+}
+#form:hover{
+  transform: scale(1.2);
 }
 
 /*contact form */
@@ -852,6 +863,29 @@ h1 {
   padding: 40px 0px;
   font-size: 2rem;
 }
+
+/* .icon:hover{
+  cursor: pointer;
+}
+.icon img{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  color:white;
+}
+.icon a:hover {
+  color: #ffcb04;
+  transform: translateY(3px);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+
+.icon a {
+  color: white;
+ 
+  padding: 10px;
+  text-decoration: none;
+} */
 
 .end {
   position: absolute;
@@ -1024,6 +1058,8 @@ h1 {
   background-repeat: no-repeat;
   /* min-height: 482px; */
 }
+
+
 
 .font {
   position: absolute;
