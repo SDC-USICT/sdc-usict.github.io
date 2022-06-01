@@ -1072,7 +1072,41 @@ h1 {
   color: #1f1209;
 }
 
+.fac-about1{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: left;
+  
+}
 
+.fac-about2{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: right;
+  
+}
+
+.fac-about3{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: left;
+  
+}
 
 
 /* SFST */
