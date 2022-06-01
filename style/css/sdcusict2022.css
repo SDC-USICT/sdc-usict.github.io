@@ -21,7 +21,7 @@
 }
 
 #carousel--2 {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding: 0;
   box-sizing: border-box;
   font-size: 8px;
@@ -149,7 +149,6 @@
 
 @media (max-width: 470px) {
   .imgg {
-
     margin: 0px 0px 6px 0px;
   }
 
@@ -224,13 +223,11 @@
   transform: rotateX(180deg);
 }
 
-
 #upper {
   position: relative;
   width: 100%;
   height: 600px;
   top: 0px;
-
 }
 
 .a {
@@ -283,10 +280,10 @@
 #op {
   position: absolute;
   width: 100%;
-  height: 176px;
-  left: -2px;
+  height: 120px;
+  /* left: -2px; */
   /* top: 1084px; */
-  top: 563px;
+  top: 503px;
   border-top-left-radius: 1px;
   background: #041d53;
   box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
@@ -300,9 +297,6 @@
 }
 
 /********************************************************************************************************************************/
-
-
-
 
 #slllide {
   /* top: 1138px; */
@@ -331,7 +325,6 @@
   #slllide {
     top: 1042px;
   }
-
 }
 @media screen and (max-width: 2244px) {
   #op {
@@ -445,7 +438,7 @@ color: #000000;
 }
 
 .top .typ {
-  font-size: 2.6rem;
+  font-size: 3rem !important;
   color: black;
 }
 
@@ -513,7 +506,7 @@ color: #000000;
   position: relative;
   top: 50%;
   border-top-left-radius: 1px;
-  background: #041D53;
+  background: #041d53;
   box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.25);
   transform: matrix(1, 0, 0, -1, 0, 0);
   border-radius: 0 0 60% 60%/0 0 50% 50%;
@@ -697,7 +690,7 @@ color: #000000;
 .lg-dropdown-item {
   display: block;
   width: 100%;
-  padding: .25rem 1rem;
+  padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -705,7 +698,7 @@ color: #000000;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 0
+  border: 0;
 }
 
 .lg-dropdown-item:hover {
@@ -748,8 +741,6 @@ color: #000000;
   bottom: 0px;
   right: 0px;
   left: 0px;
-
-
 }
 
 .sub {
@@ -758,7 +749,6 @@ color: #000000;
   align-items: center;
   width: 30vw;
   transition: all 0.3s;
-
 }
 
 .sub-heading {
@@ -822,13 +812,10 @@ p {
 
 .left .icon:hover {
   /* transform: scale(1.2); */
-  
+
   transform: translateY(-3px);
   transition: 0.2s;
- 
 }
-
-
 
 #inst {
   padding: 6px;
@@ -848,7 +835,7 @@ p {
   justify-content: flex-end;
   cursor: pointer;
 }
-#form:hover{
+#form:hover {
   transform: scale(1.2);
 }
 
@@ -875,6 +862,8 @@ p {
 .mains.show .contact {
   transform: translateY(-260px);
   z-index: 2;
+  pointer-events: auto;
+  cursor: pointer;
   /* margin-bottom: 30%; */
 }
 
@@ -997,7 +986,6 @@ h1 {
   /* font-family: 'Times New Roman', Times, serif; */
 }
 
-
 /********************************************************************************Faculty page*****************************************/
 .container-faculty {
   width: 90%;
@@ -1023,7 +1011,7 @@ h1 {
 }
 
 .text-fac {
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   margin: 0;
@@ -1085,15 +1073,47 @@ h1 {
   /* min-height: 482px; */
 }
 
-
-
 .font {
   position: absolute;
   top: 800px;
   color: #1f1209;
 }
 
+.fac-about1{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: left;
+  
+}
 
+.fac-about2{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: right;
+  
+}
+
+.fac-about3{
+  position: absolute;
+  font-size: larger;
+  color: #304875;
+  font-weight: bold;
+  display: flex;
+  left: 500px;
+  max-width: 300px;
+  text-align: left;
+  
+}
 
 
 /* SFST */
@@ -1250,7 +1270,6 @@ h1 {
 
   .sfstImg {
     height: 150px;
-
   }
 
   .icn1 {
@@ -1277,7 +1296,6 @@ h1 {
   .sfstCss2 {
     margin-top: 50px !important;
   }
-
 }
 
 @media only screen and (min-width: 576px) and (max-width: 960px) {
@@ -1326,5 +1344,4 @@ h1 {
   .sfstimg {
     padding-bottom: 20px;
   }
-
 }

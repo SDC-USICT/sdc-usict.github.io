@@ -12,11 +12,11 @@ const form = document.querySelector("#form");
 
 const mains = document.querySelector(".mains");
 
-const close = document.querySelector(".end");
+const close1 = document.querySelector(".end");
 
 form.addEventListener("click", function () {
   mains.classList.add("show");
 });
-close.addEventListener("click", function () {
+close1.addEventListener("click", function () {
   mains.classList.remove("show");
 });
