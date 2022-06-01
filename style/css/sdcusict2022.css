@@ -844,6 +844,8 @@ p {
 .mains.show .contact {
   transform: translateY(-260px);
   z-index: 2;
+  pointer-events: auto;
+  cursor: pointer;
   /* margin-bottom: 30%; */
 }
 
