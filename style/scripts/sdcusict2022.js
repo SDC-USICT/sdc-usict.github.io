@@ -8,13 +8,17 @@ carouselSecondItems.forEach((item) => {
 
 // carousel -- 2 end
 /*contact us */
-const form = document.querySelector("#form");
+const form = document.querySelector(".form");
+const form1 = document.querySelector(".form1");
 
 const mains = document.querySelector(".mains");
 
 const close1 = document.querySelector(".end");
 
 form.addEventListener("click", function () {
+  mains.classList.add("show");
+});
+form1.addEventListener("click", function () {
   mains.classList.add("show");
 });
 close1.addEventListener("click", function () {
