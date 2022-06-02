@@ -816,7 +816,8 @@ p {
   /* transform: scale(1.2); */
 
   transform: translateY(-3px);
-  transition: 0.2s;
+  transition: all 0.2s;
+ 
 }
 
 #inst {
@@ -836,13 +837,25 @@ p {
   align-items: flex-end;
   justify-content: flex-end;
   cursor: pointer;
+  
 }
 #form:hover {
   transform: scale(1.2);
 }
-
+.form-image{
+  width: 224px;
+  
+}
 /*contact form */
 
+.form-adjustment{
+display: flex;
+
+}
+.form-right{
+  display: flex;
+  flex-direction: column;
+}
 .mains {
   display: flex;
   align-items: center;
@@ -866,6 +879,7 @@ p {
   z-index: 2;
   pointer-events: auto;
   cursor: pointer;
+  
   /* margin-bottom: 30%; */
 }
 
@@ -873,9 +887,10 @@ p {
   width: 35px;
 }
 
-h1 {
+.heading {
   padding: 40px 0px;
   font-size: 2rem;
+  color: rgb(4, 29, 83);
 }
 
 /* .icon:hover{
@@ -903,10 +918,10 @@ h1 {
 
 .end {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 5px;
+  right: 8px;
   background: transparent;
-  color: white;
+  color:rgb(4, 29, 83);
   border: none;
   font-size: 30px;
 }
@@ -916,10 +931,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgb(4, 29, 83);
-  color: whitesmoke;
-  width: 70vw;
-  height: 420px;
+  background: white;
+  color: rgb(4, 29, 83);
+  width: 75vw;
+  height: 560px;
   border-radius: 19px;
   padding: 10px 10px;
   position: relative;
@@ -931,12 +946,13 @@ h1 {
 .field {
   margin: 5px;
   padding: 10px;
-  width: 45vw;
+  width: 40vw;
   font-size: 15px;
-  text-align: center;
+  
   background-color: rgb(226, 246, 254);
-  color: black;
-  border-radius: 9px;
+  color: rgb(4, 29, 83);
+  border: none;
+  border-bottom: 2px solid rgb(4, 29, 83);
 }
 
 .btn {
