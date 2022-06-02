@@ -316,14 +316,14 @@
   }
 }
 
-@media screen and (max-width: 1283px) {
+@media screen and (max-width: 1770px) {
   #op {
-    top: 991px;
+    top: 602px;
     left: 0px;
   }
 
   #slllide {
-    top: 1042px;
+    top: 708px;
   }
 }
 
