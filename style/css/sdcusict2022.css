@@ -308,22 +308,23 @@
   font-size: 38px;
 }
 
-@media screen and (max-width: 1283px) {
+/* @media screen and (max-width: 1283px) {
   .a {
     /* height: 500px; */
-    /* width: fit-content; */
+    /* width: fit-content; /
     font-size: 1.9em;
   }
 }
 
+@media screen and (max-width: 1770px) {
 @media screen and (max-width: 1288px) {
   #op {
-    top: 991px;
+    top: 602px;
     left: 0px;
   }
 
   #slllide {
-    top: 1042px;
+    top: 708px;
   }
 }
 @media screen and (max-width: 2244px) {
@@ -343,7 +344,7 @@
   #slllide {
     top: 1174px;
   }
-}
+} */
 
 /* .caption {
   position: absolute;
@@ -426,7 +427,7 @@ color: #000000;
 
 .top {
   position: absolute;
-  top: 40%;
+  top: 43%;
   left: 0;
   right: 0;
   font-weight: bolder;
@@ -438,7 +439,7 @@ color: #000000;
 }
 
 .top .typ {
-  font-size: 3rem !important;
+  font-size: 2.4rem !important;
   color: black;
 }
 
@@ -632,7 +633,8 @@ color: #000000;
 
 .our-team .social li a:hover .img-c {
   display: inline;
-  background-color: #ffcb04;
+  background-color: #b5e7fb;
+  color: white;
   top: -5px;
   border-radius: 100%;
 }
@@ -819,7 +821,8 @@ p {
   /* transform: scale(1.2); */
 
   transform: translateY(-3px);
-  transition: 0.2s;
+  transition: all 0.2s;
+ 
 }
 
 #inst {
@@ -839,13 +842,25 @@ p {
   align-items: flex-end;
   justify-content: flex-end;
   cursor: pointer;
+  
 }
 #form:hover {
   transform: scale(1.2);
 }
-
+.form-image{
+  width: 224px;
+  
+}
 /*contact form */
 
+.form-adjustment{
+display: flex;
+
+}
+.form-right{
+  display: flex;
+  flex-direction: column;
+}
 .mains {
   display: flex;
   align-items: center;
@@ -869,6 +884,7 @@ p {
   z-index: 2;
   pointer-events: auto;
   cursor: pointer;
+  
   /* margin-bottom: 30%; */
 }
 
@@ -876,9 +892,10 @@ p {
   width: 35px;
 }
 
-h1 {
+.heading {
   padding: 40px 0px;
   font-size: 2rem;
+  color: rgb(4, 29, 83);
 }
 
 /* .icon:hover{
@@ -906,10 +923,10 @@ h1 {
 
 .end {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 5px;
+  right: 8px;
   background: transparent;
-  color: white;
+  color:rgb(4, 29, 83);
   border: none;
   font-size: 30px;
 }
@@ -919,10 +936,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgb(4, 29, 83);
-  color: whitesmoke;
-  width: 70vw;
-  height: 420px;
+  background: white;
+  color: rgb(4, 29, 83);
+  width: 75vw;
+  height: 560px;
   border-radius: 19px;
   padding: 10px 10px;
   position: relative;
@@ -934,12 +951,13 @@ h1 {
 .field {
   margin: 5px;
   padding: 10px;
-  width: 45vw;
+  width: 40vw;
   font-size: 15px;
-  text-align: center;
+  
   background-color: rgb(226, 246, 254);
-  color: black;
-  border-radius: 9px;
+  color: rgb(4, 29, 83);
+  border: none;
+  border-bottom: 2px solid rgb(4, 29, 83);
 }
 
 .btn {
