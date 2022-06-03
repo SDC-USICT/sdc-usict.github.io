@@ -44,7 +44,7 @@
       <h1>FACULTY</h1>
 
     </div> -->
-    <?php include 'sdcusict2022carousal.php' ?>
+<?php include 'sdcusict2022carousal.php' ?>
 <div id="a" class="a">
   <p class="caption101">Faculty Members</p>
 </div>
@@ -72,7 +72,9 @@
       <div class="con-fac-inner">
         <img src="pic1.png" class="pic1" id="fac">
         <p class="text-fac">prof. pravin Chandra</p>
-        <p class="fac-about1" id="fac1">
+      </div>
+      <div class="fac-about1 fac-about">
+        <p id="fac1">
           Professor and Dean of USICT, GGSIPU, Dwarka. M.Sc. in Physics from DU. M.Tech. (Computer Applications) from The Indian School of Mines, Dhanbad.
         </p>
       </div>
@@ -82,7 +84,9 @@
       <div class="con-fac-inner">
         <img src="pic2.png" class="pic2" id="fac">
         <p class="text-fac">Dr. Rahul Johari</p>
-        <p class="fac-about2" id="fac2">Teaching at USIC&T, GGSIPU, Dwarka.
+      </div>
+      <div class="fac-about2 fac-about">
+        <p id="fac2">Teaching at USIC&T, GGSIPU, Dwarka.
           Head of the SDC-USICT.
           Founder of SWINGER Lab.
           Founder of ACM@USICT Chapter.</p>
@@ -93,7 +97,9 @@
       <div class="con-fac-inner">
         <img src="pic3.png" class="pic3" id="fac">
         <p class="text-fac">Dr.Priyanka bhutani</p>
-        <p class="fac-about3" id="fac3">Asst.Professor at USIC&T, GGSIPU. Worked with Sapient Co.,USA at Gurgaon based setup. M.Tech in IT from GGSIPU with Honours.</p>
+      </div>
+      <div class="fac-about3 fac-about">
+        <p id="fac3">Asst.Professor at USIC&T, GGSIPU. Worked with Sapient Co.,USA at Gurgaon based setup. M.Tech in IT from GGSIPU with Honours.</p>
       </div>
     </div>
   </div>

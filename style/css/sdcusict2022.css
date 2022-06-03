@@ -1031,8 +1031,9 @@ display: flex;
 
 /********************************************************************************Faculty page*****************************************/
 .container-faculty {
-  width: 90%;
-  margin: 0 auto;
+  width: 85%;
+  box-sizing: border-box;
+  margin: 7em auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1067,18 +1068,19 @@ display: flex;
 .con-fac2,
 .con-fac3 {
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  gap: 5vw;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
 }
 
-.con-fac2 {
+/* .con-fac2 {
   align-items: flex-end;
-}
+} */
 
 .con-fac1 {
   padding: 7% 0 5% 0;
   position: relative;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   width: 100%;
   /* min-height: 400px; */
   background-image: url("../../rec1.png");
@@ -1090,26 +1092,14 @@ display: flex;
 .con-fac2 {
   padding: 5% 0 6% 0;
   position: relative;
+  flex-direction: row-reverse;
   background-image: url("../../rec2.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* min-height: 482px; */
 }
-
-.con-fac1 .con-fac-inner {
-  padding: 0 0 7% 3%;
-}
-
-.con-fac2 .con-fac-inner {
-  padding: 3% 5% 6% 0;
-}
-
-.con-fac3 .con-fac-inner {
-  padding: 3% 0 6% 4%;
-}
-
 .con-fac3 {
-  padding: 4% 0 5% 0;
+  padding: 6% 0 4% 0;
   position: relative;
   background-image: url("../../rec3.png");
   background-size: contain;
@@ -1117,55 +1107,41 @@ display: flex;
   /* min-height: 482px; */
 }
 
+
+.con-fac1 .con-fac-inner {
+  padding: 0 0 10% 5%;
+}
+
+.con-fac2 .con-fac-inner {
+  padding: 3% 5% 6% 0;
+}
+
+.con-fac3 .con-fac-inner {
+  padding: 0 0 6% 4%;
+}
+
+
+
 .font {
   position: absolute;
   top: 800px;
   color: #1f1209;
 }
-
-.fac-about1{
-  position: absolute;
-  font-size: larger;
+.fac-about{
+  width: 35%;
+  max-width: 350px;
+  display: flex;
+}
+.fac-about2,.fac-about3{
+  align-items: center;
+}
+.fac-about p{
+  margin: 0;
   color: #304875;
   font-weight: bold;
-  display: flex;
-  left: 500px;
-  max-width: 300px;
-  text-align: left;
-  
+  font-size: 1.75vw;
 }
 
-.fac-about2{
-  position: absolute;
-  font-size: larger;
-  color: #304875;
-  font-weight: bold;
-  display: flex;
-  left: 500px;
-  max-width: 300px;
-  text-align: right;
-  
-}
-
-.fac-about3{
-  position: absolute;
-  font-size: larger;
-  color: #304875;
-  font-weight: bold;
-  display: flex;
-  left: 500px;
-  max-width: 300px;
-  text-align: left;
-  
-}
-
-@media (max-width: 320px){
-  #fac1{
-    display: block;
-    font-size: medium;
-    
-  }
-}
 
 
 /* SFST */
