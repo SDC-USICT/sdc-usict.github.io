@@ -73,7 +73,7 @@
         <img src="pic1.png" class="pic1" id="fac">
         <p class="text-fac">prof. pravin Chandra</p>
         <p class="fac-about1" id="fac1">
-          Professor and Dean of USIC&T, GGSIPU, Dwarka. M.Sc. in Physics from DU. M.Tech. (Computer Applications) from The Indian School of Mines, Dhanbad.
+          Professor and Dean of USICT, GGSIPU, Dwarka. M.Sc. in Physics from DU. M.Tech. (Computer Applications) from The Indian School of Mines, Dhanbad.
         </p>
       </div>
     </div>

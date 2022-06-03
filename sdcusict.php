@@ -22,6 +22,21 @@
     <div class="carousel-inner --carousel-inner---mid-carousel">
       <div class="circle"></div>
 
+      <div class="carousel-item my-crousel--slide">
+        <div class="container container--for-mid-carousel d-flex flex-column align-items-center carousel--2">
+          <img src="ic2.png" alt="something" class="imgg" />
+          <p class="my-crousel--heading">Web Development Team</p>
+          <p class="my-crousel--content">
+            Web Development Team works on the
+            official websites under the Software
+            Development Cell, University School Of
+            Information, Communication And Technology.
+
+          </p>
+          <br>
+          <br>
+        </div>
+      </div>
 
       <div class="carousel-item active my-crousel--slide">
         <div class="container container--for-mid-carousel d-flex flex-column align-items-center carousel--2">
@@ -38,19 +53,6 @@
         </div>
       </div>
 
-      <div class="carousel-item my-crousel--slide">
-        <div class="container container--for-mid-carousel d-flex flex-column align-items-center carousel--2">
-          <img src="ic2.png" alt="something" class="imgg" />
-          <p class="my-crousel--heading">Web Development Team</p>
-          <p class="my-crousel--content">
-            Web Development Team works on the
-            official websites under the Software
-            Development Cell, University School Of
-            Information, Communication And Technology.
-
-          </p>
-        </div>
-      </div>
 
       <!-- <div class="carousel-item my-crousel--slide">
         <div class="container container--for-mid-carousel d-flex flex-column align-items-center carousel--2">
@@ -116,26 +118,26 @@
             </ul>
           </div>
         </div>
-        <!-- <div class="col-md-4 col-sm-6" style="margin: auto">
+        <div class="col-md-4 col-sm-6" style="margin: auto">
           <div class="our-team">
             <div class="pic">
-              <img src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg" />
+              <img src="deanSir.jpeg" />
             </div>
-            <h3 class="title">Dr. Rahul Johari</h3>
-            <span class="post">Faculty Advisor, SDC USICT</span>
+            <h3 class="title">Dr. Praveen Chandra</h3>
+            <span class="post">Dean(USICT), GGSIPU</span>
             <ul class="social">
-              <li>
+              <!-- <li>
                 <a href="https://twitter.com/rahuljohaari" target="_blank">
                   <img class="img-c" src="twitter-circle.png">
                 </a>
-              </li>
-              <li>
+              </li> -->
+              <!-- <li>
                 <a href="mailto:rahul@ipu.ac.in" target="_blank">
                   <img class="img-c" src="mail-circle.png">
                 </a>
-              </li>
+              </li> -->
               <li>
-                <a href="https://linkedin.com/in/rahuljohari7" target="_blank">
+                <a href="https://www.linkedin.com/in/pravin-chandra-753878b4/" target="_blank">
                   <img class="img-c" src="linkedin-circle.png">
                 </a>
               </li>
@@ -145,12 +147,12 @@
         <div class="col-md-4 col-sm-6" style="margin: auto">
           <div class="our-team">
             <div class="pic">
-              <img src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg" />
+              <img src="priyanka.jpg" />
             </div>
-            <h3 class="title">Dr. Rahul Johari</h3>
+            <h3 class="title">Dr. Priyanka Bhutani</h3>
             <span class="post">Faculty Advisor, SDC USICT</span>
             <ul class="social">
-              <li>
+              <!-- <li>
                 <a href="https://twitter.com/rahuljohaari" target="_blank">
                   <img class="img-c" src="twitter-circle.png">
                 </a>
@@ -159,15 +161,15 @@
                 <a href="mailto:rahul@ipu.ac.in" target="_blank">
                   <img class="img-c" src="mail-circle.png">
                 </a>
-              </li>
+              </li> -->
               <li>
-                <a href="https://linkedin.com/in/rahuljohari7" target="_blank">
+                <a href="https://www.linkedin.com/in/priyanka-bhutani-0a335564/" target="_blank">
                   <img class="img-c" src="linkedin-circle.png">
                 </a>
               </li>
             </ul>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
     <hr class="divider">

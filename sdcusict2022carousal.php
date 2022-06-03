@@ -7,11 +7,11 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active imggge" data-bs-interval="10000">
-        <img src="developer.jpg" class="d-block w-100 pic img-fluid" alt="...">
+        <img src="a1.JPG" class="d-block w-100 pic img-fluid" alt="...">
 
       </div>
       <div class="carousel-item imggge" data-bs-interval="2000">
-        <img src="ipu1.jpg" class="d-block w-100 pic img-fluid" alt=".....">
+        <img src="a2.JPG" class="d-block w-100 pic img-fluid" alt=".....">
 
       </div>
       <div class="carousel-item imggge">
