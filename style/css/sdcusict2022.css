@@ -458,7 +458,12 @@ color: #000000;
 }
 
 /* Ending responsive of carousel */
-
+#fac{
+  border-radius: 6% 24% 7% 45%;
+}
+#mag{
+  top: 1px;
+}
 /*card section*/
 .divider {
   border: none;
