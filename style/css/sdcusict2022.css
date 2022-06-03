@@ -1138,6 +1138,14 @@ display: flex;
   
 }
 
+@media (max-width: 320px){
+  #fac1{
+    display: block;
+    font-size: medium;
+    
+  }
+}
+
 
 /* SFST */
 .icn1 {
