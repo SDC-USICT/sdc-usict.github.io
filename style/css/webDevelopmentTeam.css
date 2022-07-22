@@ -122,3 +122,127 @@ p {
   align-items: flex-end;
   justify-content: flex-end;
 }
+
+.teamheading{
+  padding: 30px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.trapezium {
+  margin: 2px auto;
+  border-top: 50px solid rgb(4, 29, 84);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 0px solid transparent;
+  width: 300px;
+  margin-bottom: 36px;
+  filter: drop-shadow(0 0 2px #222);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.trapezium p {
+  margin-top: -40px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+
+
+
+.our-team {
+  padding: 20px 15px 30px;
+  background: #b9eafc69;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 5px gray;
+}
+
+.our-team .pic {
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  background: transparent;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.our-team .title {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2e282a;
+  text-transform: uppercase;
+  margin: 0 0 7px 0;
+}
+
+.our-team .post {
+  display: block;
+  font-size: 15px;
+  color: rgb(4, 29, 84);
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.our-team .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.our-team .social li img {
+  position: relative;
+}
+
+.img-c {
+  position: relative;
+  width: 40px;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.our-team .social li a:hover .img-c {
+  display: inline;
+  background-color: #ffcb04;
+  top: -5px;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .our-team .social {
+    display: contents;
+  }
+}
+
+
+.cards .link{
+  padding: 0px;
+}
