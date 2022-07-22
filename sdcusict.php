@@ -3,12 +3,11 @@
   <?php include 'sdcusict2022carousal.php' ?>
 
   <div class="container-fluid a" id="op">
-    <div class="row">
-      <div class="coloumb">
+  <div >
         <p class="caption101"> Official projects </p>
-      </div>
-    </div>
   </div>
+  </div>
+ 
 
   <!-- As a link -->
 

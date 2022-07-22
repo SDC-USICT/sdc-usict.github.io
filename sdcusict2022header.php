@@ -15,7 +15,7 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="
         background-color: rgb(4, 29, 83);
-        border-radius: 0 0 60% 60%/0 0 50% 50%;
+        border-radius: 100% 0% 40% 40%/0 0 30% 40%;
         height: 100px;
       ">
     <a class="navbar-brand mb-4" style="margin-left: 5rem" href="#"><img class="pt-2 px-1" width="80px" height="50px"
