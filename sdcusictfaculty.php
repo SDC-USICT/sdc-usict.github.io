@@ -68,7 +68,7 @@
 <section>
   <div class="container-faculty">
     <div class="con-fac1">
-      <!-- <img src="rec1.png" class="back1" > -->
+      
       <div class="con-fac-inner">
         <img src="pic1.png" class="pic1" id="fac">
         <p class="text-fac">prof. pravin Chandra</p>
@@ -80,7 +80,7 @@
       </div>
     </div>
     <div class="con-fac2">
-      <!-- <img src="rec2.png" class="back2"> -->
+      
       <div class="con-fac-inner">
         <img src="pic2.png" class="pic2" id="fac">
         <p class="text-fac">Dr. Rahul Johari</p>
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="con-fac3">
-      <!-- <img src="rec3.png" class="back3"> -->
+      
       <div class="con-fac-inner">
         <img src="pic3.png" class="pic3" id="fac">
         <p class="text-fac">Dr.Priyanka bhutani</p>
