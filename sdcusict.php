@@ -3,9 +3,9 @@
   <?php include 'sdcusict2022carousal.php' ?>
 
   <div class="container-fluid a" id="op">
-  <div >
+    <div >
         <p class="caption101"> Official projects </p>
-  </div>
+    </div>
   </div>
  
 
