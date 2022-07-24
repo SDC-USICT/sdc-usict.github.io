@@ -49,7 +49,7 @@
   <p class="caption101">Faculty Members</p>
 </div>
 <div class="top line anim-typewriter">
-  <p class="fs-1 typ">Our Faculty</p>
+<p id="mainH">Our Faculty</p>
   <!-- <p class="fs-1 typ"> Cell USIC&T</p> -->
 </div>
 

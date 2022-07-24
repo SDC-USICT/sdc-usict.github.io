@@ -420,7 +420,12 @@ color: #000000;
   right: 0;
   }
 } */
-
+#mainH{
+  color: #62d0ff;
+  font-size: xxx-large;
+  font-weight: bolder;
+  text-shadow: 3px 3px black;
+}
 .line {
   position: relative;
   top: 1%;
@@ -437,7 +442,7 @@ color: #000000;
 /*Animation*/
 
 .anim-typewriter {
-  animation: typewriter 4s steps(40) 1s 1 normal both,
+  animation: typewriter 7s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) 1 normal;
 }
 
@@ -808,32 +813,31 @@ color: #000000;
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
+  justify-content:space-around;
+  padding-bottom: 100px;
   padding-top: 30px;
-  border-radius: 10% 10% 0px 0px;
+  border-radius: 20% 20% 0 0;
   background: rgb(4, 29, 83);
   border-bottom: 1px solid white;
 }
 
 p {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
   filter: invert(1);
   background: transparent;
   padding: 5px;
   margin: 5px;
-  cursor: pointer;
 }
 
 .sub .img:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .foot {
@@ -860,9 +864,7 @@ p {
 }
 
 .left .icon:hover {
-  /* transform: scale(1.2); */
-
-  transform: translateY(-3px);
+  transform: scale(1.5);
   transition: all 0.2s;
 
 }
@@ -1040,14 +1042,14 @@ p {
 }
 
 .projectTxt {
-  color: rgb(51, 61, 201);
+  color: #62d0ff;
+  font-weight: bolder;
+  text-shadow: 3px 3px black;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-size: 60px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  top: 150px;
+  font-size: 70px;
+  /* position: relative;
+  top: 150px; */
+  top: 325px;
 }
 
 .projectTxt2 {
@@ -1055,7 +1057,21 @@ p {
   transform: rotateX(180deg);
   /* font-family: 'Times New Roman', Times, serif; */
 }
-
+@media screen and (max-width: 871px) and (min-width:596px) {
+  .projectTxt,#mainH{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .projectTxt,#mainH{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 390px){
+  .projectTxt,#mainH{
+    font-size: 27px;
+  }
+}
 /********************************************************************************Faculty page*****************************************/
 .container-faculty {
   width: 85%;

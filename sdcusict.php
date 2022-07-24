@@ -13,8 +13,8 @@
 
 
   <div class="top line anim-typewriter">
-    <p class="fs-1 typ">Software Development</p>
-    <p class="fs-1 typ"> Cell USIC&T</p>
+    <p id="mainH">Software Development Cell</p>
+    <p id="mainH">USICT</p>
   </div>
   <!-- Carousal-2 -->
   <div id="carousel--2" class="carousel slide my-crousel" data-bs-ride="carousel">

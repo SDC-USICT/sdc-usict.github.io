@@ -4,7 +4,7 @@
 <?php include 'sdcusict2022carousal.php' ?>
 <!-- As a link -->
 <div class="top line anim-typewriter">
-    <p class="fs-1 typ d-flex justify-content-center">Our Upcoming Projects</p>
+    <p id="mainH">Our Upcoming Projects</p>
 </div>
 
 <!-- As a link -->
