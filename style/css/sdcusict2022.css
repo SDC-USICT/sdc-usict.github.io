@@ -995,6 +995,7 @@ p {
   transform: translateY(-100%);
   transition: all 0.3s;
   pointer-events: none;
+  outline: 7.5px solid rgb(77, 200, 249);
 }
 
 .field {
