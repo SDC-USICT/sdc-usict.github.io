@@ -200,11 +200,12 @@
                   <img src="mail-circle.png" class="img-c">
                 </a>
               </li>
-              <li>
+              <!-- twitter button is disturbing the responsiveness of the card -->
+              <!-- <li>
                 <a href="https://twitter.com/Himesh_nayak" target="blank">
                   <img src="twitter-circle.png" class="img-c">
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
