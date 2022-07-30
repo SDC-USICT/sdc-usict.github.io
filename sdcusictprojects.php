@@ -33,10 +33,11 @@
             </pre>
             </b>
         </div>
-        <div class="col-lg-6 sfstimg">
+        <div class="col-lg-6 pt-5">
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
             <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="shubham.jpg" alt="" class="sfstImg img-fluid" id='fac'>
-
+            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
         </div>
     </div>
 </div>
@@ -45,12 +46,13 @@
 <!-- SFS TEAM -->
 <div class="container-fluid mt-4">
     <div class="row">
-        <div class="col-lg-6 sfstimg order-2 order-sm-1">
-            <img src="./man.png" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="./man.png" alt="" class="sfstImg img-fluid" id='fac'>
-
+        <div class="col-lg-6 order-1 order-md-2">
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
+            <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
+            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
         </div>
-        <div class="col-lg-6 sfstCss2 order-1  order-sm-2">
+        <div class="col-lg-6 sfstCss2 order-2 order-md-1">
             <img src="ic1.png" alt="ic1" class="icn1 img-fluid"><br><br>
             <h2 class="ps-sm-5  projectTxt3">STUDENT FEEDBACK SYSTEM TEAM</h2><br>
             <b>
@@ -84,10 +86,11 @@
             </pre>
             </b>
         </div>
-        <div class="col-lg-6 sfstimg">
-            <img src="./man.png" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="./man.png" alt="" class="sfstImg img-fluid" id='fac'>
-
+        <div class="col-lg-6">
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
+            <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
+            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
         </div>
     </div>
 </div>
