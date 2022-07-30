@@ -281,7 +281,7 @@
 }
 
 #op {
-  position:relative;
+  position: relative;
   width: 100%;
   height: 120px;
   margin-top: -4.8%;
@@ -312,13 +312,12 @@
 .caption101 {
   transform: rotateX(180deg);
   font-size: 38px;
-  position: absolute;
-  padding-left: 40%;
   padding-top: 50%;
   z-index: 500;
   height: fit-content;
   text-align: center;
 }
+
 @media screen and (max-width:600px) {
   .caption101 {
     font-size: 29px;
@@ -420,12 +419,13 @@ color: #000000;
   right: 0;
   }
 } */
-#mainH{
+#mainH {
   color: #62d0ff;
   font-size: xxx-large;
   font-weight: bolder;
   text-shadow: 3px 3px black;
 }
+
 .line {
   position: relative;
   top: 1%;
@@ -483,11 +483,13 @@ color: #000000;
   font-size: 3.5vw !important;
   color: black;
 }
-@media screen and (min-width:600px) and (max-width:900px){
-  .top{
+
+@media screen and (min-width:600px) and (max-width:900px) {
+  .top {
     top: 42%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .top .typ {
     font-size: 2.5rem;
@@ -813,7 +815,7 @@ color: #000000;
 .main {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   padding-bottom: 100px;
   padding-top: 30px;
   border-radius: 20% 20% 0 0;
@@ -1058,21 +1060,31 @@ p {
   transform: rotateX(180deg);
   /* font-family: 'Times New Roman', Times, serif; */
 }
+
 @media screen and (max-width: 871px) and (min-width:596px) {
-  .projectTxt,#mainH{
+
+  .projectTxt,
+  #mainH {
     font-size: 50px;
   }
 }
+
 @media screen and (max-width: 596px) {
-  .projectTxt,#mainH{
+
+  .projectTxt,
+  #mainH {
     font-size: 40px;
   }
 }
-@media screen and (max-width: 390px){
-  .projectTxt,#mainH{
+
+@media screen and (max-width: 390px) {
+
+  .projectTxt,
+  #mainH {
     font-size: 27px;
   }
 }
+
 /********************************************************************************Faculty page*****************************************/
 .container-faculty {
   width: 85%;
@@ -1225,11 +1237,25 @@ p {
   margin-right: 50px;
 }
 
-.sfstimg {
+.sfstImg {
+  display: flex;
+  align-items: flex-end;
+  display: inline !important;
+}
+
+.sfsImg {
+  display: flex !important;
+  align-items: flex-start !important;
+  display: inline !important;
+  width: 35%;
+  height: 170px;
+}
+
+/* .sfstimg {
   display: flex;
   align-items: flex-end;
   height: 530px;
-}
+} */
 
 .sfstCss {
   padding-top: 50px;
@@ -1309,9 +1335,19 @@ p {
   padding-left: 0px;
 } */
 
+@media only screen and (max-width: 344px) {
+  #mainH {
+    font-size: 18px !important;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .projectTxt {
     font-size: 25px;
+  }
+
+  .imgPad {
+    float: right;
   }
 
   .projectTxt2 {
@@ -1348,6 +1384,7 @@ p {
 
   .sfstImg {
     height: 150px;
+    margin-right: 0 !important;
   }
 
   .icn1 {
@@ -1400,6 +1437,10 @@ p {
 
   .projectTxt2 {
     font-size: 30px;
+  }
+
+  .imgPad {
+    float: right !important;
   }
 
   .sfstimg {
