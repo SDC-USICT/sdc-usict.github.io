@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style/css/webDevelopmentTeam.css" />
-  <title>Web Development Team</title>
-  <link rel="stylesheet" href="style/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="style/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="style/css/sdcusict2022.css" />
-</head>
+<?php include 'sdcusict2022header.php' ?>
 
 <body>
   <div class="ellipse">
@@ -398,43 +387,5 @@
     </div>
   </div>
 
-  <!--------------------- Footer ---------------------->
-  <div class="parent">
-    <div class="main">
-      <div class="sub">
-        <img class="img" src="location.png" />
-        <p>LOCATION</p>
-        <p class="sub-heading">GGSIPU Dwarka Sector 16-C New Delhi-110077</p>
-      </div>
-      <div class="sub">
-        <img class="img" src="mail.png" />
-        <p>MAIL US</p>
-        <p class="sub-heading">sdc@gmail.com</p>
-      </div>
-      <div class="sub">
-        <img class="img" src="call.png" id="call" />
-        <p>CALL US</p>
-        <p class="sub-heading">+91 456 236 7890</p>
-      </div>
-    </div>
-
-    <div class="foot">
-      <div class="left">
-        <img id="inst" class="icon" src="inst.png" alt="" />
-        <img class="icon" src="fb.png" alt="" />
-        <img class="icon" src="twitter.png" alt="" />
-      </div>
-      <p id="statement">copyright © sdc-usict</p>
-      <img class="icon" id="form" src="contact.png" alt="" />
-    </div>
-  </div>
-
-  <script src="style/scripts/bootstrap.min.js"></script>
-  <script src="style/scripts/button.js"></script>
-  <script src="style/scripts/jquery.js"></script>
-  <script src="style/scripts/jquery.min(1).js"></script>
-  <script src="style/scripts/menuzord.js"></script>
-  <script src="style/scripts/sdcusict2022.js"></script>
+  <?php include 'sdcusict2022footer.php' ?>
 </body>
-
-</html>

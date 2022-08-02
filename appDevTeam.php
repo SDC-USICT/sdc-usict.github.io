@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Feedback System Team</title>
-    <link rel="stylesheet" href="style/css/team.css">
-    <link rel="stylesheet" href="style/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="style/css/sdcusict2022.css" />
-  </head>
+  <?php include 'sdcusict2022header.php' ?>
 
   <body>
     <div class="ellipse">
       <p class="teamheading" style="margin-top: 0">
-        Student Feedback System Team
+        App Development Team
       </p>
     </div>
 
@@ -59,7 +49,6 @@
               </ul>
             </div>
           </div>
-          </div>
         </div>
 
         <div class="trapezium f">
@@ -73,7 +62,7 @@
                   src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
                 />
               </div>
-              <h3 class="title">dhruv gupta</h3>
+              <h3 class="title">Kartik khatana</h3>
               <a href="" class="link">project link</a>
               <ul class="social">
                 <li>
@@ -105,7 +94,7 @@
                   src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
                 />
               </div>
-              <h3 class="title">ayush gupta</h3>
+              <h3 class="title">shaurabh dhingra</h3>
               <a href="" class="link">project link</a>
               <ul class="social">
                 <li>
@@ -139,7 +128,7 @@
                   src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
                 />
               </div>
-              <h3 class="title">ayush baliyan</h3>
+              <h3 class="title">vipul kumar</h3>
               <a href="" class="link">project link</a>
               <ul class="social">
                 <li>
@@ -162,78 +151,11 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team">
-              <div class="pic">
-                <img
-                  src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
-                />
-              </div>
-              <h3 class="title">divyansh</h3>
-              <a href="" class="link">project link</a>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/Harshitp7" target="_blank">
-                    <img src="github-circle.png" class="img-c" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/harshitpanwar7"
-                    target="_blank"
-                  >
-                    <img src="linkedin-circle.png" class="img-c" />
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:panwar.harshit0602@gmail.com" target="_blank">
-                    <img class="img-c" src="mail-circle.png" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          </div>
         </div>
       </div>
     </div>
 
-    <!--------------------- Footer ---------------------->
-    <div class="parent">
-      <div class="main">
-        <div class="sub">
-          <img class="img" src="location.png" />
-          <p>LOCATION</p>
-          <p class="sub-heading">GGSIPU Dwarka Sector 16-C New Delhi-110077</p>
-        </div>
-        <div class="sub">
-          <img class="img" src="mail.png" />
-          <p>MAIL US</p>
-          <p class="sub-heading">sdc@gmail.com</p>
-        </div>
-        <div class="sub">
-          <img class="img" src="call.png" id="call" />
-          <p>CALL US</p>
-          <p class="sub-heading">+91 456 236 7890</p>
-        </div>
-      </div>
+    <?php include 'sdcusict2022footer.php' ?>
 
-      <div class="foot">
-        <div class="left">
-          <img id="inst" class="icon" src="inst.png" alt="" />
-          <img class="icon" src="fb.png" alt="" />
-          <img class="icon" src="twitter.png" alt="" />
-        </div>
-        <p id="statement">copyright © sdc-usict</p>
-        <img class="icon" id="form" src="contact.png" alt="" />
-      </div>
-    </div>
-
-    <script src="style/scripts/bootstrap.min.js"></script>
-    <script src="style/scripts/button.js"></script>
-    <script src="style/scripts/jquery.js"></script>
-    <script src="style/scripts/jquery.min(1).js"></script>
-    <script src="style/scripts/menuzord.js"></script>
-    <script src="style/scripts/sdcusict2022.js"></script>
+  
   </body>
-</html>
