@@ -180,6 +180,12 @@
   /* top: 12px; */
 }
 
+@media screen and (max-width: 500px) {
+  .pic{
+    height: 50vh;
+  }
+}
+
 .slid {
   top: -30px;
   width: 100%;
