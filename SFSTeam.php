@@ -1,6 +1,7 @@
 <?php include 'sdcusict2022header.php' ?>
 
   <body>
+  <div style="margin-top: 120px">
     <div class="ellipse">
       <p class="teamheading" style="margin-top: 0">
         Student Feedback System Team
@@ -187,6 +188,7 @@
         </div>
       </div>
     </div>
+</div>
 
     <?php include 'sdcusict2022footer.php' ?>
   </body>
