@@ -1,6 +1,7 @@
   <?php include 'sdcusict2022header.php' ?>
 
   <body>
+    <div style="margin-top: 120px">
     <div class="ellipse">
       <p class="teamheading" style="margin-top: 0">
         App Development Team
@@ -63,7 +64,7 @@
                 />
               </div>
               <h3 class="title">Kartik khatana</h3>
-              <a href="" class="link">project link</a>
+              <a href="" class="link" id="project-link">project link</a>
               <ul class="social">
                 <li>
                   <a href="https://github.com/HimeshNayak" target="_blank">
@@ -153,6 +154,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <?php include 'sdcusict2022footer.php' ?>

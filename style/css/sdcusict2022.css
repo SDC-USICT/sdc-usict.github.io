@@ -1211,7 +1211,6 @@ p {
 }
 
 
-
 /* SFST */
 .icn1 {
   height: 100px;
@@ -1486,4 +1485,15 @@ p {
   .sfstimg {
     padding-bottom: 20px;
   }
+}
+
+.link{
+  font-size: 1.1rem;
+  color: #304875;
+  text-decoration: underline 0.15em #b5e7fb;
+  transition: text-decoration-color 300ms;
+}
+
+.link:hover{
+  text-decoration-color: #304875;
 }
