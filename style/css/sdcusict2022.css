@@ -10,7 +10,7 @@
 } */
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Times New Roman !important;
 }
 
 .navbar {
@@ -181,7 +181,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .pic{
+  .pic {
     height: 50vh;
   }
 }
@@ -692,6 +692,22 @@ color: #000000;
   color: white;
   top: -5px;
   border-radius: 100%;
+}
+
+.secLink {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.secLink:hover {
+  color: red;
+  transform: translate(1px, 2px);
+  -webkit-transform: translate(1px, 2px);
+  -moz-transform: translate(1px, 2px);
+  -ms-transform: translate(1px, 2px);
+  -o-transform: translate(1px, 2px);
 }
 
 @media only screen and (max-width: 990px) {
@@ -1341,6 +1357,7 @@ p {
   padding-left: 0px;
 } */
 
+
 @media only screen and (max-width: 344px) {
   #mainH {
     font-size: 18px !important;
@@ -1350,10 +1367,6 @@ p {
 @media only screen and (max-width: 576px) {
   .projectTxt {
     font-size: 25px;
-  }
-
-  .imgPad {
-    float: right;
   }
 
   .projectTxt2 {
@@ -1389,8 +1402,19 @@ p {
   }
 
   .sfstImg {
-    height: 150px;
+    padding-top: 30px !important;
     margin-right: 0 !important;
+    display: block !important;
+  }
+
+  .sfsImg {
+    display: block !important;
+    height: 145px !important;
+  }
+
+  .cont2 {
+    padding-left: 150px !important;
+    max-width: 100% !important;
   }
 
   .icn1 {
@@ -1487,13 +1511,13 @@ p {
   }
 }
 
-.link{
+.link {
   font-size: 1.1rem;
   color: #304875;
   text-decoration: underline 0.15em #b5e7fb;
   transition: text-decoration-color 300ms;
 }
 
-.link:hover{
+.link:hover {
   text-decoration-color: #304875;
 }

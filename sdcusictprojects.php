@@ -30,14 +30,17 @@
             official websites under the Software
             Development Cell, University School Of
             Information, Communication And Technology.
-            </pre>
+        </pre>
+                <a href="webDevTeam.php" class="secLink">LINK</a>
             </b>
         </div>
-        <div class="col-lg-6 pt-5">
+        <div class="col-lg-6 cont2 pt-5">
             <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
-            <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'>
+            <div class="pt-sm-5">
+                <img src="harshit.jpeg" alt="" class="sfstImg img-fluid up" id="fac">
+                <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            </div>
         </div>
     </div>
 </div>
@@ -46,11 +49,13 @@
 <!-- SFS TEAM -->
 <div class="container-fluid mt-4">
     <div class="row">
-        <div class="col-lg-6 order-1 order-md-2">
+        <div class="col-lg-6 cont2 pt-5">
             <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
-            <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'>
+            <div class="pt-sm-5">
+                <img src="harshit.jpeg" alt="" class="sfstImg img-fluid up" id="fac">
+                <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            </div>
         </div>
         <div class="col-lg-6 sfstCss2 order-2 order-md-1">
             <img src="ic1.png" alt="ic1" class="icn1 img-fluid"><br><br>
@@ -61,16 +66,17 @@
         solely for the purpose of receiving feedback
         from students of all programs for their respective
         faculties allotted during a particular semester.
-        This procedure takes place towards the end of each
-        semester in all USS's of GGSIPU.
+        This procedure takes place towards the end of 
+        each semester in all USS's of GGSIPU.
             </pre>
             </b>
+            <a href="SFSTeam.php" class="secLink">LINK</a>
         </div>
     </div>
 </div>
 <div class="box1"></div> <!-- Bottom curved line -->
 
-<!-- Web Team -->
+<!-- App Team -->
 
 <div class="container-fluid">
     <div class="row pt-5 pt">
@@ -85,12 +91,16 @@
             Information, Communication And Technology.
             </pre>
             </b>
+            <a href="appDevTeam.php" class="secLink">LINK</a>
+
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 cont2 pt-5">
             <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id="fac">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid imgPad" id='fac'><br><br><br><br>
-            <img src="harshit.jpeg" alt="" class="sfstImg img-fluid" id="fac">
-            <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            <img src="ipu.jpeg" alt="" class="sfsImg img-fluid" id='fac'>
+            <div class="pt-sm-5">
+                <img src="harshit.jpeg" alt="" class="sfstImg img-fluid up" id="fac">
+                <img src="shubham.jpg" alt="" class="sfstImg img-fluid imgPad" id='fac'>
+            </div>
         </div>
     </div>
 </div>
