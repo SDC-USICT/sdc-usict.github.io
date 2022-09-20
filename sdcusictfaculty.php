@@ -65,7 +65,7 @@
     </div> -->
 
 
-<section>
+<!-- <section>
   <div class="container-faculty">
     <div class="con-fac1">
       
@@ -105,7 +105,7 @@
   </div>
 
 
-</section>
+</section> -->
 
 
 <!-- <section>
@@ -135,5 +135,47 @@
     </div>
 
   </section> -->
+
+
+  <section>
+    <div class="fm-main-container">
+        <div class="fm-container row">
+          <div class="fm-details col-lg-4">
+              <div class="fm-outer-layer container">
+                  <div class="fm-inner-layer"><img src="rahulsir.jpg" class="fm-img" alt="rahulsir"></div>
+              </div>
+              <h4 class="my-3" style="color: #000; font-weight: bold;">Dr. Rahul Johari</h4>
+              <a class="fm-link" href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"><div class="fm-linkedin-icon"><img src="linkedin.png" class="fm-icon"></div></a>
+          </div>
+          <div class="fm-content col-lg-8">
+            <p class="m-5" style="color: #000; text-align: left;">Teaching at University School OfInformation and Communication Technology, Guru Gobind Singh Indraprastha University, Dwarka, Delhi, India. He is the Head of the Software Development Cell and Head and Founder of SWINGER [Security, Wireless, IoT Network Group of Engineering and Research] Lab and ACM@USICT Chapter.</p>
+          </div>
+        </div>
+        <div class="fm-container row">
+        <div class="fm-content fm-content-mid col-lg-8">
+            <p class="m-5" style="color: #000; text-align: left;">Teaching at University School OfInformation and Communication Technology, Guru Gobind Singh Indraprastha University, Dwarka, Delhi, India. He is the Head of the Software Development Cell and Head and Founder of SWINGER [Security, Wireless, IoT Network Group of Engineering and Research] Lab and ACM@USICT Chapter.</p>
+          </div>
+        <div class="fm-details fm-details-mid col-lg-4">
+              <div class="fm-outer-layer container">
+                  <div class="fm-inner-layer"><img src="rahulsir.jpg" class="fm-img" alt="rahulsir"></div>
+              </div>
+              <h4 class="my-3" style="color: #000; font-weight: bold;">Dr. Rahul Johari</h4>
+              <a class="fm-link fm-link-mid" href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"><div class="fm-linkedin-icon"><img src="linkedin.png" class="fm-icon"></div></a>
+          </div>
+        </div>
+        <div class="fm-container row">
+        <div class="fm-details col-lg-4">
+              <div class="fm-outer-layer container">
+                  <div class="fm-inner-layer"><img src="rahulsir.jpg" class="fm-img" alt="rahulsir"></div>
+              </div>
+              <h4 class="my-3" style="color: #000; font-weight: bold;">Dr. Rahul Johari</h4>
+              <a class="fm-link" href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"><div class="fm-linkedin-icon"><img src="linkedin.png" class="fm-icon"></div></a>
+          </div>
+          <div class="fm-content col-lg-8">
+            <p class="m-5" style="color: #000; text-align: left;">Teaching at University School OfInformation and Communication Technology, Guru Gobind Singh Indraprastha University, Dwarka, Delhi, India. He is the Head of the Software Development Cell and Head and Founder of SWINGER [Security, Wireless, IoT Network Group of Engineering and Research] Lab and ACM@USICT Chapter.</p>
+          </div>
+        </div>
+    </div>
+  </section>
 
 <?php include 'sdcusict2022footer.php' ?>

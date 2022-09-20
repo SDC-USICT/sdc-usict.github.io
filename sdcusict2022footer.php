@@ -23,7 +23,7 @@
   </form>
   <div class="parent">
 
-    <div class="main">
+    <!-- <div class="main">
       <div class="sub">
         <img class="img" src="location.png">
         <p>LOCATION</p>
@@ -39,7 +39,7 @@
         <p>CALL US</p>
         <p class="sub-heading">+91 456 236 7890</p>
       </div>
-    </div>
+    </div> -->
 
 
     <div class="foot">
@@ -48,6 +48,7 @@
         <a href="#"> <img id="inst" class="icon" src="inst.png" alt=""></a>
         <a href="#"><img class="icon" src="fb.png" alt=""></a>
         <a href="#"><img class="icon" src="twitter.png" alt=""></a>
+        <a href="#"><img class="icon" src="mail.png" alt=""></a>
       </div>
       <p id="statement">Copyright © SDC-USICT </p>
       <img class="icon form form1" id="form" src="contact.png" alt="">
