@@ -1538,3 +1538,234 @@ p {
   align-items: center;
   color: #ffffff;
 }
+/* ///////////////////////////////////////////////     FACULTY MEMBERS PAGE    ////////////////////////////////////////////////////// */
+
+.fm-main-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 220px;
+}
+
+.fm-container{
+  height: 270px;
+  width: 100%;
+  margin: 80px 0;
+  background-color: #e2f6fe;
+}
+
+.fm-details{
+  flex-direction: column;
+  bottom: 40%;
+}
+
+.fm-outer-layer{
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: #041d53;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.fm-inner-layer{
+  width: 250px;
+  height: 250px;
+  overflow: hidden; 
+}
+
+.fm-img{
+  width: 250px;
+  border-radius: 100%;
+}
+
+.fm-linkedin-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.fm-icon{
+  width: 35px;
+  height: 35px;
+}
+
+.fm-link{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.fm-link:hover{
+  filter: invert(26%) sepia(73%) saturate(2299%) hue-rotate(180deg) brightness(97%) contrast(101%);
+  transition: all 0.2s linear;
+  transform: translate(0, -10%);
+  border: 2px dashed;
+  position: relative;
+  bottom: 0.2%;
+  right: 0.2%;
+}
+
+.fm-link-mid:hover{
+  position: relative;
+  top: 0.1%;
+  right: 0.2%;
+}
+
+/* .fm-link:hover{
+  transition: all 0.2s linear;
+  transform: translate(0, -10%);
+  filter: invert(26%) sepia(73%) saturate(2299%) hue-rotate(180deg) brightness(97%) contrast(101%);
+} */
+
+/* .fm-link:hover{
+  transition: all 0.3s;
+  border: solid 2px #000;
+  filter: invert(26%) sepia(73%) saturate(2299%) hue-rotate(180deg) brightness(97%) contrast(101%);
+  transform: translate(0, -10%);
+} */
+
+
+
+.fm-inner-layer, .fm-linkedin-icon{
+  border-radius: 50%;
+}
+
+.fm-outer-layer, .fm-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+@media screen and (max-width: 370px) {
+  .fm-container{
+    height: 580px;
+  }
+  .fm-details{
+    bottom: 20%;
+  }
+  .fm-content{
+    position: relative;
+    bottom: 25%;
+  }
+  .fm-content p{
+    font-size: 16px;
+  }
+  .fm-content-mid{
+    position: relative;
+    top: 30%;
+  }
+  .fm-details-mid{
+    bottom: 75%;
+  }
+  .fm-outer-layer{
+    height: 180px;
+    width: 180px;
+  }
+  .fm-inner-layer, .fm-img{
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 486px) {
+  .fm-container{
+    height: 490px;
+  }
+  .fm-details{
+    bottom: 20%;
+  }
+  .fm-content{
+    position: relative;
+    bottom: 25%;
+  }
+  .fm-content p{
+    font-size: 16px;
+  }
+  .fm-content-mid{
+    position: relative;
+    top: 40%;
+  }
+  .fm-details-mid{
+    bottom: 90%;
+  }
+  .fm-outer-layer{
+    height: 220px;
+    width: 220px;
+  }
+  .fm-inner-layer, .fm-img{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 486px) and (max-width: 680px) {
+  .fm-container{
+    height: 450px;
+  }
+  .fm-details{
+    bottom: 20%;
+  }
+  .fm-content{
+    position: relative;
+    bottom: 25%;
+  }
+  .fm-content p{
+    font-size: 18px;
+  }
+  .fm-content-mid{
+    position: relative;
+    top: 45%;
+  }
+  .fm-details-mid{
+    bottom: 82%;
+  }
+  .fm-outer-layer{
+    height: 220px;
+    width: 220px;
+  }
+  .fm-inner-layer, .fm-img{
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 992px) {
+  .fm-container{
+    height: 480px;
+  }
+  .fm-details{
+    bottom: 20%;
+  }
+  .fm-content{
+    position: relative;
+    bottom: 25%;
+  }
+  .fm-content p{
+    font-size: 22px;
+  }
+  .fm-content-mid{
+    position: relative;
+    top: 50%;
+  }
+  .fm-details-mid{
+    bottom: 75%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .fm-container{
+    height: 320px;
+  }
+}
+
+.fm-img {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.fm-inner-layer:hover .fm-img {
+  transform: scale(1.1);
+}
