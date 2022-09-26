@@ -98,11 +98,11 @@
       <div class="trapezium f">
         <p class="heading-card">FACULTY</p>
       </div>
-      <div class="row" style="margin: 2%">
-        <div class="col-md-4 col-sm-6" style="margin: auto">
+      <div id="faculty__flex" class="row" style="margin:4% auto; margin-bottom:2%">
+        <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="../data0/new-website-images/rahulsir.jpg" />
+              <img src="deanSir.jpeg" />
             </div>
             <h3 class="title">Dr. Rahul Johari</h3>
             <div class="post">Faculty Advisor, SDC USICT</div>
@@ -124,8 +124,20 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6" style="margin: auto">
+          <!-- <div class="card">
+            <div class="card__img">
+              <img src="deanSir.jpeg" alt="" />
+            </div>
+            <h2 class="card__title">DR. PRAVEEN CHANDRA</h2>
+            <h3 class="card__subtitle">Dean(USICT), GGSIPU</h3>
+            <div class="card__social">
+              <img src="linkedin-circle.png" alt="" class="card__socialIcon" />
+              <img src="mail-circle.png" alt="" class="card__socialIcon" />
+              <img src="twitter-circle.png" alt="" class="card__socialIcon" />
+            </div>
+          </div> -->
+      </div>
+        <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
               <img src="deanSir.jpeg" />
@@ -151,7 +163,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6" style="margin: auto">
+        <div class="col-md-3 col-sm-6" >
           <div class="our-team">
             <div class="pic">
               <img src="priyanka.jpg" />
@@ -182,7 +194,7 @@
     <hr class="divider">
     <div class="container-card" id="core-team">
       <div class="trapezium">
-        <p class="heading-card" style="margin-top: -47px;">CORE TEAM</p>
+        <p class="heading-card">CORE TEAM</p>
       </div>
       <div class="row" style="margin: 2%">
         <div class="col-md-3 col-sm-6">
