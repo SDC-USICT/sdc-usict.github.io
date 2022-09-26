@@ -2,6 +2,14 @@
   <!-- carousel -->
   <?php include 'sdcusict2022carousal.php' ?>
 
+  <style>
+    ::-webkit-scrollbar-thumb{
+      width: 10px;
+      background-color: #041d53;
+      border-radius: 10px;
+    }
+  </style>
+
   <div class="container-fluid a" id="op">
     <div >
         <p class="caption101"> Official projects </p>

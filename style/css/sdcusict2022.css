@@ -1521,3 +1521,11 @@ p {
 .link:hover {
   text-decoration-color: #304875;
 }
+
+
+
+::-webkit-scrollbar{
+  width: 10px !important; 
+  background-color: transparent !important;
+  border-radius: 10px;
+}
