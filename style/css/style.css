@@ -1704,3 +1704,22 @@ font-size: larger;
 .publications li {
 font-size: larger;
 }
+
+
+
+/*******        project page design                 */
+
+/* .blue{
+position: absolute;
+width: 1440px;
+height: 424px;
+left: 0px;
+top: 915px;
+
+background: #E2F6FE;
+} */
+
+.opppp{
+    background-color: #000000;
+    height: 100px;
+}
