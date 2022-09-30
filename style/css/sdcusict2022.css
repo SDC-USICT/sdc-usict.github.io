@@ -1824,3 +1824,234 @@ p {
 .fm-inner-layer:hover .fm-img {
   transform: scale(1.1);
 }
+
+/* //////////// STUDENT PAGE //////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Quicksand:wght@400;500;700&display=swap');
+.container__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -2rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.black__color{
+  color: #000;
+}
+/* Profile div */
+.profile__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../shubham.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    padding: 8rem 0 10rem;
+}
+.profile__photo{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
+
+.profile__img{
+    border-radius: 50%;
+    width: 100%;
+}
+/* Social div */
+.social__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.social__icons{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.social__icon{
+    width: 80px;
+    height: 80px;
+}
+.social__icon > img{
+    width: 100%;
+}
+.social__heading{
+    position: absolute;
+    top: 0;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: max-content;
+    font-size: 1.5rem;
+    left: 50%;
+    background-color: #ffffff;
+}
+.heading__name{
+    margin:0;
+    color: #000;
+}
+.heading__desg{
+    color:#807373;
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+/* myself div */
+.myself__div{
+    background-color: #E2F6FE;
+}
+.myself__divinside > *{
+    margin: 0;
+}
+.myself__divinside{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 3rem 15%;
+}
+.myself__divinside>h1{
+    text-transform: uppercase;
+    color: #000;
+}
+.myself__content{
+  text-align: center;
+}
+.button{
+    background-color: #041D53;
+    padding: 10px 20px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+/* project div */
+.project__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 1rem 4rem;
+}
+.project__div>h1{
+    text-transform: uppercase;
+    margin: 0;
+    color: #000;
+}
+.project__cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.project__card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 1rem 0.75rem;
+}
+.project__content{
+  font-size: 1.25rem;
+}
+.project__card>*{
+    margin: 0;
+}
+/* skill div */
+.skill__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 1rem 4rem;
+    background-color: #E2F6FE;
+}
+.skill__div>h1{
+    text-transform: uppercase;
+    margin: 0;
+    color: #000;
+}
+.skill__cards{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.skill__card{
+    /* width: 350px; */
+    max-width: 350px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.skill__card>h2{
+    color: #041D53;
+}
+.skill__card>*{
+    margin: 0;
+}
+.skillCard__img>img{
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+}
+/* experience div */
+.exp__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem 1rem 4rem;
+}
+.exp__div>h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+.exp__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.exp__details>*{
+    margin: 0;
+}
+.exp__detail{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.exp__detail>*{
+    margin: 0;
+}
+.exp__detail>h2{
+    color: #041D53;
+}
