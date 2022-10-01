@@ -381,13 +381,12 @@ class="pt-sm-5"--->
             <img class="icon1" src="ic1.png" alt="">
         </div>
         <div>
-            <h2 class="head1" style="position: absolute; top: 30%;">student FEEDBACK SYSTEM TEAm</h2>
+            <h2 class="head1" style="position: absolute;">student FEEDBACK SYSTEM TEAm</h2>
             <div class="para1">
             Faculty Feedback System(FFS) portals are solely for the purpose of receiving feedback from students of all programs for their respective faculties allotted during a particular semester. This procedure takes place towards the end of each semester in all USS's of GGSIPU.
+            <button href="webDevTeam.php" class="container2 btnn-1" style="position: absolute;">View Team</button>
             </div>
-        <div>
-        <button href="webDevTeam.php" class="container2 btnn-1" style="position: absolute; top: 79%; left: 7%;">View Team</button>
-        </div>
+        
         <div class="leads">
             <img class="lead1" src="rahulsir.jpg" alt="">
             <img class="lead1" src="rahulsir.jpg" alt="">
@@ -403,9 +402,9 @@ class="pt-sm-5"--->
             <img class="icon1" src="web1.png" alt="" style="left: 75%;">
         </div>
         <div>
-            <h2 class="head1" style="position: absolute; top: 30%; left:55%; margin-left: 8vw;">web development TEAM</h2>
+            <h2 class="head1" style="position: absolute; left:55%; margin-left: 8vw;">web development TEAM</h2>
             <div class="para1" style="text-align: right;
-    margin-left: 23vw; padding-top: 1.2vw">
+    margin-left: 23vw;">
             Web Development Team works on the 
             official websites under the Software
             Development Cell, University School Of
@@ -429,7 +428,7 @@ class="pt-sm-5"--->
             <img class="icon1" src="app1.png" alt="">
         </div>
         <div>
-            <h2 class="head1" style="position: absolute; top: 30%;">App development team</h2>
+            <h2 class="head1" style="position: absolute; ">App development team</h2>
             <div class="para1">
             Web Development Team works on the 
             official websites under the Software
@@ -489,6 +488,7 @@ class="pt-sm-5"--->
     line-height: 42px;
     text-transform: uppercase;
     left: 7%;
+    top: 30%;
 }
     .para1{
     color: #000;
@@ -561,8 +561,10 @@ class="pt-sm-5"--->
         border-radius: 4px;
         box-shadow: inset 0 0 0 0 #E1E3E7;
         transition: ease-out 0.8s;
-        font-size: 130%;
+        font-size: 70%;
         outline: none;
+        left: 10%;
+        top: 101%;
        }
        .btnn-1:hover{
         box-shadow: inset 300px 0 0 0 #E1E3E7;
@@ -588,6 +590,75 @@ class="pt-sm-5"--->
         padding: 2px;
         margin: 1.5vw;
        }
+
+       @media (min-width:900px) and (max-width:1110px) {
+        .container1 {
+            height: 35vw;
+        }
+        .btnn-1 {
+            top: 106%;
+            left: 10%;
+        }
+        .container2{
+            min-height: 5vh;
+        }
+        .para1{
+            line-height: 32px;
+        }
+        
+       }
+       @media (min-width: 700px) and (max-width: 900px) {
+        .container1{
+            height: 28vw;
+        }
+        .container2{
+            min-height: 5vh;
+        }
+        .para1{
+            line-height:22px;
+        }
+        
+       }
+
+       @media (min-width: 500px) and (max-height: 700px) {
+        .para1{
+            line-height: 19px;
+            padding-top: 3px;
+
+        }
+        .container1{
+            height: 29vw;
+        }
+        .container2{
+            min-height: 5vh;
+        }
+        .head1{
+            top:25%;
+        }
+        
+        
+       }
+       @media (min-width: 300px) and (max-width:500px) {
+        .para1{
+            line-height:13px;
+            padding-top: 1px;
+        }
+        .container1{
+            height: 41vw;
+        }
+        .btnn-1{
+            width: 13%;
+        }
+        .container2{
+            min-height: 3vh;
+        }
+        .head1{
+            top: 20%;
+        }
+        
+       }
+
+
 </style>
 
 
