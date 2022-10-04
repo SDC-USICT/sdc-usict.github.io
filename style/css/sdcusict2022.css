@@ -763,6 +763,7 @@ color: #000000;
 
 .hover {
   margin-bottom: 0.5rem;
+  transition: all 0.5s;
 }
 
 .lg-dropdown-item {
