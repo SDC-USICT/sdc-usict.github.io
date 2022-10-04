@@ -1849,6 +1849,13 @@ p {
     height: 90vh;
     padding: 8rem 0 10rem;
 }
+
+/* ///////////////////////// students ///////////////////////// */
+
+.nishant_ola{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/nishant-ola.jpg) no-repeat center;
+}
+
 .profile__photo{
     max-width: 400px;
     max-height: 400px;
@@ -1905,6 +1912,9 @@ p {
     margin-top: 5px;
 }
 /* myself div */
+.team-heading{
+  font-weight: bolder;
+}
 .myself__div{
     background-color: #E2F6FE;
 }
@@ -1967,6 +1977,10 @@ p {
     border-radius: 10px;
     padding: 1rem 0.75rem;
 }
+.project__title{
+  color: #041D53;
+  font-weight: bolder;
+}
 .project__content{
   font-size: 1.25rem;
 }
@@ -1997,7 +2011,7 @@ p {
 }
 .skill__card{
     /* width: 350px; */
-    max-width: 350px;
+    max-width: 400px;
     background: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -2007,8 +2021,9 @@ p {
     border-radius: 10px;
     text-align: center;
 }
-.skill__card>h2{
+.skillCard__heading{
     color: #041D53;
+    font-weight: bolder;
 }
 .skill__card>*{
     margin: 0;
@@ -2018,6 +2033,10 @@ p {
     width: 80px;
     margin: 0 auto;
 }
+.skillCard__content{
+  font-size: 24px;
+}
+
 /* experience div */
 .exp__div{
     display: flex;

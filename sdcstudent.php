@@ -18,7 +18,7 @@
       </div>
       <div class="social__div">
         <div class="social__heading">
-          <h3 class="heading__name">Anurag Parashar</h3>
+          <h3 class="heading__name team-heading">Anurag Parashar</h3>
           <p class="heading__desg">Lead</p>
         </div>
         <div class="social__icons">
@@ -35,7 +35,7 @@
       </div>
       <div class="myself__div">
         <div class="myself__divinside">
-          <h1 class="myself__heading">About Myself</h1>
+          <h1 class="myself__heading team-heading">About Myself</h1>
           <p class="myself__content black__color">
             I am Anurag Parashar, a Full Stack Developer and a Content Writer
             with a knack for creativity. I am 3rd year CSE student at University
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="project__div">
-        <h1 class="project__heading">Projects</h1>
+        <h1 class="project__heading team-heading">Projects</h1>
         <div class="project__cards">
           <div class="project__card">
             <h3 class="project__title black__color">Personal Website</h3>
@@ -76,11 +76,11 @@
         </div>
       </div>
       <div class="skill__div">
-        <h1 class="skill__heading">Skills</h1>
+        <h1 class="skill__heading team-heading">Skills</h1>
         <div class="skill__cards">
           <div class="skill__card">
             <div class="skillCard__img">
-              <img src="./web-design 1.png" alt="" />
+              <img src="./web1.png" alt="" />
             </div>
             <h2 class="skillCard__heading">Web Development</h2>
             <p class="black__color skillCard__content">
@@ -91,34 +91,34 @@
           </div>
           <div class="skill__card">
             <div class="skillCard__img">
-              <img src="./web-design 1.png" alt="" />
+              <img src="./web2.png" alt="" />
             </div>
-            <h2 class="skillCard__heading">Web Development</h2>
+            <h2 class="skillCard__heading">Web Design</h2>
             <p class="black__color skillCard__content">
               Bootstrap4, Materialize, Photoshop and UserTesting.
             </p>
           </div>
         </div>
       </div>
-      <div class="exp__div">
-        <h1 class="exp__heading">Experiences</h1>
+      <div class="exp__div container">
+        <h1 class="exp__heading team-heading my-4">Experiences</h1>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading">ACM USICT STUDENT CHAPTER</h2>
+            <h2 class="exp__heading team-heading">ACM USICT STUDENT CHAPTER</h2>
             <p class="black__color exp__time">November 2021 – Present</p>
           </div>
           <p class="black__color exp__position">Membership Chair</p>
         </div>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading">ACM USICT STUDENT CHAPTER</h2>
+            <h2 class="exp__heading team-heading">ACM USICT STUDENT CHAPTER</h2>
             <p class="black__color exp__time">November 2021 – Present</p>
           </div>
           <p class="black__color exp__position">Membership Chair</p>
         </div>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading">ACM USICT STUDENT CHAPTER</h2>
+            <h2 class="exp__heading team-heading">ACM USICT STUDENT CHAPTER</h2>
             <p class="black__color exp__time">November 2021 – Present</p>
           </div>
           <p class="black__color exp__position">Membership Chair</p>
