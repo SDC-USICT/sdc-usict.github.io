@@ -1856,6 +1856,20 @@ p {
 .nishant_ola{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/nishant-ola.jpg) no-repeat center;
 }
+.tejasva{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/tejasva.jpg) no-repeat center;
+}
+.ansh-goyal{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/ansh-goyal.jpg) no-repeat center;
+}
+.suraj-mishra{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/suraj-mishra.png) no-repeat center;
+  background-size:  100%;
+}
+.subhangi{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/subhangi.jpg) no-repeat center;
+  background-size:  100%;
+}
 
 .profile__photo{
     max-width: 400px;
@@ -1868,6 +1882,12 @@ p {
     border-radius: 50%;
     width: 100%;
 }
+
+.project__button>a{
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Social div */
 .social__div{
     display: flex;
@@ -1938,6 +1958,10 @@ p {
 }
 .myself__content{
   text-align: center;
+}
+.myself__button a{
+  text-decoration: none;
+  color: #fff;
 }
 .button{
     background-color: #041D53;
