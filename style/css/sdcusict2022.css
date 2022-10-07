@@ -1877,7 +1877,14 @@ p {
 .kartik{
     background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/kartik-kh.jpg) no-repeat center;
     background-size: 100%;
-
+}
+.ayush{
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/ayush-goyal.jpeg) no-repeat center;
+    background-size: 100%;
+}
+.shivesh{
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/shivesh-nandan.jpg) no-repeat center;
+    background-size: 100%;
 }
 .profile__photo{
     width: 400px;
@@ -1996,7 +2003,7 @@ p {
 .project__cards{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 2rem;
 }
