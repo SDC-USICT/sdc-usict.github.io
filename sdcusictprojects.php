@@ -627,7 +627,7 @@ class="pt-sm-5"--->
 
         }
         .container1{
-            height: 29vw;
+            height: 34vw;
         }
         .container2{
             min-height: 5vh;

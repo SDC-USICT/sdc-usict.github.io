@@ -1,3 +1,5 @@
+
+
 <?php include 'sdcusict2022header.php' ?>
 
 <body>
@@ -188,17 +190,17 @@
             <a href="" class="link">project link</a>
             <ul class="social">
               <li>
-                <a href="https://github.com/Harshitp7" target="_blank">
+                <a href="https://github.com/M-J-7" target="_blank">
                   <img src="github-circle.png" class="img-c">
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/harshitpanwar7" target="_blank">
+                <a href="https://www.linkedin.com/in/mihirjha7" target="_blank">
                   <img src="linkedin-circle.png" class="img-c">
                 </a>
               </li>
               <li>
-                <a href="mailto:panwar.harshit0602@gmail.com" target="_blank">
+                <a href="mailto:mihirjha47119@gmail.com" target="_blank">
                   <img class="img-c" src="mail-circle.png">
                 </a>
               </li>
