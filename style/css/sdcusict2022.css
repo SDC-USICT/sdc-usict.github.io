@@ -1870,10 +1870,18 @@ p {
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/subhangi.jpg) no-repeat center;
   background-size:  100%;
 }
+.jatin{
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/jatin-singh.jpg) no-repeat center;
+    background-size: 100%;
+}
+.kartik{
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/kartik-kh.jpg) no-repeat center;
+    background-size: 100%;
 
+}
 .profile__photo{
-    max-width: 400px;
-    max-height: 400px;
+    width: 400px;
+    height: 400px;
     margin: 0 1rem;
     border-radius: 50%;
 }
@@ -1881,6 +1889,7 @@ p {
 .profile__img{
     border-radius: 50%;
     width: 100%;
+    height: 100%;
 }
 
 .project__button>a{
