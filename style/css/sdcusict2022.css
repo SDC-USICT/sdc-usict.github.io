@@ -10,7 +10,16 @@
 } */
 
 * {
-  font-family: Times New Roman !important;
+  font-family: 'Times New Roman', Times, serif ;
+
+}
+@font-face {
+  font-family:SourceSansPro ; 
+  src: url(../fonts/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+  font-family:inter ; 
+  src: url(../fonts/Inter-Regular.ttf);
 }
 
 .navbar {
@@ -1856,39 +1865,10 @@ p {
 .nishant_ola{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/nishant-ola.jpg) no-repeat center;
 }
-.tejasva{
-  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/tejasva.jpg) no-repeat center;
-}
-.ansh-goyal{
-  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/ansh-goyal.jpg) no-repeat center;
-}
-.suraj-mishra{
-  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/suraj-mishra.png) no-repeat center;
-  background-size:  100%;
-}
-.subhangi{
-  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/subhangi.jpg) no-repeat center;
-  background-size:  100%;
-}
-.jatin{
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/jatin-singh.jpg) no-repeat center;
-    background-size: 100%;
-}
-.kartik{
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/kartik-kh.jpg) no-repeat center;
-    background-size: 100%;
-}
-.ayush{
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/ayush-goyal.jpeg) no-repeat center;
-    background-size: 100%;
-}
-.shivesh{
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/shivesh-nandan.jpg) no-repeat center;
-    background-size: 100%;
-}
+
 .profile__photo{
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0 1rem;
     border-radius: 50%;
 }
@@ -1896,14 +1876,7 @@ p {
 .profile__img{
     border-radius: 50%;
     width: 100%;
-    height: 100%;
 }
-
-.project__button>a{
-  text-decoration: none;
-  color: #fff;
-}
-
 /* Social div */
 .social__div{
     display: flex;
@@ -1951,6 +1924,8 @@ p {
 /* myself div */
 .team-heading{
   font-weight: bolder;
+  font-family: SourceSansPro!important;
+
 }
 .myself__div{
     background-color: #E2F6FE;
@@ -1974,10 +1949,7 @@ p {
 }
 .myself__content{
   text-align: center;
-}
-.myself__button a{
-  text-decoration: none;
-  color: #fff;
+  font-family: inter!important;
 }
 .button{
     background-color: #041D53;
@@ -2003,7 +1975,7 @@ p {
 .project__cards{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -2021,9 +1993,13 @@ p {
 .project__title{
   color: #041D53;
   font-weight: bolder;
+  font-family: SourceSansPro !important;
+
+
 }
 .project__content{
   font-size: 1.25rem;
+  font-family: inter!important;
 }
 .project__card>*{
     margin: 0;
@@ -2065,6 +2041,7 @@ p {
 .skillCard__heading{
     color: #041D53;
     font-weight: bolder;
+    font-family: SourceSansPro !important;
 }
 .skill__card>*{
     margin: 0;
@@ -2076,6 +2053,7 @@ p {
 }
 .skillCard__content{
   font-size: 24px;
+  font-family: inter!important;
 }
 
 /* experience div */
@@ -2115,58 +2093,6 @@ p {
 .exp__detail>h2{
     color: #041D53;
 }
-
-/* ////////////////////////// contact page /////////////////////// */
-
-.contacts{
-  color: #000;
-}
-
-.contact_head{
-  background-color: #E2F6FE;
-  min-height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact_cards{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact_grid{
-  height: 360px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact_grid h2{
-  font-weight: bolder;
-}
-
-.contact_card{
-  height: 80%;
-  width: 400px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-img{
-  padding-bottom: 5%;
-  filter: invert(10%) sepia(53%) saturate(3219%) hue-rotate(213deg) brightness(93%) contrast(105%);
-}
-
-@media only screen and (max-device-width: 768px){
-  .contact_grid h2{
-    font-size: 22px;
-  }
-  .contact_grid p{
-    font-size: 18px;
-  }
+.exp__position{
+  font-family: inter!important;
 }

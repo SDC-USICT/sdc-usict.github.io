@@ -88,7 +88,7 @@
             </div>
             <h2 class="skillCard__heading">Security and Testing</h2>
             <p class="black__color skillCard__content">
-            Networking and Security
+            Networking,Security and testing 
             </p>
           </div>
         </div>

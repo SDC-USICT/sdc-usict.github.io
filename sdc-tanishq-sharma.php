@@ -13,14 +13,14 @@
     <div class="container__flex">
       <div class="profile__div subhangi">
         <div class="profile__photo">
-          <img class="profile__img" src="./students-img/tanishq-sharma.jpg" alt="" />
+          <img class="profile__img" src="./students-img/tanishq-sharma.jpeg" alt="" />
         </div>
       </div>
       <div class="social__div">
         <div class="social__heading">
           <h3 class="heading__name team-heading">Tanishq Sharma </h3>
-          <p class="heading__desg">SFS</p>
-          <p class="heading__desg">Lead</p>
+          <p class="heading__desg"></p>
+          <p class="heading__desg">SFS Lead</p>
         </div>
         <div class="social__icons">
           <a href="https://www.linkedin.com/in/tanishq-sharma-aa2639212/" target="_blank" class="social__icon">
