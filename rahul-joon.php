@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./rahuljoon.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/rahuljoon.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -23,7 +23,7 @@
     <div class="container__flex">
       <div class="profile__div">
         <div class="profile__photo">
-          <img class="profile__img" src="./rahuljoon.jpg" alt="" />
+          <img class="profile__img" src="./students-img/rahuljoon.jpg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -64,21 +64,21 @@
             Sleepfit is a minimalistic UI app developed for sleep cycle health. It has been designed
              and programmed in a one-man team and firebase has been integrated to store user data.
             </p>
-           <a href="https://github.com/Rahul-JOON/Sleepfit"> <button class="button project__button">See Projects</button></a>
+           <a href="https://github.com/Rahul-JOON/Sleepfit"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color">Personal Brand Website</h3>
             <p style="text-align: left;" class="project__content black__color">
             A personal website is your chance to showcase your personality and credentials in an engaging format.This Project is my personal portfolio website.
             </p>
-           <a href="https://rahuljoon.me/"> <button class="button project__button">See Projects</button></a>
+           <a href="https://rahuljoon.me/"> <button class="button project__button"  target="_blank">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color">TANK BUSTERS </h3>
             <p style="text-align: left;" class="project__content black__color">
            This Project is a game created using Python integrated with pygame and tkinter in a arcade tank shooting game. Its a copy of online available game – “Tank Trouble”.
             </p>
-           <a href="https://github.com/Rahul-JOON/CS_project"> <button class="button project__button">See Projects</button></a>
+           <a href="https://github.com/Rahul-JOON/CS_project"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
         </div>
       </div>

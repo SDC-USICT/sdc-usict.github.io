@@ -8,12 +8,22 @@
       background-color: #041d53;
       border-radius: 10px;
     }
+    .profile__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/kartik-khatana.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    padding: 8rem 0 10rem;
+}
   </style>
 
     <div class="container__flex">
       <div class="profile__div kartik">
         <div class="profile__photo">
-          <img class="profile__img" src="./students-img/kartik-kh.jpg" alt="" />
+          <img class="profile__img" src="./students-img/kartik-khatana.jpg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -39,7 +49,7 @@
           <p class="myself__content black__color">
             Heyy everyone! I am a full-stack developer experienced in most dominating technologies in the market such as Android Studio, Flutter, Xcode, Firebase, React.js, Node.js, Python, Unity for App, Game and Web Development. I always try to learn something new everyday and work as a freelance developer.
         </p>
-          <button class="button myself__button"><a href="./appDevTeam.php">View Team</a></button>
+        <a href="./appDevTeam.php"> <button class="button myself__button">View Team</button></a>
         </div>
       </div>
       <div class="project__div">
@@ -50,14 +60,14 @@
             <p style="text-align: left;" class="project__content black__color">
                 Cantify is a canteen app developed for ordering food from any part of the GGSIPU main campus and through which users don't have to stand in long queues for ordering food in the canteen.
             </p>
-            <button class="button project__button"><a href="https://play.google.com/store/apps/details?id=com.driftwiz.usscanteen" target="_blank">See Projects</a></button>
+            <a href="https://play.google.com/store/apps/details?id=com.driftwiz.usscanteen" target="_blank">  <button class="button project__button">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color">PastyLink</h3>
             <p style="text-align: left;" class="project__content black__color">
-                PastyLink is a lightweight app to sync your links across multiple devices in an instant. You can manage and access your links from anywhere by logging into your account using languages - Flutter - Dart, React.js
+                PastyLink is a lightweight app to sync your links across multiple devices in an instant. You can manage and access your links from anywhere by logging into your account.
             </p>
-            <button class="button project__button"><a href="http://ipu.ac.in" target="_blank">See Projects</a></button>
+            <a href="http://ipu.ac.in" target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
         </div>
       </div>
@@ -70,7 +80,7 @@
             </div>
             <h2 class="skillCard__heading">App Development</h2>
             <p class="black__color skillCard__content">
-                Android Studio, Flutter, Xcode, React.js, Node.js, firebase, Unity, Blender, Adobe illustrator, Adobe photoshop, figma, mongodb, express, python, html, css (app, web and game developer)
+                Android Studio, Flutter, Xcode,Unity, Blender, Adobe illustrator, Adobe photoshop, figma,python
             </p>
           </div>
           <!-- <div class="skill__card" style="width: 400px;">
@@ -82,6 +92,17 @@
               Bootstrap5, Figma, Canva.
             </p>
           </div> -->
+          <div class="skill__card">
+            <div class="skillCard__img">
+              <img src="./web1.png" alt="" />
+            </div>
+            <h2 class="skillCard__heading">Web Development</h2>
+            <p class="black__color skillCard__content">
+              HTML5, CSS3, JavaScript,
+              React.js, Node.js, firebase, mongodb, express
+              
+            </p>
+          </div>
         </div>
       </div>
       <div class="exp__div container">

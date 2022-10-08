@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./ayushimg.jpeg) no-repeat center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/ayushimg.jpeg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -23,7 +23,7 @@
     <div class="container__flex">
       <div class="profile__div">
         <div class="profile__photo">
-          <img class="profile__img" src="./ayushimg.jpeg" alt="" />
+          <img class="profile__img" src="./students-img/ayushimg.jpeg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -51,7 +51,7 @@
 I like to explore new technologies ,recently I have been exploring flutter and Golang and now along with them I am working on to gain some experience with kubernetes and docker to start my journey with Devops. 
 Along with DevOps I am also learning about Web3 and making blockchain projects.
           </p>
-          <button class="button myself__button">View Team</button>
+          <button class="button myself__button"  target="_blank">View Team</button>
         </div>
       </div>
       <div class="project__div">
@@ -71,7 +71,7 @@ Along with DevOps I am also learning about Web3 and making blockchain projects.
             What if you get a platform to interact with your seniors easily? This Project is a chat-forum 
             for interaction between the juniors and seniors of the University.
             </p>
-           <a href="https://github.com/ayushgupta4002/Public-Chat-Forum"> <button class="button project__button">See Projects</button></a>
+           <a href="https://github.com/ayushgupta4002/Public-Chat-Forum"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color">Novus-Blogs </h3>
@@ -79,7 +79,7 @@ Along with DevOps I am also learning about Web3 and making blockchain projects.
             This is my personal Blog website that I developed for the community and one of the first websites That I hosted on Heroku. 
             Do check it out !!
             </p>
-           <a href="http://novus-blogs.herokuapp.com/"> <button class="button project__button">See Projects</button></a>
+           <a href="http://novus-blogs.herokuapp.com/"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
         </div>
       </div>
@@ -113,7 +113,8 @@ Along with DevOps I am also learning about Web3 and making blockchain projects.
             <h2 class="skillCard__heading">Web3</h2>
             <p class="black__color skillCard__content">
               Blockchain,Solidity, Smart contracts,
-              Metamask,Genache,Web3.js,Truffle
+              Metamask,Genache,Web3.js,
+              Truffle
             </p>
           </div>
         

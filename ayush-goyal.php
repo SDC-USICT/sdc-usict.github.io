@@ -8,27 +8,37 @@
       background-color: #041d53;
       border-radius: 10px;
     }
+    .profile__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/ayush-goyal.jpeg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    padding: 8rem 0 10rem;
+}
   </style>
 
     <div class="container__flex">
-      <div class="profile__div shivesh">
+      <div class="profile__div ayush">
         <div class="profile__photo">
-          <img class="profile__img" src="./students-img/shivesh-nandan.jpg" alt="" />
+          <img class="profile__img" src="./students-img/ayush-goyal.jpeg" alt="" />
         </div>
       </div>
       <div class="social__div">
         <div class="social__heading">
-          <h3 class="heading__name team-heading">Shivesh Nandan</h3>
+          <h3 class="heading__name team-heading">Ayush Goyal</h3>
           <p class="heading__desg">Developer</p>
         </div>
         <div class="social__icons">
-          <a href="https://www.linkedin.com/in/shivesh-nandan-39a1b219a/" target="_blank" class="social__icon">
+          <a href="https://www.linkedin.com/in/ayuu8178/" target="_blank" class="social__icon">
             <img src="./linkedin-circle.png" alt="" />
           </a>
-          <a href="https://github.com/ShiveshNandan" target="_blank" class="social__icon">
+          <a href="https://github.com/ayuu8178" target="_blank" class="social__icon">
             <img src="./github-circle.png" alt="" />
           </a>
-          <a href="mailto:kshivesh929@gmail.com" target="_blank" class="social__icon">
+          <a href="mailto:ayushgoyal8178@gmail.com" target="_blank" class="social__icon">
             <img src="./mail-circle.png" alt="" />
           </a>
         </div>
@@ -37,27 +47,34 @@
         <div class="myself__divinside">
           <h1 class="myself__heading team-heading">About Myself</h1>
           <p class="myself__content black__color">
-            I am currently a frontend web developer. And with time, turning towards the full stack web developer. After completing this, I will start learning web3.
+            I am Ayush Goyal, Automation & Robotics Student GGSIPU-EDC and a quick learner. i also want to enhance my skills that's why I join sdc and able to develop myself a lot. I have a good knowledge of web2 skills like html, css, javascript, react.js, next.js, node.js, etc. and make some projects using these skills. Currently i am learning about blockchains and web3
         </p>
-          <button class="button myself__button"><a href="./webDevTeam.php">View Team</a></button>
+          <!-- <button class="button myself__button"><a href="./appDevTeam.php">View Team</a></button> -->
         </div>
       </div>
       <div class="project__div">
         <h1 class="project__heading team-heading">Projects</h1>
         <div class="project__cards">
           <div class="project__card">
-            <h3 class="project__title black__color">Student Profile</h3>
+            <h3 class="project__title black__color">Portfolio Website</h3>
             <p style="text-align: left;" class="project__content black__color">
-            This project is a student profile that will be added to the Ipu website in the student corner.
+            This is my first project using CSS, html, JavaScript and after making this I learned a lot.
             </p>
-            <button class="button project__button"><a href="https://shiveshnandan.github.io/SDC_task/" target="_blank">See Projects</a></button>
+            <button class="button project__button"><a href="https://ayuu8178.github.io/website.github.io/" target="_blank">See Projects</a></button>
           </div>
           <div class="project__card">
-            <h3 class="project__title black__color">Hotstar clone</h3>
+            <h3 class="project__title black__color">Zerokatta game</h3>
             <p style="text-align: left;" class="project__content black__color">
-            this is a clone website of hotstar using HTML, CSS and Javascript.
+            This is a Website I made for learning concepts of JavaScript but in a fun way of a game.
             </p>
-            <button class="button project__button"><a href="https://shiveshnandan.github.io/Hotstar-clone/" target="_blank">See Projects</a></button>
+            <a href="https://ayuu8178.github.io/gamezerokata.github.io/" target="_blank"> <button class="button project__button">See Projects</button></a>
+          </div>
+          <div class="project__card">
+            <h3 class="project__title black__color">Movie site</h3>
+            <p style="text-align: left;" class="project__content black__color">
+            This website i made using react and API keys and learnt a lot about react concepts and apis
+            </p>
+            <a href="https://ayuu8178.github.io/ayushmovies/" target="_blank">   <button class="button project__button">See Projects</button></a>
           </div>
         </div>
       </div>
@@ -70,10 +87,10 @@
             </div>
             <h2 class="skillCard__heading">Web Development</h2>
             <p class="black__color skillCard__content">
-                HTML, CSS, JS, react, node.js, express.js
+                html, css, javascript, react.js, node.js, python
             </p>
           </div>
-          <!-- <div class="skill__card" style="width: 400px;">
+          <div class="skill__card" style="width: 400px;">
             <div class="skillCard__img">
               <img src="./web2.png" alt="" />
             </div>
@@ -81,7 +98,7 @@
             <p class="black__color skillCard__content">
               Figma, AdobeXD, Canva
             </p>
-          </div> -->
+          </div>
         </div>
       </div>
       <div class="exp__div container">
@@ -91,7 +108,7 @@
             <h2 class="exp__heading team-heading">SOFTWARE DEVELOPMENT CELL USICT</h2>
             <p class="black__color exp__time">May 2022 – Present</p>
           </div>
-          <p class="black__color exp__position">Web Developer</p>
+          <p class="black__color exp__position">Graphics Designer</p>
         </div>
         <!-- <div class="exp__details">
           <div class="exp__detail">

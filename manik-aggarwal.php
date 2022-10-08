@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./Manik.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/Manik.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -33,7 +33,7 @@
     <div class="container__flex">
       <div class="profile__div">
         <div class="profile__photo">
-          <img class="profile__img" src="./Manik.jpg" alt="" />
+          <img class="profile__img" src="./students-img/Manik.jpg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -61,7 +61,7 @@
           Strong engineering professional with a Bachelor of Technology - BTech focused in Computer Science from University School Of Information & Technology. Loves Problem Solving and to unravel the mysteries behind the magic of computer programs. I possess ownership, responsibility, and learning Capability with a positive attitude.
            I have the desire to learn new technologies and resolve problems and issues.
           </p>
-          <button class="button myself__button">View Team</button>
+          <button class="button myself__button"  target="_blank">View Team</button>
         </div>
       </div>
       <div class="project__div">
@@ -73,7 +73,7 @@
              Digital notes is a
              combination of techniques that allow you to take and store your notes digitally and access them anywhere from the world via a URL. These notes can help us to note the daily task which needs to be done and can be stored with great ease through the use of this application.
             </p>
-           <a href="https://digital-notes-apps.herokuapp.com/"> <button class="button project__button">See Projects</button></a>
+           <a href="https://digital-notes-apps.herokuapp.com/"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color" >Ecommerce Platform</h3>
@@ -93,7 +93,7 @@
             deleting and toggling state of each task. It has minimalistic design and basic functionality.
              It is helpful in planning our daily schedules and helps you to manage your day.
             </p>
-         <a href="https://github.com/Manik-Aggarwal/ToDoList"> <button class="button project__button">See Projects</button></a>
+         <a href="https://github.com/Manik-Aggarwal/ToDoList"  target="_blank"> <button class="button project__button">See Projects</button></a>
           
         
           </div>

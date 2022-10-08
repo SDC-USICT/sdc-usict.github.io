@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./Yuvraj.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/Yuvraj.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -23,7 +23,7 @@
     <div class="container__flex">
       <div class="profile__div">
         <div class="profile__photo">
-          <img class="profile__img" src="./Yuvraj.jpg" alt="" />
+          <img class="profile__img" src="./students-img/Yuvraj.jpg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -50,7 +50,7 @@
           Hi, I'm Yuvraj sophomore of B.Tech ECE from USICT,GGSIPU,New Delhi. I started my journey of becoming a developer from end of school itself ,became a MERN stack developer during my freshmen year of college worked on few projects with friends ,participated in various events for developement. Currently i am exploring IOT with rasberry pi and arduino .I have a keen interest in Al &ML and I
            am really looking forward to gain some amount of knowledge in this field.
           </p>
-          <button class="button myself__button">View Team</button>
+          <button class="button myself__button"  target="_blank">View Team</button>
         </div>
       </div>
       <div class="project__div">
@@ -62,7 +62,7 @@
             Built on local storage this is a event calendar for personal use saves the important 
             dates for remembrance.It can prove to be really helpful for the community.
             </p>
-           <a href="https://github.com/Yuvraj004/event-calendar"> <button class="button project__button">See Projects</button></a>
+           <a href="https://github.com/Yuvraj004/event-calendar"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
           <div class="project__card">
             <h3 class="project__title black__color">Bingeitup-submakers</h3>
@@ -70,7 +70,7 @@
             This web app is used extract subtitles from a video in .wav format ,
              the backend is solely based on python and i have used few external libraries also.
             </p>
-           <a href="https://github.com/Yuvraj004/Bingeitup-submakers"> <button class="button project__button">See Projects</button></a>
+           <a href="https://github.com/Yuvraj004/Bingeitup-submakers"  target="_blank"> <button class="button project__button">See Projects</button></a>
           </div>
      
          

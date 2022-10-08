@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./Gauraverma.png) no-repeat center;
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(./students-img/Gauraverma.png) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
@@ -23,7 +23,7 @@
     <div class="container__flex">
       <div class="profile__div">
         <div class="profile__photo">
-          <img class="profile__img" src="./Gauraverma.png" alt="" />
+          <img class="profile__img" src="./students-img/Gauraverma.png" alt="" />
         </div>
       </div>
       <div class="social__div">
