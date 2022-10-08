@@ -20,11 +20,12 @@
 }
 
 .button_ongoing{
-  background-color: rgba(68, 255, 78, 0.671);
+  background-color: grey;
     padding: 10px 20px;
     border-radius: 15px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
+    border:0px;
     
 }
   </style>
