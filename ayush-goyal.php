@@ -105,25 +105,25 @@
         <h1 class="exp__heading team-heading my-4">Experiences</h1>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">SOFTWARE DEVELOPMENT CELL USICT</h2>
-            <p class="black__color exp__time">May 2022 – Present</p>
+            <h2 class="exp__heading team-heading">Prodigalai</h2>
+            <p class="black__color exp__time">Sep 2022 - present</p>
           </div>
-          <p class="black__color exp__position">Graphics Designer</p>
+          <p class="black__color exp__position">Web developer intern</p>
         </div>
-        <!-- <div class="exp__details">
+        <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">The Spark Foundation</h2>
-            <p class="black__color exp__time">September 2022 – October 2022</p>
+            <h2 class="exp__heading team-heading">SOFTWARE DEVELOPMENT CELL,USICT</h2>
+            <p class="black__color exp__time">Aug 2021- present</p>
           </div>
-          <p class="black__color exp__position">Web developer</p>
-        </div> -->
-        <!-- <div class="exp__details">
+          <p class="black__color exp__position">Graphics designer</p>
+        </div>
+        <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">ACM USICT STUDENT CHAPTER</h2>
-            <p class="black__color exp__time">November 2021 – Present</p>
+            <h2 class="exp__heading team-heading">Fiver</h2>
+            <p class="black__color exp__time">Dec 2021- present</p>
           </div>
-          <p class="black__color exp__position">Membership Chair</p>
-        </div> -->
+          <p class="black__color exp__position">Freelancer</p>
+        </div>
       </div>
     </div>
   <?php include 'sdcusict2022footer.php' ?>

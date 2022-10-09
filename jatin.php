@@ -127,24 +127,30 @@
         <div class="exp__details">
           <div class="exp__detail">
             <h2 class="exp__heading team-heading">SOFTWARE DEVELOPMENT CELL,USICT</h2>
-            <p class="black__color exp__time">May 2022 – Present</p>
+            <p class="black__color exp__time">Jun 2022 - Present</p>
           </div>
-          <p class="black__color exp__position">Web developer</p>
+          <p class="black__color exp__position">App Team Lead</p>
         </div>
-        <!-- <div class="exp__details">
+        <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">The Spark Foundation</h2>
-            <p class="black__color exp__time">September 2022 – October 2022</p>
+            <h2 class="exp__heading team-heading">Google Developer Student Clubs, USICT</h2>
+            <p class="black__color exp__time">May 2022 - Present</p>
           </div>
-          <p class="black__color exp__position">Web developer</p>
-        </div> -->
-        <!-- <div class="exp__details">
+          <p class="black__color exp__position">Competitive Programming Lead</p>
+        </div><div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">ACM USICT STUDENT CHAPTER</h2>
-            <p class="black__color exp__time">November 2021 – Present</p>
+            <h2 class="exp__heading team-heading">SOFTWARE DEVELOPMENT CELL,USICT</h2>
+            <p class="black__color exp__time">Oct 2021 - Mar 2022</p>
           </div>
-          <p class="black__color exp__position">Membership Chair</p>
-        </div> -->
+          <p class="black__color exp__position">Web Developer</p>
+        </div>
+        <div class="exp__details">
+          <div class="exp__detail">
+            <h2 class="exp__heading team-heading">DV Social</h2>
+            <p class="black__color exp__time">Aug 2022 - Oct 2022</p>
+          </div>
+          <p class="black__color exp__position">Full-stack Developer Intern</p>
+        </div>
       </div>
     </div>
   <?php include 'sdcusict2022footer.php' ?>
