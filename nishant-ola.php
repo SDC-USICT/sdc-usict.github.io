@@ -8,6 +8,15 @@
       background-color: #041d53;
       border-radius: 10px;
     }
+    .button_ongoing{
+  background-color: grey;
+    padding: 10px 20px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    color: white;
+    border:0px;
+    
+}
   </style>
 
     <div class="container__flex">
@@ -58,7 +67,7 @@
             PW Application, with user accounts that save preferences across multiple devices, an overall nice weather app.
             </p>
             <!-- <button class="button project__button">See Projects</button> -->
-            <p class="black__color project__content py-2">Project in progress...</p>
+            <button class=" project__button button_ongoing">Ongoing</button>
           </div>
           <!-- <div class="project__card">
             <h3 class="project__title black__color">Personal Website</h3>

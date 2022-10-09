@@ -100,20 +100,20 @@
                 <div class="skillCard__img">
                     <img src="./web1.png" alt="" />
                 </div>
-                <h2 class="skillCard__heading">Web Development</h2>
+                <h2 class="skillCard__heading">Web2</h2>
                 <p class="black__color skillCard__content">
-                Solidity, Truffle, Web3.js, Ether.js, IPFS, Infura, Ganache, NodeJs, ReactJs, Javascript, HTML5, CSS3,  C/C++, Python.
+                NodeJs, ReactJs, Javascript, HTML5, CSS3.
                 </p>
             </div>
-            <!-- <div class="skill__card">
+            <div class="skill__card">
                 <div class="skillCard__img">
-                    <img src="./web2.png" alt="" />
+                    <img src="./web3.png" alt="" />
                 </div>
-                <h2 class="skillCard__heading">Web Design</h2>
+                <h2 class="skillCard__heading">Web3</h2>
                 <p class="black__color skillCard__content">
-                    Bootstrap4, Materialize, Photoshop and UserTesting.
+                Solidity, Truffle, Web3.js, Ether.js, IPFS, Infura, Ganache.
                 </p>
-            </div> -->
+            </div>
         </div>
     </div>
     <div class="exp__div container">

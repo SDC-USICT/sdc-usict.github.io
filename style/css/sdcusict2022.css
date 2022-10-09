@@ -1865,6 +1865,10 @@ p {
 .nishant_ola{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/nishant-ola.jpg) no-repeat center;
 }
+.suraj-mishra{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/suraj-mishra.png) no-repeat center;
+  background-size:  100%;
+}
 
 .profile__photo{
     max-width: 400px;
@@ -1972,6 +1976,12 @@ p {
     margin: 0;
     color: #000;
 }
+
+.project__button a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .project__cards{
     display: flex;
     justify-content: space-around;
@@ -2095,4 +2105,59 @@ p {
 }
 .exp__position{
   font-family: inter!important;
+}
+
+/* ////////////////////////// contact page /////////////////////// */
+
+.contacts{
+  color: #000;
+}
+
+.contact_head{
+  background-color: #E2F6FE;
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_grid{
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_grid h2{
+  font-weight: bolder;
+}
+
+.contact_card{
+  height: 80%;
+  width: 400px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-img{
+  padding-bottom: 5%;
+  filter: invert(10%) sepia(53%) saturate(3219%) hue-rotate(213deg) brightness(93%) contrast(105%);
+}
+
+@media only screen and (max-device-width: 768px){
+  .contact_grid h2{
+    font-size: 22px;
+  }
+  .contact_grid p{
+    font-size: 18px;
+  }
 }
