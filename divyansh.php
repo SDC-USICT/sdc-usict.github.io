@@ -95,7 +95,7 @@
           </div>
           <div class="skill__card">
             <div class="skillCard__img">
-              <img src="./devops.png" alt="" />
+              <img src="./algorithm.png" alt="" />
             </div>
             <h2 class="skillCard__heading">AI&ML</h2>
             <p class="black__color skillCard__content">
