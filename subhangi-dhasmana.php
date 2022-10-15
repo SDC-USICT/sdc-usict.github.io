@@ -39,7 +39,7 @@
           <p class="myself__content black__color">
           My name is Subhangi Dhasmana, and I am a web developer and designer. I am a second-year University School of Automation and Robotics student studying Artificial Intelligence and Data Science. I work in the Software Development Cell's web development team, USICT. I started my web development journey in my first year of college by working with the SDC web development team, where I learned time management, teamwork, and creativity. I am enthusiastic about learning new skills and honing existing ones. Learning about technology and computer software is my passion.
           </p>
-          <button class="button myself__button"><a href="./webDevTeam.php">View Team</a></button>
+          <button class="button myself__button"><a href="./webDevTeam.php" style="color: #fff; text-decoration: none;">View Team</a></button>
         </div>
       </div>
       <div class="project__div">
@@ -62,7 +62,7 @@
           <div class="project__card">
             <h3 class="project__title black__color">SpiceCafe</h3>
             <p style="text-align: left;" class="project__content black__color">
-            A responsive client-side website using languages HTML5 CSS3 JavaScript. This is an online restaurant with different food categories. Everything a customer needs (menu, timing, contact info, address etc.) can be found with one click on the homepage menu.
+            A responsive website using HTML5 CSS3 JavaScript. This is an online restaurant with different food categories. Everything a customer needs (menu, timing, contact info, address) can be found with one click on the homepage.
             </p>
             <button class="button project__button"><a href="https://github.com/SUBHANGI-DHASMANA/SpiceCafe-project" target="_blank">See Projects</a></button>
           </div>

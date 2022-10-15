@@ -624,13 +624,19 @@ color: #000000;
   }
 }
 
+/* ////////////////////    Web development page     ////////////////////// */
+
 .our-team {
+  width: 500px;
   padding: 20px 15px 30px;
   background: #b9eafc69;
   border-radius: 15px;
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 5px 5px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-team .pic {
@@ -701,6 +707,20 @@ color: #000000;
   color: white;
   top: -5px;
   border-radius: 100%;
+}
+
+.view-profile-link{
+  padding: 8px 45px;
+  border-radius: 5rem;
+  background-color: #041D54;
+  color: #fff;
+  text-decoration: none;
+}
+
+.view-profile-link:hover{
+  color: #fff;
+  background-color: #304875;
+  transition: all 0.3s linear;
 }
 
 .secLink {
@@ -1566,17 +1586,6 @@ p {
   }
 }
 
-.link {
-  font-size: 1.1rem;
-  color: #304875;
-  text-decoration: underline 0.15em #b5e7fb;
-  transition: text-decoration-color 300ms;
-}
-
-.link:hover {
-  text-decoration-color: #304875;
-}
-
 ::-webkit-scrollbar-thumb{
   background-color: #041d53;
   border-radius: 10px;
@@ -1865,10 +1874,18 @@ p {
 .nishant_ola{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/nishant-ola.jpg) no-repeat center;
 }
+.tejasva{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/Tejasva.jpg) no-repeat center;
+}
 .suraj-mishra{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/suraj-mishra.png) no-repeat center;
   background-size:  100%;
 }
+.subhangi{
+  background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/subhangi.jpg) no-repeat center;
+  background-size:  100%;
+}
+
 
 .profile__photo{
     max-width: 400px;
