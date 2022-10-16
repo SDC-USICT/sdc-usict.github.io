@@ -11,9 +11,9 @@
   </style>
 
     <div class="container__flex">
-      <div class="profile__div subhangi">
+      <div class="profile__div shubham-goyal">
         <div class="profile__photo">
-          <img class="profile__img" src="./students-img/subhangi.jpg" alt="" />
+          <img class="profile__img" src="./students-img/shubham-goyal.jpg" alt="" />
         </div>
       </div>
       <div class="social__div">
