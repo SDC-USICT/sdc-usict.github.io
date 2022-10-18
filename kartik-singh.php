@@ -11,9 +11,9 @@
   </style>
 
     <div class="container__flex">
-      <div class="profile__div subhangi">
+      <div class="profile__div kartik-singh">
         <div class="profile__photo">
-          <img class="profile__img" src="./students-img/kartik-singh.jpg" alt="" />
+          <img class="profile__img" src="./students-img/kartik-singh.jpeg" alt="" />
         </div>
       </div>
       <div class="social__div">
@@ -60,6 +60,13 @@
             <p style="text-align: left;" class="project__content black__color">
             Reflex Testing App
             </p>
+            <p style="text-align: left;" class="project__content black__color">
+
+            It is a Reflex testing native android app made using kotlin
+  </p>
+
+            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+
             <button class="button project__button"><a href="https://github.com/SakshamVarma/Subliminal-Reflex-Tester-App" target="_blank">See Projects</a></button>
           </div>
         </div>

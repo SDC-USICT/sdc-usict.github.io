@@ -1,4 +1,14 @@
   <?php include 'sdcusict2022header.php' ?>
+  
+<?php include 'sdcusict2022carousal.php'?>
+
+<style>
+  .our-team{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
 
   <body>
     <div style="margin-top: 120px">

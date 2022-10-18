@@ -11,7 +11,7 @@
   </style>
 
     <div class="container__flex">
-      <div class="profile__div subhangi">
+      <div class="profile__div mihir-jha">
         <div class="profile__photo">
           <img class="profile__img" src="./students-img/mihir-jha.jpg" alt="" />
         </div>

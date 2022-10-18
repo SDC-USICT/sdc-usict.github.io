@@ -232,7 +232,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="data0/new-website-images/shubham.jpg" />
+              <img src="./students-img/shubham-goyal.jfif" />
             </div>
             <h3 class="title">Shubham Goyal</h3>
             <span class="post">Fullstack Developer</span>
@@ -258,7 +258,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="data0/new-website-images/jatin.jpg" />
+              <img src="./students-img/jatin-singh.jpg" />
             </div>
             <h3 class="title">Jatin Singh</h3>
             <span class="post">Fullstack Developer</span>
@@ -309,7 +309,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="./data0/new-website-images/anurag.jpeg" />
+              <img src="./students-img/anurag-parashar.JPG" />
             </div>
             <h3 class="title">Anurag Parashar</h3>
             <span class="post">Fullstack Developer</span>
@@ -361,7 +361,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="data0/new-website-images/manik.jpg" />
+              <img src="./students-img/Manik.jpg" />
             </div>
             <h3 class="title">Manik Aggarwal</h3>
             <span class="post">Fullstack Developer</span>
@@ -387,7 +387,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="our-team">
             <div class="pic">
-              <img src="data0/new-website-images/saksham.jpg" />
+              <img src="./students-img/saksham-verma.jpg" />
             </div>
             <h3 class="title">Saksham Varma</h3>
             <span class="post">Graphics Designer</span>
