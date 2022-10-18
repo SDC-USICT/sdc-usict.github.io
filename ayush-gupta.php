@@ -32,13 +32,13 @@
           <p class="heading__desg">Developer</p>
         </div>
         <div class="social__icons">
-          <a href="https://www.linkedin.com/in/ayush-gupta-253092227/" class="social__icon">
+          <a href="https://www.linkedin.com/in/ayush-gupta-253092227/" class="social__icon" target="_blank">
             <img src="./linkedin-circle.png" alt="" />
           </a>
-          <a href="https://github.com/ayushgupta4002" class="social__icon">
+          <a href="https://github.com/ayushgupta4002" class="social__icon" target="_blank">
             <img src="./github-circle.png" alt="" />
           </a>
-          <a href="mailto: ayush4002gupta@gmail.com" class="social__icon">
+          <a href="mailto: ayush4002gupta@gmail.com" class="social__icon" target="_blank">
             <img src="./mail-circle.png" alt="" />
           </a>
         </div>
