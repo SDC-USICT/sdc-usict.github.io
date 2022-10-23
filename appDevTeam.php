@@ -20,152 +20,123 @@
 
     <div class="cards">
       <div class="container-card">
-        <div class="trapezium f">
+        <!-- <div class="trapezium f">
           <p class="heading-card">Team Lead</p>
         </div>
-        <div class="row justify-content-center" style="margin: 2%">
-          <div class="col-md-4 col-sm-6">
-            <div class="our-team">
-              <div class="pic">
-                <img
-                  src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
-                />
+        <div style="margin: 2%">
+          <div class="d-flex justify-content-center">
+            <div class="our-team flex-column" style="width: 25%;">
+              <div class="pic" style="height: auto;">
+                <img src="students-img/shivesh-nandan.jpg" />
               </div>
-              <h3 class="title">Himesh Nayak</h3>
+              <h3 class="title">Dhruv Gupta</h3>
               <span class="post">LEAD, SDC USICT</span>
               <ul class="social">
                 <li>
-                  <a href="https://github.com/HimeshNayak" target="_blank">
-                    <img src="github-circle.png" class="img-c" />
+                  <a href="https://github.com/ShiveshNandan" target="_blank">
+                    <img src="github-circle.png" class="img-c">
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://linkedin.com/in/himeshnayak015"
-                    target="_blank"
-                  >
-                    <img class="img-c" src="linkedin-circle.png" />
+                  <a href="https://www.linkedin.com/in/shivesh-nandan-39a1b219a/" target="_blank">
+                    <img class="img-c" src="linkedin-circle.png">
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:himeshnayak015@gmail.com" target="blank">
-                    <img src="mail-circle.png" class="img-c" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/Himesh_nayak" target="blank">
-                    <img src="twitter-circle.png" class="img-c" />
+                  <a href="mailto:kshivesh929@gmail.com" target="blank">
+                    <img src="mail-circle.png" class="img-c">
                   </a>
                 </li>
               </ul>
+              <a href="./shivesh-nandan.php" class="view-profile-link my-2">View profile</a>
             </div>
           </div>
-        </div>
-
+        </div> -->
         <div class="trapezium f">
           <p class="heading-card">Team</p>
         </div>
         <div class="row justify-content-center" style="margin: 2%">
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team">
+          <!-- <div class="col-md-3 col-sm-6">
+            <div class="our-team flex-column">
               <div class="pic">
-                <img
-                  src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
-                />
+                <img src="students-img/tanishq-sharma.jpeg" />
               </div>
-              <h3 class="title">Kartik khatana</h3>
-              <a href="" class="link" id="project-link">project link</a>
+              <h3 class="title">Ayush Baliyan</h3>
               <ul class="social">
                 <li>
-                  <a href="https://github.com/HimeshNayak" target="_blank">
-                    <img src="github-circle.png" class="img-c" />
+                  <a href="https://github.com/sharma-tanishq" target="_blank">
+                    <img src="github-circle.png" class="img-c">
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://linkedin.com/in/himeshnayak015"
-                    target="_blank"
-                  >
-                    <img class="img-c" src="linkedin-circle.png" />
-                  </a>
+                  <a href="https://www.linkedin.com/in/tanishq-sharma-aa2639212" target="_blank"><img
+                      src="linkedin-circle.png" class="img-c"></a>
                 </li>
                 <li>
-                  <a href="mailto:himeshnayak015@gmail.com" target="blank">
-                    <img src="mail-circle.png" class="img-c" />
+                  <a href="mailto:sharma.tanishq9999@gmail.com" target="_blank">
+                    <img src="mail-circle.png" class="img-c">
                   </a>
                 </li>
               </ul>
+              <a href="./tanishq-sharma.php" class="view-profile-link my-2">View profile</a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-md-3 col-sm-6">
-            <div class="our-team">
+            <div class="our-team flex-column">
               <div class="pic">
-                <img
-                  src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
-                />
+                <img src="students-img/kartik-khatana.jpg" />
               </div>
-              <h3 class="title">shaurabh dhingra</h3>
-              <a href="" class="link">project link</a>
+              <h3 class="title">Kartik Khatana</h3>
               <ul class="social">
                 <li>
-                  <a
-                    href="https://github.com/ShubhamGoyal7125/"
-                    target="_blank"
-                  >
-                    <img src="github-circle.png" class="img-c" />
+                  <a href="https://github.com/kartikkhatana" target="_blank">
+                    <img src="github-circle.png" class="img-c">
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.linkedin.com/in/shubham-goyal-7987461b8"
-                    target="_blank"
-                  >
-                    <img class="img-c" src="linkedin-circle.png" />
-                  </a>
+                  <a href="https://www.linkedin.com/in/kartikkhatana/" target="_blank"><img
+                      src="linkedin-circle.png" class="img-c"></a>
                 </li>
                 <li>
-                  <a href="mailto:shubhamgoyal7125@gmail.com" target="_blank">
-                    <img class="img-c" src="mail-circle.png" />
+                  <a href="mailto:kartikkhatana1@gmail.com" target="_blank">
+                    <img src="mail-circle.png" class="img-c">
                   </a>
                 </li>
               </ul>
+              <a href="./kartik-khatana.php" class="view-profile-link my-2">View profile</a>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
-            <div class="our-team">
+            <div class="our-team flex-column">
               <div class="pic">
-                <img
-                  src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg"
-                />
+                <img src="students-img/saurabh-dhingra.jpg" />
               </div>
-              <h3 class="title">vipul kumar</h3>
-              <a href="" class="link">project link</a>
+              <h3 class="title">Saurabh Dhingra</h3>
               <ul class="social">
                 <li>
-                  <a href="https://github.com/Jasngh004" target="_blank">
-                    <img src="github-circle.png" class="img-c" />
+                  <a href="https://github.com/saurabhdhingra" target="_blank">
+                    <img src="github-circle.png" class="img-c">
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.linkedin.com/in/jatin-singh04/"
-                    target="_blank"
-                    ><img src="linkedin-circle.png" class="img-c"
-                  /></a>
+                  <a href="https://www.linkedin.com/in/saurabhdhingraa/" target="_blank"><img src="linkedin-circle.png"
+                      class="img-c"></a>
                 </li>
                 <li>
-                  <a href="mailto:jatin2002singh@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c" />
+                  <a href="mailto:saurabh20work@gmail.com" target="_blank">
+                    <img src="mail-circle.png" class="img-c">
                   </a>
                 </li>
               </ul>
+              <a style="background:transparent; color: gray; cursor: text;" class="view-profile-link my-2">SDC, USICT</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
+  </div>
+  </div>
 
     <?php include 'sdcusict2022footer.php' ?>
 

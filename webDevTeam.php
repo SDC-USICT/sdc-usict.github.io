@@ -285,31 +285,32 @@
             <a href="./subhangi-dhasmana.php" class="view-profile-link my-2">View profile</a>
           </div>
         </div>
-        <!-- <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <div class="our-team flex-column">
             <div class="pic">
-              <img src="http://www.ipu.ac.in/data0/new-website-images/rahulsir.jpg" />
+              <img src="students-img/prince.jpg" />
             </div>
-            <h3 class="title">nitin kumar</h3>
-            <a href="" class="link">project link</a>
+            <h3 class="title">Prince</h3>
             <ul class="social">
               <li>
-                <a href="https://github.com/SakshamVarma" target="_blank">
+                <a href="https://github.com/prince5032" target="_blank">
                   <img src="github-circle.png" class="img-c">
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.linkedin.com/in/saksham-varma-45a218209"><img
+                <a target="_blank" href="https://www.linkedin.com/in/prince-819286213"><img
                     src="linkedin-circle.png" class="img-c"></a>
               </li>
               <li>
-                <a target="_blank" href="mailto:saksham.varma02@gmail.com">
+                <a target="_blank" href="mailto: prince2305pal@gmail.com">
                   <img class="img-c" src="mail-circle.png">
                 </a>
               </li>
             </ul>
+            <a href="./prince.php" class="view-profile-link my-2">View profile</a>
           </div>
         </div>
+        <!-- 
         <div class="col-md-3 col-sm-6">
           <div class="our-team flex-column">
             <div class="pic">
