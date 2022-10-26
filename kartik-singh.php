@@ -101,8 +101,20 @@
         <h1 class="exp__heading team-heading my-4">Experiences</h1>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">Vice Lead ACM CyberChain, Infoxpression Website team, Techspace website team, SDC security and testing lead</h2>
+            <h2 class="exp__heading team-heading">1. Vice Lead ACM CyberChain </h2> 
+            
+            
+            
             <p class="black__color exp__time"></p>
+          </div>
+          <div class="exp__detail">
+          <h2 class="exp__heading team-heading">2. Infoxpression Website team</h2>
+          </div>
+          <div class="exp__detail">
+          <h2 class="exp__heading team-heading">3. Techspace website team</h2>
+          </div>
+          <div class="exp__detail">
+          <h2 class="exp__heading team-heading">4. SDC security and testing lead</h2>
           </div>
           <!-- <p class="black__color exp__position">Web developer</p> -->
         </div>
