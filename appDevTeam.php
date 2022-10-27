@@ -129,7 +129,7 @@
                   </a>
                 </li>
               </ul>
-              <a style="background:transparent; color: gray; cursor: text;" class="view-profile-link my-2">SDC, USICT</a>
+              <a href="./saurabh-dhingra.html" class="view-profile-link my-2">View profile</a>
             </div>
           </div>
         </div>

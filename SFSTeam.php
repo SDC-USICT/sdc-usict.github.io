@@ -53,31 +53,31 @@
           <p class="heading-card">Team</p>
         </div>
         <div class="row justify-content-center" style="margin: 2%">
-          <!-- <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6">
             <div class="our-team flex-column">
               <div class="pic">
-                <img src="students-img/tanishq-sharma.jpeg" />
+                <img src="students-img/jatin-singh.jpg" />
               </div>
-              <h3 class="title">Ayush Baliyan</h3>
+              <h3 class="title">Jatin Singh</h3>
               <ul class="social">
                 <li>
-                  <a href="https://github.com/sharma-tanishq" target="_blank">
+                  <a href="https://github.com/Jasngh004" target="_blank">
                     <img src="github-circle.png" class="img-c">
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/tanishq-sharma-aa2639212" target="_blank"><img
+                  <a href="https://www.linkedin.com/in/jatin-singh04/" target="_blank"><img
                       src="linkedin-circle.png" class="img-c"></a>
                 </li>
                 <li>
-                  <a href="mailto:sharma.tanishq9999@gmail.com" target="_blank">
+                  <a href="mailto:jatin2002singh@gmail.com" target="_blank">
                     <img src="mail-circle.png" class="img-c">
                   </a>
                 </li>
               </ul>
-              <a href="./tanishq-sharma.php" class="view-profile-link my-2">View profile</a>
+              <a href="./jatin.php" class="view-profile-link my-2">View profile</a>
             </div>
-          </div> -->
+          </div>
 
           <div class="col-md-3 col-sm-6">
             <div class="our-team flex-column">

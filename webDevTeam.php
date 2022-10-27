@@ -106,7 +106,7 @@
             </ul>
           </div>
         </div> -->
-        <div class="col-md-3 col-sm-6">
+        <!-- <div class="col-md-3 col-sm-6">
           <div class="our-team flex-column">
             <div class="pic">
               <img src="students-img/tanishq-sharma.jpeg" />
@@ -130,7 +130,7 @@
             </ul>
             <a href="./tanishq-sharma.php" class="view-profile-link my-2">View profile</a>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-3 col-sm-6">
           <div class="our-team flex-column">
             <div class="pic">
