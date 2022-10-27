@@ -1907,8 +1907,9 @@ p {
 }
 .saurabh-dhingra{
   background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../students-img/saurabh-dhingra.jpg) no-repeat center;
-  background-size: 100%;
+  background-size:  100%;
 }
+
 
 .profile__photo{
     max-width: 400px;
