@@ -8,6 +8,9 @@
       background-color: #041d53;
       border-radius: 10px;
     }
+    .our-team{
+    width: 100%;
+  }
   </style>
 
   <div class="container-fluid a" id="op">
@@ -99,7 +102,7 @@
         <p class="heading-card">FACULTY</p>
       </div>
       <div id="faculty__flex" class="row" style="margin:4% auto; margin-bottom:2%">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6 d-flex justify-content-center">
           <div class="our-team">
             <div class="pic">
               <img src="deanSir.jpeg" />
@@ -137,7 +140,7 @@
             </div>
           </div> -->
       </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6 d-flex justify-content-center">
           <div class="our-team">
             <div class="pic">
               <img src="deanSir.jpeg" />
@@ -163,7 +166,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" >
+        <div class="col-md-3 col-sm-6 d-flex justify-content-center" >
           <div class="our-team">
             <div class="pic">
               <img src="priyanka.jpg" />
@@ -198,7 +201,7 @@
       </div>
       <div class="row" style="margin: 2%">
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="data0/new-website-images/himesh.jpeg" />
             </div>
@@ -230,7 +233,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./students-img/shubham-goyal.jfif" />
             </div>
@@ -256,7 +259,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./students-img/jatin-singh.jpg" />
             </div>
@@ -281,7 +284,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="data0/new-website-images/harshit.jpeg" />
             </div>
@@ -307,7 +310,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./students-img/anurag-parashar.JPG" />
             </div>
@@ -333,7 +336,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./data0/new-website-images/toyeesh.jpg" />
             </div>
@@ -359,7 +362,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./students-img/Manik.jpg" />
             </div>
@@ -385,7 +388,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./students-img/saksham-verma.jpg" />
             </div>
@@ -417,7 +420,7 @@
       </div>
       <div class="row" style="margin: 2%">
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./data0/new-website-images/shubhamsr.jpg" />
             </div>
@@ -433,7 +436,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="./data0/new-website-images/prateek.jpg" />
             </div>
@@ -449,7 +452,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="data0/new-website-images/piyush.jpg" />
             </div>
@@ -465,7 +468,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6">
-          <div class="our-team">
+          <div class="our-team flex-column">
             <div class="pic">
               <img src="data0/new-website-images/himank.jpg" />
             </div>
