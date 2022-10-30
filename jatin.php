@@ -43,7 +43,7 @@
           <p class="heading__desg">Lead</p>
         </div>
         <div class="social__icons">
-          <a href="#" target="_blank" class="social__icon">
+          <a href="https://www.linkedin.com/in/jatin-singh04/" target="_blank" class="social__icon">
             <img src="./linkedin-circle.png" alt="" />
           </a>
           <a href="https://github.com/Jasngh004" target="_blank" class="social__icon">

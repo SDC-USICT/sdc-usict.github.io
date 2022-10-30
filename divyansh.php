@@ -133,7 +133,7 @@
             <h2 class="exp__heading team-heading">Technical Lead at Techspace</h2>
             <p class="black__color exp__time">October 2022 - Present</p>
           </div>
-         
+          <p class="black__color exp__position">Lead</p>
         </div>
         <div class="exp__details">
           <div class="exp__detail">
@@ -144,11 +144,11 @@
         </div>
         <div class="exp__details">
           <div class="exp__detail">
-            <h2 class="exp__heading team-heading">Vice Lead in Public Relations</h2>
+            <h2 class="exp__heading team-heading">Public Relations at Infoxpression</h2>
             <p class="black__color exp__time">August 2022 - Present</p>
-         
+          </div>
+          <p class="black__color exp__position">Vice-Lead</p>
         </div>
-</div>
 
         
     </div>
