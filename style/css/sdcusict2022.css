@@ -635,8 +635,18 @@ color: #000000;
   margin-bottom: 20px;
   box-shadow: 0px 5px 5px gray;
   display: flex;
+  /* changes */
+  z-index: 0;
+  transition:0.2s all;
+  /* ********************** */
   justify-content: center;
   align-items: center;
+}
+/* added hover */
+.our-team:hover{
+z-index:1;
+box-shadow:0 8px 50px rgb(0,0,0,0.2);
+transform:scale(1.10);
 }
 
 .our-team .pic {
@@ -897,12 +907,63 @@ p {
   transform: scale(1.2);
 }
 
-.foot {
+/* .foot {
   display: flex;
   justify-content: space-between;
   padding: 5px 5px;
   background: rgb(4, 29, 83);
+} */
+/* **************** */
+footer{
+  background: rgb(4, 29, 83);
+  position: relative;
+  width: 100%;
+  height:150px;
+  min-height: 100px;
+  padding: 1rem 1rem;
+
 }
+.container{
+  max-width: 1140px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.col{
+  min-width:250px;
+  color:#f2f2f2;
+  font-family: poppins;
+  padding: 0 2rem;
+}
+.col   .social a i{
+  color:rgb(240, 242, 249);
+  margin-top: 2rem;
+  margin-right: 5px;
+  transform: 0.3s ease;
+}
+.col .social a i:hover{    
+  transform: scale(1.5);
+  filter:grayscale(25);
+}
+#form{
+  color:rgb(240, 242, 249);
+  margin-top: 2rem;
+  margin-right: 5px;
+  transform: 0.2s ease;
+}
+#form:hover{
+  transform: scale(1.5);
+  filter:grayscale(25);
+}
+/* ************************* */
 
 .left {
   width: 80px;
@@ -939,7 +1000,7 @@ p {
 }
 
 #form {
-  width: 50px;
+  width: 40px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -1619,14 +1680,22 @@ p {
   flex-direction: column;
   margin-top: 220px;
 }
-
+/* changes made */
 .fm-container{
   height: 270px;
   width: 100%;
   margin: 80px 0;
+  z-index:0;
+  transition:0.4s all;
   background-color: #e2f6fe;
 }
+.fm-container:hover{
+z-index: 0.5;
+box-shadow: 0px 4px 25px  rgb(141, 141, 236);
+transform:scale(1.05);
+}
 
+/* **************************** */
 .fm-details{
   flex-direction: column;
   bottom: 40%;
@@ -1862,12 +1931,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../shubham.jpg) no-repeat center; */
+    background: linear-gradient(0deg, rgba(226, 246, 254, 0.9), rgba(226, 246, 254, 0.9)), url(../../shubham.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 90vh;
     padding: 8rem 0 10rem;
-    background: #92ddf9;
 }
 
 /* ///////////////////////// students ///////////////////////// */
@@ -2202,92 +2270,4 @@ p {
   .contact_grid p{
     font-size: 18px;
   }
-}
-
-/* p,a,h1,h2,h3,h4 {
-	margin: 0;
-	padding: 0;
-} */
-
-.single-person {
-	margin-top: 30px;
-	padding: 30px;
-	background-color: #f6f9ff;
-	border-radius: 5px;
-}
-
-.single-person:hover {
-	background: linear-gradient(to right, #016cec, #00b5f7);
-}
-
-.single-person .person-image {
-    position: relative;
-    margin-bottom: 50px;
-    border-radius: 50%;
-    border: 4px dashed transparent;
-    transition: padding .3s;
-}
-
-.single-person:hover .person-image {
-	padding: 12px;
-    border: 4px dashed #fff;
-}
-
-.single-person .person-image img {
-	width: 100%;
-    border-radius: 50%;
-}
-
-.single-person .person-image .icon {
-	position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,50%);
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: linear-gradient(to right, #016cec, #00b5f7);
-    color: #fff;
-    border-radius: 50%;
-    font-size: 24px;
-}
-
-.single-person:hover .person-image .icon {
-	background: none;
-	background-color: #fff;
-	color: #016cec;
-}
-
-.single-person .person-info .full-name {
-	color: #000;
-  margin-bottom: 10px;
-	font-size: 28px;
-  font-weight: 700;
-}
-
-.single-person .person-info .speciality {
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #016cec;
-}
-
-.single-person:hover .full-name,
-.single-person:hover .speciality {
-	color: #fff;
-}
-
-.single-person .socials {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-.single-person .socials img {
-  height: 2.5rem;
-  margin: 1rem;
-  border-radius: 1rem;
 }

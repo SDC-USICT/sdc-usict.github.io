@@ -80,6 +80,8 @@
   }
   
   .foot {
+    /* change made
+    min-height:300px; */
     display: flex;
     justify-content: space-between;
     padding: 5px 5px;
