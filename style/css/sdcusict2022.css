@@ -9,6 +9,9 @@
   box-sizing: border-box;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Poppins:wght@300&display=swap');
 * {
   font-family: 'Times New Roman', Times, serif ;
 
@@ -218,6 +221,7 @@
 
 .imggge {
   width: 100%;
+  filter: brightness(0.7) !important;
 }
 
 #a {
@@ -435,10 +439,12 @@ color: #000000;
   }
 } */
 #mainH {
-  color: #62d0ff;
-  font-size: xxx-large;
-  font-weight: bolder;
-  text-shadow: 3px 3px black;
+  color: #ffffff;
+    font-size: 8vh;
+    /* font-weight: 1500; */
+    font-family: Poppins;
+    /* margin-bottom: 3vh; */
+    margin-top: -2vh;
 }
 
 .line {
@@ -492,6 +498,7 @@ color: #000000;
   margin: 0.5rem auto;
   /* padding: 100px 0px; */
   width: 100%;
+
 }
 
 .top .typ {
