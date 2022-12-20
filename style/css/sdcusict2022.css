@@ -441,7 +441,7 @@ color: #000000;
 #mainH {
   color: #ffffff;
     font-size: 8vh;
-    /* font-weight: 1500; */
+    font-weight: bolder;
     font-family: Poppins;
     /* margin-bottom: 3vh; */
     margin-top: -2vh;
