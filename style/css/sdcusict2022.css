@@ -8,10 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Poppins:wght@300&display=swap');
 * {
-  font-family: 'Times New Roman', Times, serif ;
-
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @font-face {
   font-family:SourceSansPro ; 
@@ -666,6 +668,7 @@ transform:scale(1.10);
 
 .our-team .title {
   display: block;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #2e282a;
@@ -905,6 +908,10 @@ p {
 
 .sub .img:hover {
   transform: scale(1.2);
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* .foot {
