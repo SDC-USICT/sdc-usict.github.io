@@ -2328,3 +2328,13 @@ footer {
     font-size: 18px;
   }
 }
+
+/* footer */
+.footer-content {
+  text-align: center;
+}
+.footer {
+  /* padding: rem; */
+  height: 50px;
+  padding: 2rem;
+}
