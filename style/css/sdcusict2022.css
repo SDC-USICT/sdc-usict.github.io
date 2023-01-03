@@ -2038,6 +2038,51 @@ footer {
     url(../../students-img/Dhruv-\ Aeron.jpg) no-repeat center;
   background-size: 100%;
 }
+.tanisqa-jha {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/Taniska-Jha.jpg) no-repeat center;
+  background-size: 100%;
+}
+.Chaitanya-Rai {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/Chaitanya-Rai.jpg) no-repeat center;
+  background-size: 100%;
+}
+.aryavir-malik {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/aryavir-malik.jpg) no-repeat center;
+  background-size: 100%;
+}
+.shubh-sardana {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/shubh\ -\ Shubh\ Sardana.jpg) no-repeat center;
+  background-size: 100%;
+}
+.dhruv-gupta {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/\ Dhruv\ Gupta.jpeg) no-repeat center;
+  background-size: 100%;
+}
 
 .profile__photo {
   max-width: 400px;
@@ -2049,6 +2094,32 @@ footer {
 .profile__img {
   border-radius: 50%;
   width: 100%;
+}
+.Chaitanya-Rai-profile {
+  border-radius: 50%;
+  width: 100%;
+  height: 500px;
+}
+.aryavir-malik-profile {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 23px;
+  object-fit: fill;
+  height: 500px;
+}
+.dhruv-gupta-profile {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 23px;
+  object-fit: fill;
+  height: 500px;
+}
+.shubh-sardana-profile {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 23px;
+  object-fit: fill;
+  height: 500px;
 }
 /* Social div */
 .social__div {

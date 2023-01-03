@@ -10,11 +10,7 @@
   <link rel="stylesheet" href="style/css/font-awesome.min.css" />
   <link rel="stylesheet" href="style/css/sdcusict2022.css" />
 </head>
-<!-- font link -->
-<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
+
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="
@@ -61,7 +57,7 @@
         </a>
       </li>
 
-<li class="nav-item mx-lg-3 hover" >
+<li class="nav-item dropdown mx-lg-3 hover" id="lg-dropdown">
         <a class="nav-link text-white d-inline" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
           aria-expanded="false">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
@@ -75,17 +71,17 @@
           <li>
             <a class=" text-white mt-2 lg-dropdown-item" href="sdcusictfaculty.php">Faculty</a>
           </li>
-          <!-- <li>
+          <li>
             <a class=" text-white lg-dropdown-item" href="#core-team">Core Team</a>
-          </li> -->
+          </li>
         </ul>
 
         <a class="nav-link active hover-text" aria-current="page" href="#">
-          Faculty
+          Teams
         </a>
       </li>
       <!--  -->
-      <!-- <li class="nav-item mx-lg-3 hover">
+      <li class="nav-item mx-lg-3 hover">
         <a class="nav-link active d-inline" aria-current="page" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
             class="bi bi-house-door text-white" viewBox="0 0 16 16">
@@ -96,7 +92,7 @@
         <a class="nav-link active hover-text mt-auto" aria-current="page" href="sdcusict.php">
           Contact Us
         </a>
-      </li> -->
+      </li>
 
 </li>
     </ul>
@@ -104,7 +100,7 @@
 
 
 
-<!-- <div id="carouselExampleDark" class="carousel carousel-dark slide slid" data-bs-ride="carousel">
+<div id="carouselExampleDark" class="carousel carousel-dark slide slid" data-bs-ride="carousel">
     <div class="carousel-indicators" id="slllide">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -124,7 +120,7 @@
         <img src="https://ipubuzz.com/wp-content/uploads/2021/01/5-1024x683.jpg" class="d-block w-100 pic img-fluid"
           alt="...">
 
-      </div> -->
+      </div>
 
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -139,194 +135,143 @@
   </div>
 
 <style>
-  .our-team{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+    ::-webkit-scrollbar-thumb {
+        width: 10px;
+        background-color: #041d53;
+        border-radius: 10px;
+    }
 </style>
 
-  <body>
-    <div style="margin-top: 120px">
-    <div class="ellipse">
-      <p class="teamheading" style="margin-top: 0">
-        App Development Team
-      </p>
+<div class="container__flex">
+    <div class="profile__div dhruv-gupta">
+        <div class="profile__photo">
+            <img class="profile__img dhruv-gupta-profile" src="./students-img/ Dhruv Gupta.jpeg" alt="" />
+        </div>
     </div>
-
-    <div class="cards">
-      <div class="container-card">
-        <!-- <div class="trapezium f">
-          <p class="heading-card">Team Lead</p>
+    <div class="social__div">
+        <div class="social__heading">
+            <h3 class="heading__name team-heading">Dhruv Gupta</h3>
+            <p class="heading__desg">Developer</p>
         </div>
-        <div style="margin: 2%">
-          <div class="d-flex justify-content-center">
-            <div class="our-team flex-column" style="width: 25%;">
-              <div class="pic" style="height: auto;">
-                <img src="students-img/shivesh-nandan.jpg" />
-              </div>
-              <h3 class="title">Dhruv Gupta</h3>
-              <span class="post">LEAD, SDC USICT</span>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/ShiveshNandan" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/shivesh-nandan-39a1b219a/" target="_blank">
-                    <img class="img-c" src="linkedin-circle.png">
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:kshivesh929@gmail.com" target="blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./shivesh-nandan.php" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div>
-        </div> -->
-        <div class="trapezium f">
-          <p class="heading-card">Team</p>
+        <div class="social__icons">
+            <a href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target="_blank" class="social__icon">
+                <img src="./linkedin-circle.png" alt="" />
+            </a>
+            <a href="https://github.com/MR-DHRUV" target="_blank" class="social__icon">
+                <img src="./github-circle.png" alt="" />
+            </a>
+            <a href="mailto:dhruvgupta742@gmail.com" target="_blank" class="social__icon">
+                <img src="./mail-circle.png" alt="" />
+            </a>
         </div>
-        <div class="row justify-content-center" style="margin: 2%">
-          <!-- <div class="col-md-3 col-sm-6">
-            <div class="our-team flex-column">
-              <div class="pic">
-                <img src="students-img/tanishq-sharma.jpeg" />
-              </div>
-              <h3 class="title">Ayush Baliyan</h3>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/sharma-tanishq" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/tanishq-sharma-aa2639212" target="_blank"><img
-                      src="linkedin-circle.png" class="img-c"></a>
-                </li>
-                <li>
-                  <a href="mailto:sharma.tanishq9999@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./tanishq-sharma.php" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div> -->
-
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team flex-column">
-              <div class="pic">
-                <img src="students-img/kartik-khatana.jpg" />
-              </div>
-              <h3 class="title">Kartik Khatana</h3>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/kartikkhatana" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/kartikkhatana/" target="_blank"><img
-                      src="linkedin-circle.png" class="img-c"></a>
-                </li>
-                <li>
-                  <a href="mailto:kartikkhatana1@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./kartik-khatana.php" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team flex-column">
-              <div class="pic">
-                <img src="students-img/Manik.jpg" />
-              </div>
-              <h3 class="title">Manik-Aggarwal</h3>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/Manik-Aggarwal" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.linkedin.com/in/manik-aggarwal" target="_blank"><img
-                      src="linkedin-circle.png" class="img-c"></a>
-                </li>
-                <li>
-                  <a href="mailto:manikaggarwal993@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./manik-aggarwal.html" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team flex-column">
-              <div class="pic">
-                <img src="students-img/saurabh-dhingra.jpg" />
-              </div>
-              <h3 class="title">Saurabh Dhingra</h3>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/saurabhdhingra" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/saurabhdhingraa/" target="_blank"><img src="linkedin-circle.png"
-                      class="img-c"></a>
-                </li>
-                <li>
-                  <a href="mailto:saurabh20work@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./saurabh-dhingra.html" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div>
-          
-          <div class="col-md-3 col-sm-6">
-            <div class="our-team flex-column">
-              <div class="pic">
-                <img src="students-img/saurabh-dhingra.jpg" />
-              </div>
-              <h3 class="title">Saurabh Dhingra</h3>
-              <ul class="social">
-                <li>
-                  <a href="https://github.com/saurabhdhingra" target="_blank">
-                    <img src="github-circle.png" class="img-c">
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/saurabhdhingraa/" target="_blank"><img src="linkedin-circle.png"
-                      class="img-c"></a>
-                </li>
-                <li>
-                  <a href="mailto:saurabh20work@gmail.com" target="_blank">
-                    <img src="mail-circle.png" class="img-c">
-                  </a>
-                </li>
-              </ul>
-              <a href="./.html" class="view-profile-link my-2">View profile</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  </div>
+    <div class="myself__div">
+        <div class="myself__divinside">
+            <h1 class="myself__heading team-heading">About Myself</h1>
+            <p class="myself__content black__color">
+                Hello, I'm Dhruv Gupta, a first-year student pursuing his bachelor's in computer science engineering from the University School of Information, Communication and Technology, Guru Gobind Singh Indraprastha University. I have completed my schooling in New Delhi, India. I love to hang out with my friends and drive my car around the city. I am a MERN stack developer and a graphic designer. I have developed and hosted various API and web applications. Except for MERN, I have a good command of C, C++, and python.
+            </p>
+            <!-- <button class="button myself__button">View Team</button> -->
+        </div>
+    </div>
+    <div class="project__div">
+        <h1 class="project__heading team-heading">Projects</h1>
+        <div class="project__cards">
+            <div class="project__card" style="max-width: 400px;">
+                <h3 class="project__title black__color">Notify</h3>
+                <p style="text-align: left;" class="project__content black__color">
+                    It is a notes application with reminders. It is a react-based progressive web application whose backend is developed on NodeJS and ExpressJS. MongoDB is used as a non-relational database.
 
-  <form action="https://docs.google.com/forms/d/e/1FAIpQLSffL-3mceevouy0RVuMkfIHoqwP50lJNw8PtIWZ5P61s22F3w/viewform">
+                    To use the services provided by the application, authentication is mandatory. Thus, the app features multiple authentication ways like Authentication with email and Google. To ensure utmost security, most of the actions require two-factor authentication and the user is logged with all the account actions like sign in, signup activities, change of passwords, etc on their Email Address.
+                </p>
+                <button class="button project__button"><a href="https://notify-mr-dhruv.vercel.app/" target="_blank">See
+                        Projects</a></button>
+            </div>
+            <div class="project__card" style="max-width: 400px;">
+                <h3 class="project__title black__color">Authify - The Authentication APIAuthify - The Authentication API </h3>
+                <p style="text-align: left;" class="project__content black__color">
+                    Its an authentication API facilitating Google based oath2.0 authentications.All the passwords are hashed with Bcrypt algorithm with an industry standard salting. User is logged instantly with all the actions like sign-in , change of password , sign-up on their email address. Most of the actions require OTP, that is sent on their email address to improve security.
+                </p>
+                <button class="button project__button"><a href="https://api-authify.azurewebsites.net/" target="_blank">See
+                        Projects</a></button>
+            </div>
+            <div class="project__card" style="max-width: 400px;">
+                <h3 class="project__title black__color">Mausam</h3>
+                <p style="text-align: left;" class="project__content black__color">
+                    It's a weather application with an awesome landing page based upon react and it's a progressive web application. It shows the data for 7 weeks and 48 hours separately. All the data is real-time and is fetched from: https://openweathermap.org/.
+                </p>
+                <button class="button project__button"><a href="https://mausam-mr-dhruv.vercel.app/#/" target="_blank">See Projects</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="skill__div">
+        <h1 class="skill__heading team-heading">Skills</h1>
+        <div class="skill__cards">
+            <div class="skill__card">
+                <div class="skillCard__img">
+                    <img src="./web1.png" alt="" />
+                </div>
+                <h2 class="skillCard__heading">Web2</h2>
+                <p class="black__color skillCard__content">
+                    HTML, CSS, JS, ReactJS, NodeJS, ExpressJS, C, C++, Python, PHP,  NextJS, JWT, Azure, MongoDB, Rest API.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="exp__div container">
+        <h1 class="exp__heading team-heading my-4">Experiences</h1>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">GGSIPU USS ACM </h2>
+                <p class="black__color exp__time">January 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Developer</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">Srijan Science Club</h2>
+                <p class="black__color exp__time">February 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Media Head</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">Techspace USICT</h2>
+                <p class="black__color exp__time">May 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Technical Team Member</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">SDC USICT</h2>
+                <p class="black__color exp__time">June 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Developer</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">GeeksforGeeks</h2>
+                <p class="black__color exp__time">June 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Campus Ambassador</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">Coding Ninjas</h2>
+                <p class="black__color exp__time">June 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Campus Ambassador</p>
+        </div>
+        <div class="exp__details">
+            <div class="exp__detail">
+                <h2 class="exp__heading team-heading">GDSC USICT</h2>
+                <p class="black__color exp__time">August 2022 – Present</p>
+            </div>
+            <p class="black__color exp__position">Open Source Mentor</p>
+        </div>
+    </div>
+</div>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSffL-3mceevouy0RVuMkfIHoqwP50lJNw8PtIWZ5P61s22F3w/viewform">
     <div class="mains">
 
       <div class="contact">
@@ -350,7 +295,7 @@
   </form>
   <div class="parent">
 
-<!-- <div class="foot">
+<div class="foot">
 
       <div class="left">
         <a href="#"> <img id="inst" class="icon" src="inst.png" alt=""></a>
@@ -361,12 +306,13 @@
       <p id="statement">Copyright © SDC-USICT </p>
       <img class="icon form form1" id="form" src="contact.png" alt="">
     </div>
-  </div> -->
+  </div>
   <footer class="footer">
     
     <div class="col footer-content"> Copyright © SDC-USICT
     
   </footer>
+
 
   <script src="style/scripts/bootstrap.min.js"></script>
   <script src="style/scripts/button.js"></script>
