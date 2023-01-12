@@ -2083,6 +2083,15 @@ footer {
     url(../../students-img/\ Dhruv\ Gupta.jpeg) no-repeat center;
   background-size: 100%;
 }
+.ansh-goyal {
+  background: linear-gradient(
+      0deg,
+      rgba(226, 246, 254, 0.9),
+      rgba(226, 246, 254, 0.9)
+    ),
+    url(../../students-img/ansh-goyal.jpg) no-repeat center;
+  background-size: 100%;
+}
 
 .profile__photo {
   max-width: 400px;
