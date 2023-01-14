@@ -334,6 +334,7 @@
   z-index: 500;
   height: fit-content;
   text-align: center;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
