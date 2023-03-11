@@ -10,11 +10,7 @@ function Nav() {
         height: "100px",
       }}
     >
-      <a
-        className="navbar-brand mb-4"
-        style={{ "margin-left": "5rem" }}
-        href="#"
-      >
+      <a className="navbar-brand mb-4" href="#">
         <img
           className="pt-2 px-1"
           style={{ width: "80px", height: "50px" }}
