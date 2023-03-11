@@ -1,20 +1,23 @@
 import React from "react";
-import "../assets/style/css/sdcusict2022.css";
+import "../CSS/sdcusict.css";
 function Nav() {
   return (
     <Nav
       className="navbar navbar-expand-lg navbar-dark"
-      style="
-        background-color: rgb(4, 29, 83);
-        border-radius: 100% 0% 40% 40%/0 0 30% 40%;
-        height: 100px;
-      "
+      style={{
+        backgroundColor: "rgb(4, 29, 83)",
+        borderRadius: "100% 0% 40% 40%/0 0 30% 40%",
+        height: "100px",
+      }}
     >
-      <a className="navbar-brand mb-4" style="margin-left: 5rem" href="#">
+      <a
+        className="navbar-brand mb-4"
+        style={{ "margin-left": "5rem" }}
+        href="#"
+      >
         <img
           className="pt-2 px-1"
-          width="80px"
-          height="50px"
+          style={{ width: "80px", height: "50px" }}
           src="./logo.png"
           alt="SDC USICT"
         />
@@ -22,7 +25,7 @@ function Nav() {
       <button
         className="navbar-toggler mx-5 mb-3"
         type="button"
-        style="border: 0"
+        style={{ border: "0" }}
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
@@ -34,7 +37,7 @@ function Nav() {
 
       <div
         className="collapse navbar-collapse me-auto"
-        style="border-radius: 0 0 15% 0"
+        style={{ "border-radius": "0 0 15% 0" }}
         id="navbarSupportedContent"
       >
         <ul className="navbar-nav ms-2 mb-2 mb-lg-0 mt-5 me-lg-5 d-lg-none"></ul>
@@ -49,8 +52,7 @@ function Nav() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              style={{ width: "30", height: "30" }}
               fill="currentColor"
               className="bi bi-house-door text-white"
               viewBox="0 0 16 16"
@@ -74,8 +76,7 @@ function Nav() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              style={{ width: "30", height: "30" }}
               fill="currentColor"
               className="bi bi-house-door text-white"
               viewBox="0 0 16 16"
@@ -103,8 +104,7 @@ function Nav() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              style={{ width: "30", height: "30" }}
               fill="currentColor"
               className="bi bi-people text-white"
               viewBox="0 0 16 16"

@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "../Components/Nav";
-import Footer from "../Components/Footer";
-import Carousel from "../Components/Carousel";
+import Nav from "../templates/Nav";
+import Footer from "../templates/Footer";
+import Carousel from "../templates/Carousel";
 function Faculty() {
   return (
     <>
@@ -39,7 +39,7 @@ function Faculty() {
                   textAlign: "left",
                   paddingBottom: "4rem",
                   lineHeight: "1.5",
-                  fontSize: 22,
+                  fontSize: "22",
                 }}
               >
                 Teaching at University School OfInformation and Communication
