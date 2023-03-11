@@ -10,11 +10,7 @@ function Nav() {
         height: "100px",
       }}
     >
-      <a
-        className="navbar-brand mb-4"
-        style={{ "margin-left": "5rem" }}
-        href="#"
-      >
+      <a className="navbar-brand mb-4" style={{ marginLeft: "5rem" }} href="#">
         <img
           className="pt-2 px-1"
           style={{ width: "80px", height: "50px" }}
@@ -37,7 +33,7 @@ function Nav() {
 
       <div
         className="collapse navbar-collapse me-auto"
-        style={{ "border-radius": "0 0 15% 0" }}
+        style={{ borderRadius: "0 0 15% 0" }}
         id="navbarSupportedContent"
       >
         <ul className="navbar-nav ms-2 mb-2 mb-lg-0 mt-5 me-lg-5 d-lg-none"></ul>

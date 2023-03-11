@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "../templates/Nav";
 import Footer from "../templates/Footer";
 import Carousel from "../templates/Carousel";
+import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 function Faculty() {
   return (
     <>
@@ -10,7 +12,7 @@ function Faculty() {
       <section>
         <div classname="fm-main-container">
           <div classname="fm-container row">
-            <div classname="fm-details col-lg-4">
+            <div classname="fm-details col-lg-4x">
               <div classname="fm-outer-layer container">
                 <div classname="fm-inner-layer">
                   <img src="rahulsir.jpg" classname="fm-img" alt="rahulsir" />
