@@ -1,8 +1,9 @@
 import React from "react";
 import "../CSS/sdcusict.css";
+
 function Nav() {
   return (
-    <Nav
+    <div
       className="navbar navbar-expand-lg navbar-dark"
       style={{
         backgroundColor: "rgb(4, 29, 83)",
@@ -10,11 +11,7 @@ function Nav() {
         height: "100px",
       }}
     >
-<<<<<<< HEAD
-      <a className="navbar-brand mb-4" href="#">
-=======
-      <a className="navbar-brand mb-4" style={{ marginLeft: "5rem" }} href="#">
->>>>>>> 1699199ffc89727e04de69d9cab89218eb3892dc
+      <a className="navbar-brand mb-4" style={{ marginLeft: "5rem" }} href="/">
         <img
           className="pt-2 px-1"
           style={{ width: "80px", height: "50px" }}
@@ -96,7 +93,7 @@ function Nav() {
         <li className="nav-item mx-lg-3 hover">
           <a
             className="nav-link text-white d-inline"
-            href="#"
+            href="/"
             id="navbarDropdown"
             role="button"
             data-bs-toggle="dropdown"
@@ -119,7 +116,7 @@ function Nav() {
             aria-labelledby="navbarDropdown"
           >
             <li>
-              <a className=" text-white mt-2 lg-dropdown-item" href="#">
+              <a className=" text-white mt-2 lg-dropdown-item" href="/">
                 Faculty
               </a>
             </li>
@@ -134,23 +131,8 @@ function Nav() {
           </a>
         </li>
       </ul>
-    </Nav>
+    </div>
   );
-}
-{
-  /* <!--  -->
-  <!-- <li className="nav-item mx-lg-3 hover">
-        <a className="nav-link active d-inline" aria-current="page" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-            className="bi bi-house-door text-white" viewBox="0 0 16 16">
-            <path
-            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-            </svg>
-            </a>
-            <a className="nav-link active hover-text mt-auto" aria-current="page" href="sdcusict.php">
-            Contact Us
-            </a>
-        </li> --> */
-}
+    }
 
 export default Nav;

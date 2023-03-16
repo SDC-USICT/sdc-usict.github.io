@@ -5,14 +5,14 @@ function Footer() {
     <>
       <div classname="foot">
         <div classname="left">
-          <a href="#">
+          <a href="/">
             {" "}
             <img id="inst" classname="icon" src="inst.png" alt="" />
           </a>
-          <a href="#">
+          <a href="/">
             <img classname="icon" src="fb.png" alt="" />
           </a>
-          <a href="#">
+          <a href="/">
             <img classname="icon" src="twitter.png" alt="" />
           </a>
           <a href="mailto:sdc@gmail.com">
