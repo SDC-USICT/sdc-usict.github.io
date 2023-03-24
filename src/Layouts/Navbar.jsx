@@ -1,4 +1,5 @@
 import React from "react";
+import "../CSS/sdcusict2022.css";
 
 function Navbar() {
   return (
@@ -6,9 +7,9 @@ function Navbar() {
       <nav
         className="navbar navbar-expand-lg navbar-dark"
         style={{
-        background_color: "rgb(4, 29, 83)",
-        border_radius: "100% 0% 40% 40%/0 0 30% 40%",
-        height: "100px"
+          background_color: "rgb(4, 29, 83)",
+          border_radius: "100% 0% 40% 40%/0 0 30% 40%",
+          height: "100px",
         }}
       >
         <a className="navbar-brand mb-4" style="margin-left: 5rem" href="#">
@@ -16,14 +17,14 @@ function Navbar() {
             className="pt-2 px-1"
             width="80px"
             height="50px"
-            src="./logo.png"
+            src={require("../Assets/logo.png")}
             alt="SDC USICT"
           />
         </a>
         <button
           className="navbar-toggler mx-5 mb-3"
           type="button"
-          style={{border: 0}}
+          style={{ border: 0 }}
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
@@ -35,7 +36,7 @@ function Navbar() {
 
         <div
           className="collapse navbar-collapse me-auto"
-          style={{border_radius: "0 0 15% 0"}}
+          style={{ border_radius: "0 0 15% 0" }}
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ms-2 mb-2 mb-lg-0 mt-5 me-lg-5 d-lg-none"></ul>
@@ -129,7 +130,7 @@ function Navbar() {
             <a
               className="nav-link active hover-text"
               aria-current="page"
-              href="sdcusictfaculty.html"
+              href={require("sdcusictfaculty.html")}
             >
               Faculty
             </a>

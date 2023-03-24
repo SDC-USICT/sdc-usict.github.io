@@ -3,6 +3,7 @@ import Nav from "../templates/Nav";
 import Footer from "../templates/Footer";
 import Carousel from "../templates/Carousel";
 import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../CSS/sdcusict2022.css";
 
 function Faculty() {
   return (

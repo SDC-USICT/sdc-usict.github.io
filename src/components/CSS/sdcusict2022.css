@@ -1157,7 +1157,7 @@ footer {
 }
 
 .projectBGI {
-  background-image: url(../../ipu1.jpg);
+  background-image: url(../../Assets/ipu1.jpg);
   background-size: 100% 600px;
   background-repeat: no-repeat;
   height: 700px;
@@ -1258,7 +1258,7 @@ footer {
   /* margin-top: 7%; */
   width: 100%;
   /* min-height: 400px; */
-  background-image: url("../../rec1.png");
+  background-image: url("../../Assets/nav-icon1.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* min-height: 482px; */
@@ -1268,7 +1268,7 @@ footer {
   padding: 5% 0 6% 0;
   position: relative;
   flex-direction: row-reverse;
-  background-image: url("../../rec2.png");
+  background-image: url("../../Assets/nav-icon2.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* min-height: 482px; */
@@ -1277,7 +1277,7 @@ footer {
 .con-fac3 {
   padding: 6% 0 4% 0;
   position: relative;
-  background-image: url("../../rec3.png");
+  background-image: url("../../Assets/nav-icon3.png");
   background-size: contain;
   background-repeat: no-repeat;
   /* min-height: 482px; */
@@ -1932,8 +1932,8 @@ footer {
       0deg,
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
-    ),
-    url(../../shubham.jpg) no-repeat center;
+    );
+    /* url(../../shubham.jpg) no-repeat center; */
   background-size: cover;
   width: 100%;
   height: 90vh;
@@ -1948,7 +1948,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/nishant-ola.jpg) no-repeat center;
+    url(../../Assets/student-img/nishant-ola.jpg) no-repeat center;
 }
 .tejasva {
   background: linear-gradient(
@@ -1956,7 +1956,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/Tejasva.jpg) no-repeat center;
+    url(../../Assets/student-img/Tejasva.jpg) no-repeat center;
 }
 .suraj-mishra {
   background: linear-gradient(
@@ -1964,7 +1964,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/suraj-mishra.png) no-repeat center;
+    url(../../Assets/student-img/suraj-mishra.png) no-repeat center;
   background-size: 100%;
 }
 .subhangi {
@@ -1973,7 +1973,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/subhangi.jpg) no-repeat center;
+    url(../../Assets/student-img/subhangi.jpeg) no-repeat center;
   background-size: 100%;
 }
 .mihir-jha {
@@ -1982,7 +1982,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/mihir-jha.jpg) no-repeat center;
+    url(../../Assets/student-img/mihir-jha.jpg) no-repeat center;
   background-size: 100%;
 }
 .kartik-singh {
@@ -1991,10 +1991,10 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/kartik-singh.jpeg) no-repeat center;
+    url(../../Assets/student-img/kartik-singh.jpeg) no-repeat center;
   background-size: 100%;
 }
-.saksham-verma {
+/* .saksham-verma {
   background: linear-gradient(
       0deg,
       rgba(226, 246, 254, 0.9),
@@ -2029,14 +2029,14 @@ footer {
     ),
     url(../../students-img/saurabh-dhingra.jpg) no-repeat center;
   background-size: 100%;
-}
+} */
 .dhruv-aeron {
   background: linear-gradient(
       0deg,
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/Dhruv-\ Aeron.jpg) no-repeat center;
+    url(../../Assets/student-img/Dhruv-\ Aeron.jpg) no-repeat center;
   background-size: 100%;
 }
 .tanisqa-jha {
@@ -2045,7 +2045,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/Taniska-Jha.jpg) no-repeat center;
+    url(../../Assets/student-img/Taniska-Jha.jpg) no-repeat center;
   background-size: 100%;
 }
 .Chaitanya-Rai {
@@ -2054,7 +2054,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/Chaitanya-Rai.jpg) no-repeat center;
+    url(../../Assets/student-img/Chaitanya-Rai.jpg) no-repeat center;
   background-size: 100%;
 }
 .aryavir-malik {
@@ -2063,7 +2063,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/aryavir-malik.jpg) no-repeat center;
+    url(../../Assets/student-img/aryavir-malik.jpg) no-repeat center;
   background-size: 100%;
 }
 .shubh-sardana {
@@ -2072,7 +2072,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/shubh\ -\ Shubh\ Sardana.jpg) no-repeat center;
+    url(../../Assets/student-img/shubh\ -\ Shubh\ Sardana.jpg) no-repeat center;
   background-size: 100%;
 }
 .dhruv-gupta {
@@ -2081,7 +2081,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/\ Dhruv\ Gupta.jpeg) no-repeat center;
+    url(../../Assets/student-img/Dhruv\ Gupta.jpeg) no-repeat center;
   background-size: 100%;
 }
 .ansh-goyal {
@@ -2090,7 +2090,7 @@ footer {
       rgba(226, 246, 254, 0.9),
       rgba(226, 246, 254, 0.9)
     ),
-    url(../../students-img/ansh-goyal.jpg) no-repeat center;
+    url(../../Assets/student-img/ansh-goyal.jpg) no-repeat center;
   background-size: 100%;
 }
 
