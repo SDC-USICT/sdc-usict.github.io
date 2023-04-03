@@ -7,7 +7,7 @@ import ayush from "../Assets/student-img/ayush-goyal.jpeg";
 import ayushimg from "../Assets/student-img/ayushimg.jpeg";
 import Chaitanya from "../Assets/student-img/Chaitanya-Rai.jpg";
 import Dhruv from "../Assets/student-img/Dhruv- Aeron.jpg";
-import DhruvGupta from "../Assets/student-img/Dhruv Gupta.jpg";
+import DhruvGupta from "../Assets/student-img/Dhruv Gupta.jpeg";
 import Divyansh from "../Assets/student-img/Divyansh.jpg";
 import kartik from "../Assets/student-img/kartik-khatana.jpg";
 import kartiksingh from "../Assets/student-img/kartik-singh.jpeg";
@@ -19,7 +19,7 @@ import Sarthak from "../Assets/student-img/Sarthak Agarwal.JPG";
 import shivesh from "../Assets/student-img/shivesh-nandan.jpg";
 import shubh from "../Assets/student-img/shubh - Shubh Sardana.jpg";
 import Srijan from "../Assets/student-img/Srijan.jpeg";
-import subhangi from "../Assets/student-img/subhangi.jpg";
+import subhangi from "../Assets/student-img/subhangi.jpeg";
 import suraj from "../Assets/student-img/suraj-mishra.png";
 import Taniska from "../Assets/student-img/Taniska-Jha.jpg";
 import Tejasva from "../Assets/student-img/Tejasva.jpg";
@@ -29,10 +29,34 @@ import Yuvraj from "../Assets/student-img/Yuvraj.jpg";
 // import Aditya from "../Assets/student-img/Aditya-Singh.jpg";
 // import Aditya from "../Assets/student-img/Aditya-Singh.jpg";
 
+export const projects =[
+    {
+        id: 1,
+        projectName: "My own crypto token",
+        projectDesc: "My own crypto token made on Dfinity Internet Computer Blockchain Tech Stack:- JavaScript, CSS, React, Motoko, Dfinity Internet Computer",
+        projectHost: "https://github.com/Adi-ty/DAD-token---my-own-crypto-token",
+    },
+    {
+        id: 2,
+        projectName: "Covid-19 Tracker",
+        projectDesc: "A website to keep track of all the new covid updates worldwide. Stack:- HTML CSS JavaScript React Node.js Reactleaflet Chart.js dissease.sh API Firebase.",
+        projectHost: "https://covid-19-tracker-25dc0.web.app/"
+    },
+    {
+        id: 3,
+        projectName: "My own private IDE",
+        projectDesc: "A website to compile and run all your codes.Tech Stack:- HTML CSS JavaScript React.js Rapid API Monaco Editor",
+        projectHost: "https://github.com/Adi-ty/privateIDE"
+    }
+]
+
 export const data = [
     {
+        id: 1,
+        path:"/studentprofile/1",
         img: Aditya,
         name: "Aditya Singh",
+        pos: "Lead developer",
         linkedin: "https://www.linkedin.com/in/adityasingh----/",
         github: "https://github.com/adi-ty",
         mail: "adityasingh09091325@gmail.com",
@@ -51,6 +75,8 @@ export const data = [
         // exp1:"(Oct-Dec, 2022)Worked in SDC to make REST API's for Attendance Management System of our college.(Sep-Dec, 2022) Worked in ACM web team to convert API's written in PHP to Node.JS, Made REST API's for ACM website."			
     },
     {
+        id: 2,
+        path:"/studentprofile/2",
         img: ansh,
         name: "Ansh Goyal",
         linkedin: "www.linkedin.com/anshgoyal16",
@@ -65,6 +91,8 @@ export const data = [
         // Infox Web team (June 22 - ongoing)	
     },
     {
+        id: 3,
+        path:"/studentprofile/3",
         img: aryavir,
         name: "Aryavir Malik",
         linkedin: "",
@@ -72,6 +100,8 @@ export const data = [
         mail: "",
     },
     {
+        id: 4,
+        path:"/studentprofile/4",
         img: Avanish,
         name: "Avanish Raj Singh",
         linkedin: "https://www.linkedin.com/in/avanish-r-69965b124/",
@@ -91,6 +121,8 @@ export const data = [
         //  worked as a front end developer in Kamal Model Sr. Sec. School for 3 months.
     },
     {
+        id: 5,
+        path:"/studentprofile/5",
         img: Ayush,
         name: "Ayush Rawat",
         linkedin: "https://www.linkedin.com/in/ayush-rawat-209614139/",
@@ -104,6 +136,8 @@ export const data = [
         skillsWeb: "HTML, CSS"
     },
     {
+        id: 6,
+        path:"/studentprofile/6",
         img: ayush,
         name: "Ayush Goyal",
         linkedin: "https://www.linkedin.com/in/ayuu8178/",
@@ -124,6 +158,8 @@ export const data = [
         // My Experience is very good I got learn a lot and develop myself a lot in this time period.
     },
     {
+        id: 7,
+        path:"/studentprofile/7",
         img: ayushimg,
         name: "Ayush Gupta",
         linkedin: "https://www.linkedin.com/in/ayush-gupta-253092227/",
@@ -143,6 +179,8 @@ export const data = [
         // " I worked upon my skills as a MERN stack developer and worked on making amazing projects which certainly did give me new opportunities and helped me grow as a Fullstack Developer. Currently, I am exploring blockchain development and working on DevOps."				
     },
     {
+        id: 8,
+        path:"/studentprofile/8",
         img: Chaitanya,
         name: "Chaitanya Rai",
         linkedin: "https://www.linkedin.com/in/chaitanya-rai-369881102/",
@@ -157,6 +195,8 @@ export const data = [
         // SDC-USAR, Since Oct 2022	
     },
     {
+        id: 9,
+        path:"/studentprofile/9",
         img: Dhruv,
         name: "Dhruv Aeron",
         linkedin: "https://www.linkedin.com/in/aerondhruv/",
@@ -173,6 +213,8 @@ export const data = [
         // Infoxpression USICT August 2022 – November 2022 Web Developer
     },
     {
+        id: 10,
+        path:"/studentprofile/10",
         img: DhruvGupta,
         name: "Dhruv Gupta",
         linkedin: "https://www.linkedin.com/in/dhruv-gupta-55034a228/",
@@ -230,6 +272,8 @@ Open Source Mentor
 
     },
     {
+        id: 11,
+        path:"/studentprofile/11",
         img: Divyansh,
         name: "Divyansh",
         linkedin: "https://www.linkedin.com/in/divyansh04/",
@@ -260,6 +304,8 @@ Developer at Techspace: May 2022 - Present"
         */
     },
     {
+        id: 12,
+        path:"/studentprofile/12",
         img: kartik,
         name: "Kartin khatana",
         linkedin: "https://www.linkedin.com/in/kartikkhatana/",
@@ -281,6 +327,8 @@ Worked as an intern in pgbuddy.in"
         */
     },
     {
+        id: 13,
+        path:"/studentprofile/13",
         img: krishna,
         name: "Krishna Gupta",
         linkedin: "",
@@ -288,6 +336,8 @@ Worked as an intern in pgbuddy.in"
         mail: ""
     },
     {
+        id: 14,
+        path:"/studentprofile/14",
         img: mihir,
         name: "Mihir jha",
         linkedin: "",
@@ -295,6 +345,8 @@ Worked as an intern in pgbuddy.in"
         mail: ""
     },
     {
+        id: 15,
+        path:"/studentprofile/15",
         img: nishant,
         name: "Nishant Ola",
         linkedin: "https://www.linkedin.com/in/nishant-ola-490712228/",
@@ -321,6 +373,8 @@ Graphics Mentor
         */
     },
     {
+        id: 16,
+        path:"/studentprofile/16",
         img: priyanshu,
         name: "Priyanshu Singh",
         linkedin: "https://www.linkedin.com/in/priyanshu-singh-a30789200/",
@@ -340,6 +394,8 @@ Graphics Mentor
         skillsTech: "Python, tensorflow, seaborn"
     },
     {
+        id: 18,
+        path:"/studentprofile/18",
         img: Sarthak,
         name: "Sarthak Agarwal ",
         linkedin: "https://www.linkedin.com/in/sarthak-agarwal-202766226",
@@ -352,6 +408,8 @@ Graphics Mentor
         skillsWeb: "Backend Development Machine Learning Database management Web Development (flask)"
     },
     {
+        id: 19,
+        path:"/studentprofile/19",
         img: shivesh,
         name: "Shivesh Nandan",
         linkedin: "https://www.linkedin.com/in/shivesh-nandan-39a1b219a/",
@@ -367,6 +425,8 @@ Graphics Mentor
         skillsWeb: "HTML, CSS, JS, react, node.js, express.js",
     },
     {
+        id: 20,
+        path:"/studentprofile/19",
         img: shubh,
         name: "Shubh sardana",
         linkedin: "https://www.linkedin.com/in/shubh-sardana-76a750215/",
@@ -387,6 +447,8 @@ Graphics Mentor
         /*I recently participated in a 24 hour offline hackathon called Hackvsit where I had the opportunity to learn about a new technology and build a project using that technology within a short timeframe. It was a challenging and intense experience, but I was able to learn a lot in a short period of time.*/
     },
     {
+        id: 21,
+        path:"/studentprofile/21",
         img: Srijan,
         name: "Srijan",
         linkedin: "https://www.linkedin.com/in/srijan-ab9909229",
@@ -407,6 +469,8 @@ Dec'22:Currently working on a Member portal system for the current members of th
         */
     },
     {
+        id: 22,
+        path:"/studentprofile/22",
         img: subhangi,
         name: "Subhangi Dhasmana",
         linkedin: "https://www.linkedin.com/in/subhangi-dhasmana-04a911235/",
@@ -424,6 +488,8 @@ Dec'22:Currently working on a Member portal system for the current members of th
 
     },
     {
+        id: 23,
+        path:"/studentprofile/23",
         img: suraj,
         name: "Suraj Mishra",
         linkedin: "https://www.linkedin.com/in/suraj-mishra07/",
@@ -448,6 +514,8 @@ Worked on self projects."
         */
     },
     {
+        id: 24,
+        path:"/studentprofile/24",
         img: Taniska,
         name: "Taniska Jha",
         linkedin: "https://www.linkedin.com/in/taniska-jha-654b22229",
@@ -467,6 +535,8 @@ Worked on self projects."
         // "Have development experience as a freelancer. Working on attending management system in sdc."	
     },
     {
+        id: 25,
+        path:"/studentprofile/25",
         img: Tejasva,
         name: "Tejasva",
         linkedin: "https://www.linkedin.com/in/tejasva-85a36a238/",
@@ -486,6 +556,8 @@ Campus Ambassador at Coding Ninjas"
         */
     },
     {
+        id: 26,
+        path:"/studentprofile/26",
         img: Utkarsh,
         name: "Utkarsh Rai",
         linkedin: "https://www.linkedin.com/in/utkarsh-rai-943777224",
@@ -539,6 +611,8 @@ May 2022 - Aug 2022 · 4 months"
         */
     },
     {
+        id: 27,
+        path:"/studentprofile/27",
         img: Yash,
         name: "Yash Khattar",
         linkedin: "https://www.linkedin.com/in/yash-khattar-a81a06246/",
@@ -551,6 +625,8 @@ May 2022 - Aug 2022 · 4 months"
         skillsApp: "Flutter App Development, Graphic Designing in Adobe Illustrator, Java, Python"
     },
     {
+        id: 28,
+        path:"/studentprofile/28",
         img: Yuvraj,
         name: "Yuvraj Chaturvedi",
         linkedin: "linkedin.com/in/yuvraj-chaturvedi-a0773b22a/",
@@ -564,6 +640,8 @@ May 2022 - Aug 2022 · 4 months"
         skillsDsa: "Python,kotlin , Data Structures Algorithms, Problem Solving ."
     },
     {
+        id: 29,
+        path:"/studentprofile/29",
         img: kartiksingh,
         name: "Kartik Singh",
         linkedin: "https://linkedin.com/in/kartikkc397",
