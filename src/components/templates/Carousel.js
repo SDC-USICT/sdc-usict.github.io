@@ -33,14 +33,14 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active imggge" data-bs-interval={10000}>
             <img
-              src="a1.JPG"
+              src={require("../../Assets/a1.JPG")}
               className="d-block w-100 pic img-fluid"
               alt="..."
             />
           </div>
           <div className="carousel-item imggge" data-bs-interval={2000}>
             <img
-              src="a2.JPG"
+              src={require("../../Assets/a2.JPG")}
               className="d-block w-100 pic img-fluid"
               alt="....."
             />

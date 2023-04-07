@@ -125,7 +125,7 @@ function Nav() {
           <a
             className="nav-link active hover-text"
             aria-current="page"
-            href="sdcusictfaculty.html"
+            href="/faculty"
           >
             Faculty
           </a>
@@ -133,6 +133,6 @@ function Nav() {
       </ul>
     </div>
   );
-    }
+}
 
 export default Nav;

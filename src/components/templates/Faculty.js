@@ -29,7 +29,11 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img alt="img" src="linkedin.png" classname="fm-icon" />
+                  <img
+                    alt="img"
+                    src={require("../../Assets/linkedin.png")}
+                    classname="fm-icon"
+                  />
                 </div>
               </a>
             </div>
@@ -74,7 +78,11 @@ function Faculty() {
             <div classname="fm-details fm-details-mid col-lg-4">
               <div classname="fm-outer-layer container">
                 <div classname="fm-inner-layer">
-                  <img src="rahulsir.jpg" classname="fm-img" alt="rahulsir" />
+                  <img
+                    src={require("../../Assets/rahulsir.jpg")}
+                    classname="fm-img"
+                    alt="rahulsir"
+                  />
                 </div>
               </div>
               <h4
@@ -88,7 +96,8 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img alt="img" src="linkedin.png" classname="fm-icon" />
+                  src={require("../../Assets/linkedin.png")}
+                  <img alt="img" classname="fm-icon" />
                 </div>
               </a>
             </div>
@@ -97,7 +106,11 @@ function Faculty() {
             <div classname="fm-details col-lg-4">
               <div classname="fm-outer-layer container">
                 <div classname="fm-inner-layer">
-                  <img src="rahulsir.jpg" classname="fm-img" alt="rahulsir" />
+                  <img
+                    src={require("../../Assets/rahulsir.jpg")}
+                    classname="fm-img"
+                    alt="rahulsir"
+                  />
                 </div>
               </div>
               <h4
@@ -111,8 +124,9 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img alt="img"
-                    src="linkedin.png"
+                  <img
+                    alt="img"
+                    src={require("../../Assets/linkedin.png")}
                     classname="fm-icon"
                     style={{ marginBottom: 25 }}
                   />
@@ -148,7 +162,11 @@ function Faculty() {
             <h1 className="heading">CONTACT US</h1>
             <div className="form-adjustment">
               <div className="form-left">
-                <img alt="img" src="form.jpg" className="form-image" />
+                <img
+                  alt="img"
+                  src={require("../../Assets/form.jpg")}
+                  className="form-image"
+                />
               </div>
               <div className="form-right">
                 <input
