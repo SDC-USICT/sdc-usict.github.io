@@ -12,7 +12,7 @@ function Navbar() {
           height: "100px",
         }}
       >
-        <a className="navbar-brand mb-4" style="margin-left: 5rem" href="#">
+        <a className="navbar-brand mb-4" style={{marginLeft: "5rem"}} href='/'>
           <img
             className="pt-2 px-1"
             width="80px"
@@ -96,7 +96,7 @@ function Navbar() {
           <li classname="nav-item mx-lg-3 hover">
             <a
               classname="nav-link text-white d-inline"
-              href="#"
+              href='/'
               id="navbarDropdown"
               role="button"
               data-bs-toggle="dropdown"
@@ -119,7 +119,7 @@ function Navbar() {
               aria-labelledby="navbarDropdown"
             >
               <li>
-                <a classname=" text-white mt-2 lg-dropdown-item" href="#">
+                <a classname=" text-white mt-2 lg-dropdown-item" href='/'>
                   Faculty
                 </a>
               </li>

@@ -62,7 +62,7 @@ export const data = [
         projectHost1: "In progress",
         skillsWeb: "Mongodb, Express, React, Nodejs",
         skillsLang: "C++ , kotlin , python (pandas)"
-        // Infox Web team (June 22 - ongoing)	
+        // Infox Web team (June 22 - ongoing)
     },
     {
         img: aryavir,
@@ -574,7 +574,7 @@ May 2022 - Aug 2022 · 4 months"
         projectDesc1: "This is a fan website for Formula 1 (racing sport) and I am working on it. It is built in HTML, CSS, JavaScript, and Bootstrap to make it responsive and compatible with mobile devices.",
         projectHost1: "https://kartikkc.github.io/ViteF1_New/index.html",
         projectName2: "Techspace Website",
-        projectDesc1: "InfoXpression Website",
+        // projectDesc1: "InfoXpression Website",
         skillsother: "Leadership, Time management , Effective communication , Emotional intelligence , Conflict management , Teamwork skills, Stress management, Problem-solving, Creativity, Adaptability",
         skillsTech: "Kali Linux, SETTOOLKIT, BurpSuite, Metasploit framework, apktool, jarsigner, ssh"
         //         CTF organizer ( jun 2022 - nov 2022), 

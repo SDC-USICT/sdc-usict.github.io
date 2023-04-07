@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../templates/Nav";
 import Footer from "../templates/Footer";
 import Carousel from "../templates/Carousel";
-import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../CSS/sdcusict2022.css";
 
 function Faculty() {
@@ -30,7 +29,7 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img src="linkedin.png" classname="fm-icon" />
+                  <img alt="img" src="linkedin.png" classname="fm-icon" />
                 </div>
               </a>
             </div>
@@ -89,7 +88,7 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img src="linkedin.png" classname="fm-icon" />
+                  <img alt="img" src="linkedin.png" classname="fm-icon" />
                 </div>
               </a>
             </div>
@@ -112,7 +111,7 @@ function Faculty() {
                 href="https://www.linkedin.com/in/rahuljohari7/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in"
               >
                 <div classname="fm-linkedin-icon">
-                  <img
+                  <img alt="img"
                     src="linkedin.png"
                     classname="fm-icon"
                     style={{ marginBottom: 25 }}
@@ -149,7 +148,7 @@ function Faculty() {
             <h1 className="heading">CONTACT US</h1>
             <div className="form-adjustment">
               <div className="form-left">
-                <img src="form.jpg" className="form-image" />
+                <img alt="img" src="form.jpg" className="form-image" />
               </div>
               <div className="form-right">
                 <input

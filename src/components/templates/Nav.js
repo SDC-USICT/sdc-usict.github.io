@@ -69,7 +69,7 @@ function Nav() {
           <a
             className="nav-link active d-inline"
             aria-current="page"
-            href="sdcusictprojects.html"
+            href="/faculty"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function Nav() {
         <li className="nav-item mx-lg-3 hover">
           <a
             className="nav-link text-white d-inline"
-            href="/"
+            href="/faculty"
             id="navbarDropdown"
             role="button"
             data-bs-toggle="dropdown"
@@ -116,7 +116,7 @@ function Nav() {
             aria-labelledby="navbarDropdown"
           >
             <li>
-              <a className=" text-white mt-2 lg-dropdown-item" href="/">
+              <a className=" text-white mt-2 lg-dropdown-item" href="/faculty">
                 Faculty
               </a>
             </li>
