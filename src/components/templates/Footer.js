@@ -1,51 +1,50 @@
 import React from "react";
 import "../CSS/sdcusict2022.css";
+import insta from "../../Assets/inst.png";
+import fb from "../../Assets/fb.png";
+import twit from "../../Assets/twitter.png";
+import mail from "../../Assets/mail.png";
+import contact from "../../Assets/contact.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
-  return (
-    <>
-      <div classname="foot">
-        <div classname="left">
-          <a href="/">
-            {" "}
-            <img
-              id="inst"
-              classname="icon"
-              src={require("../../Assets/inst.png")}
-              alt=""
-            />
-          </a>
-          <a href="/">
-            <img classname="icon" src={require("../../Assets/fb.png")} alt="" />
-          </a>
-          <a href="/">
-            <img
-              classname="icon"
-              src={require("../../Assets/twitter.png")}
-              alt=""
-            />
-          </a>
-          <a href="mailto:sdc@gmail.com">
-            <img
-              classname="icon"
-              alt="mail-icon"
-              src={require("../../Assets/mail.png")}
-            />
-          </a>
+    return (
+        <>
+
+        <div classname="footer"
+        style={{
+          position: "absolute",
+          bottom: 0,
+          display: "flex",
+          justifyContent: "center",
+          background: "#041D53",
+          width: "100%",
+          padding: "10px"
+        }}
+        >
+          <div style={{
+            display: "flex",
+            justifyContent: "space-between",
+            width: "100%",
+            marginLeft: "20px",
+            marginRight: "20px"
+          }}>
+            <div style={{display: "flex", gap: "5px"}}>
+              <Link to=""><button className="footer-btn"><img src={insta}/></button></Link>
+              <Link to=""><button className="footer-btn"><img src={fb}/></button></Link>
+              <Link to=""><button className="footer-btn"><img src={twit}/></button></Link>
+            </div>
+            <div classname="d-flex">
+              <p>Copyright © SDC-USS</p>
+            </div>
+            <div classname="d-flex">
+              <Link to=""><button className="footer-btn"><img src={contact}/></button></Link>
+            </div>
+          </div>
         </div>
-        <p id="statement">Copyright © SDC-USICT </p>
-        <img
-          classname="icon form form1"
-          id="form"
-          src={require("../../Assets/contact.png")}
-          alt=""
-        />
-      </div>
-      <footer classname="footer">
-        <div classname="col footer-content"> Copyright © SDC-USICT</div>
-      </footer>
-    </>
-  );
+
+        </>
+    );
 }
 
 export default Footer;

@@ -2419,3 +2419,15 @@ footer {
   height: 50px;
   padding: 2rem;
 }
+
+.footer-btn{
+  background-color: transparent;
+  border: none;
+}
+.footer-btn:hover{
+  transform: scale(1.2);
+  transition: all 0.3s linear;
+}
+.footer-btn img{
+  filter: invert(99%) sepia(3%) saturate(684%) hue-rotate(209deg) brightness(120%) contrast(100%);
+}
