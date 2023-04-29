@@ -1,0 +1,16 @@
+.max-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.margin {
+  margin-left: 10rem;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
